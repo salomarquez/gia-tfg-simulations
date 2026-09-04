@@ -1,0 +1,27 @@
+# --- DRAMA run artefacts, regenerated on every run ---
+output/
+logs/
+working_directories/
+SARA_cache/
+previous/
+
+# --- Files owned by ESA or by third parties.
+# --- Copy them from your own DRAMA installation, see the README.
+atmUSSA1976_gam1d4.csv
+ares_bins.json
+usssn.json
+fap_day.dat
+fap_mon.dat
+components_database.xml
+equipments_database.xml
+subsystems_database.xml
+systems_database.xml
+*.sim
+
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- backups ---
+*.bak

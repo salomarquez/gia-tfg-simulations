@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fragments>
+	<fragment>
+		<name>SP2</name>
+		<objects>
+			<uniqueID>adae528d-13f8-4993-b263-1ae8ad1588ea</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:24:00.974</epoch>
+		<mass unit="kg">2.3283669477432912e+01</mass>
+		<velocity unit="m/s">2.1627593491966994e+01</velocity>
+		<latitude unit="deg">-4.0269007713186348e+01</latitude>
+		<longitude unit="deg">-1.1222735051915379e+02</longitude>
+		<crossSectionArea unit="m2">1.2190000000000001e+00</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>SP1</name>
+		<objects>
+			<uniqueID>4ae24a21-dc87-4063-8453-d38910897acc</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:24:00.974</epoch>
+		<mass unit="kg">2.3283669477432912e+01</mass>
+		<velocity unit="m/s">2.1627593491966994e+01</velocity>
+		<latitude unit="deg">-4.0269007713186348e+01</latitude>
+		<longitude unit="deg">-1.1222735051915379e+02</longitude>
+		<crossSectionArea unit="m2">1.2190000000000001e+00</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>TCU</name>
+		<objects>
+			<uniqueID>f96060ed-428d-4fb5-8368-873633a99715</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:26:42.616</epoch>
+		<mass unit="kg">2.5598222436845948e+00</mass>
+		<velocity unit="m/s">2.0307090644144555e+01</velocity>
+		<latitude unit="deg">-4.8754514606927565e+01</latitude>
+		<longitude unit="deg">-1.1495617553899361e+02</longitude>
+		<crossSectionArea unit="m2">2.2030000000000002e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>BCDR</name>
+		<objects>
+			<uniqueID>ae939109-80e7-4590-ada6-8ab74859c3a8</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:29:23.263</epoch>
+		<mass unit="kg">1.2973513035408544e+00</mass>
+		<velocity unit="m/s">1.6425504637135781e+01</velocity>
+		<latitude unit="deg">-4.7533299506274645e+01</latitude>
+		<longitude unit="deg">-1.1452162081163576e+02</longitude>
+		<crossSectionArea unit="m2">1.6754999999999998e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>PPDU</name>
+		<objects>
+			<uniqueID>1f19522d-2f3c-43e6-a00c-b01d1ab94228</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:39:43.617</epoch>
+		<mass unit="kg">3.6327343541339929e-01</mass>
+		<velocity unit="m/s">9.7240213097128319e+00</velocity>
+		<latitude unit="deg">-4.6136866278402209e+01</latitude>
+		<longitude unit="deg">-1.1404684470125798e+02</longitude>
+		<crossSectionArea unit="m2">1.2764999999999999e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Batt1</name>
+		<objects>
+			<uniqueID>af198f6d-3064-4af9-b015-299d247ceb1c</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:20:38.272</epoch>
+		<mass unit="kg">1.2052627598616276e+01</mass>
+		<velocity unit="m/s">4.4220967245894528e+01</velocity>
+		<latitude unit="deg">-5.1541272794050464e+01</latitude>
+		<longitude unit="deg">-1.1601690513434308e+02</longitude>
+		<crossSectionArea unit="m2">2.0670000000000002e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Batt2</name>
+		<objects>
+			<uniqueID>d16b1e16-5604-4ba9-b689-56da46d221ab</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:20:38.272</epoch>
+		<mass unit="kg">1.2052627598616276e+01</mass>
+		<velocity unit="m/s">4.4220967245894528e+01</velocity>
+		<latitude unit="deg">-5.1541272794050464e+01</latitude>
+		<longitude unit="deg">-1.1601690513434308e+02</longitude>
+		<crossSectionArea unit="m2">2.0670000000000002e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>CTU</name>
+		<objects>
+			<uniqueID>56f33935-71e7-4b62-bc25-5f086ef8f008</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:35:02.821</epoch>
+		<mass unit="kg">4.8421974876863022e-01</mass>
+		<velocity unit="m/s">1.2002553990916990e+01</velocity>
+		<latitude unit="deg">-4.7558333287675268e+01</latitude>
+		<longitude unit="deg">-1.1453255173666608e+02</longitude>
+		<crossSectionArea unit="m2">1.3125000000000001e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>RWL1</name>
+		<objects>
+			<uniqueID>318234c8-2183-4007-81bb-1283b9ac978d</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:18:36.188</epoch>
+		<mass unit="kg">6.0999999999999996e+00</mass>
+		<velocity unit="m/s">6.3219488706804505e+01</velocity>
+		<latitude unit="deg">-4.9882241874434136e+01</latitude>
+		<longitude unit="deg">-1.1536583286076491e+02</longitude>
+		<crossSectionArea unit="m2">4.9912053283907840e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>RWL2</name>
+		<objects>
+			<uniqueID>a40b1f77-c92a-4243-81e3-b466a50bfde1</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:18:36.188</epoch>
+		<mass unit="kg">6.0999999999999996e+00</mass>
+		<velocity unit="m/s">6.3219488706804505e+01</velocity>
+		<latitude unit="deg">-4.9882241874434136e+01</latitude>
+		<longitude unit="deg">-1.1536583286076491e+02</longitude>
+		<crossSectionArea unit="m2">4.9912053283907840e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>RWL3</name>
+		<objects>
+			<uniqueID>119d8c8d-71bc-47b0-a9bd-51a2b6addec4</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:18:36.188</epoch>
+		<mass unit="kg">6.0999999999999996e+00</mass>
+		<velocity unit="m/s">6.3219488706804505e+01</velocity>
+		<latitude unit="deg">-4.9882241874434136e+01</latitude>
+		<longitude unit="deg">-1.1536583286076491e+02</longitude>
+		<crossSectionArea unit="m2">4.9912053283907840e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank1</name>
+		<objects>
+			<uniqueID>ee66698f-c75d-43c5-b156-2cd23c7f0b27</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:17:57.286</epoch>
+		<mass unit="kg">2.0000000000000000e+01</mass>
+		<velocity unit="m/s">1.0540028346636043e+02</velocity>
+		<latitude unit="deg">-5.3703790737544622e+01</latitude>
+		<longitude unit="deg">-1.1691890888622933e+02</longitude>
+		<crossSectionArea unit="m2">7.0685834705770348e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank2</name>
+		<objects>
+			<uniqueID>ffb7ad0c-de50-4506-9ac0-24e4e92d744a</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:17:57.286</epoch>
+		<mass unit="kg">2.0000000000000000e+01</mass>
+		<velocity unit="m/s">1.0540028346636043e+02</velocity>
+		<latitude unit="deg">-5.3703790737544622e+01</latitude>
+		<longitude unit="deg">-1.1691890888622933e+02</longitude>
+		<crossSectionArea unit="m2">7.0685834705770348e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank3</name>
+		<objects>
+			<uniqueID>8b61be35-13d4-42ca-8f77-1b6779254cf8</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:17:57.286</epoch>
+		<mass unit="kg">2.0000000000000000e+01</mass>
+		<velocity unit="m/s">1.0540028346636043e+02</velocity>
+		<latitude unit="deg">-5.3703790737544622e+01</latitude>
+		<longitude unit="deg">-1.1691890888622933e+02</longitude>
+		<crossSectionArea unit="m2">7.0685834705770348e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>Tank4</name>
+		<objects>
+			<uniqueID>389962c4-a9f5-4569-a92f-de23a2bb6b37</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:17:57.286</epoch>
+		<mass unit="kg">2.0000000000000000e+01</mass>
+		<velocity unit="m/s">1.0540028346636043e+02</velocity>
+		<latitude unit="deg">-5.3703790737544622e+01</latitude>
+		<longitude unit="deg">-1.1691890888622933e+02</longitude>
+		<crossSectionArea unit="m2">7.0685834705770348e-02</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+	<fragment>
+		<name>PLE2</name>
+		<objects>
+			<uniqueID>59021d81-e300-48fb-805b-990b78d5406e</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:33:11.629</epoch>
+		<mass unit="kg">5.7845103215778337e-01</mass>
+		<velocity unit="m/s">1.3218701281352800e+01</velocity>
+		<latitude unit="deg">-4.7950343291017781e+01</latitude>
+		<longitude unit="deg">-1.1467013389957282e+02</longitude>
+		<crossSectionArea unit="m2">1.2800000000000000e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>PLE1</name>
+		<objects>
+			<uniqueID>fb72a6d7-379b-4d67-912e-df10bf793b11</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:38:12.266</epoch>
+		<mass unit="kg">3.5805910501123756e-01</mass>
+		<velocity unit="m/s">1.0399192869296160e+01</velocity>
+		<latitude unit="deg">-4.7079394854935217e+01</latitude>
+		<longitude unit="deg">-1.1436691418895602e+02</longitude>
+		<crossSectionArea unit="m2">1.2800000000000000e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>PL3</name>
+		<objects>
+			<uniqueID>a01ccfa4-f683-4afb-ba27-6505203cee73</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:24:38.090</epoch>
+		<mass unit="kg">6.3094335762342517e+00</mass>
+		<velocity unit="m/s">2.4240955149616880e+01</velocity>
+		<latitude unit="deg">-4.8452855740985378e+01</latitude>
+		<longitude unit="deg">-1.1484537481646264e+02</longitude>
+		<crossSectionArea unit="m2">4.4000000000000006e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>PLE3a</name>
+		<objects>
+			<uniqueID>f29cdd37-5183-4cf7-91b5-574dc6133dbb</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:33:11.629</epoch>
+		<mass unit="kg">5.7845103215778337e-01</mass>
+		<velocity unit="m/s">1.3218701281352800e+01</velocity>
+		<latitude unit="deg">-4.7950343291017781e+01</latitude>
+		<longitude unit="deg">-1.1467013389957282e+02</longitude>
+		<crossSectionArea unit="m2">1.2800000000000000e-01</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>Antenna</name>
+		<objects>
+			<uniqueID>595b4488-85ee-41e1-a105-fc4bf1317551</uniqueID>
+		</objects>
+		<epoch>2041-11-01T00:23:39.461</epoch>
+		<mass unit="kg">5.0000000000000000e+01</mass>
+		<velocity unit="m/s">2.4572817802317584e+01</velocity>
+		<latitude unit="deg">-4.4509978237518951e+01</latitude>
+		<longitude unit="deg">-1.1350830054116166e+02</longitude>
+		<crossSectionArea unit="m2">2.0289999999999999e+00</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+</fragments>

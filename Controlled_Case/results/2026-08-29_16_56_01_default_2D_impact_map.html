@@ -1,0 +1,189 @@
+<html>
+        <head>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <style>
+                .collapsible {
+                    background-color: rgb(244, 250, 255);
+                    color: rgb(42, 63, 95);
+                    cursor: pointer;
+                    padding: 18px;
+                    width: calc(100% - 40px);
+                    border: 1px solid rgb(190, 200, 217);
+                    text-align: center;
+                    font-size: medium;
+                    outline: none;
+                    font-size: 15px;
+                    border-radius: 5px;
+                    margin: 20px 20px 0 20px;
+                }
+
+                .collapsible:hover {
+                    background-color: rgba(244, 250, 255, 0.4);
+                }
+
+                .content {
+                    display: none;
+                    overflow: hidden;
+                    border-color: #e9e8e8;
+                    width: calc(100% - 40px);
+                    margin: 0 20px 20px 20px;
+                }
+
+                table {
+                    width: 100%;
+                    border: 1px solid #e9e8e8;
+                    border-collapse: collapse;
+                    color: rgb(42, 63, 95);
+                    display: block;
+                    overflow-x: auto;
+                }
+
+                th {
+                  font-size: 0.9em;
+                  text-align: center;
+                }
+
+                td {
+                  font-size: 0.8em;
+                  text-align: center;
+                }
+
+                tr:hover {
+                  background-color: #007fff;
+                }
+
+                tr:nth-child(even) {
+                    background-color: rgba(244, 250, 255, 0.4);
+                }
+
+            </style>
+        </head>
+        <body>
+            <div id='divPlotly'></div>
+            <script>
+                var plotly_data = {"data":[{"lat":["-3.8736381568866840e+01","-3.8736381568866840e+01","-4.6749070491226476e+01","-4.9950030088319167e+01","-4.9950030088319167e+01","-4.7741373723831785e+01","-4.7741373723831785e+01","-4.7741373723831785e+01","-5.3139422008873204e+01","-5.3139422008873204e+01","-5.3139422008873204e+01","-5.3139422008873204e+01","-4.6719014246341352e+01","-4.4248866433742528e+01"],"lon":["-1.1180007568727679e+02","-1.1180007568727679e+02","-1.1425444920928977e+02","-1.1539936105240925e+02","-1.1539936105240925e+02","-1.1459153632691536e+02","-1.1459153632691536e+02","-1.1459153632691536e+02","-1.1667415152107129e+02","-1.1667415152107129e+02","-1.1667415152107129e+02","-1.1667415152107129e+02","-1.1424227192377693e+02","-1.1342545354555008e+02"],"marker":{"symbol":"x"},"mode":"markers","text":["SP2","SP1","TCU","Batt1","Batt2","RWL1","RWL2","RWL3","Tank1","Tank2","Tank3","Tank4","PL3","Antenna"],"type":"scattergeo"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"geo":{"lataxis":{"showgrid":true,"dtick":10},"lonaxis":{"showgrid":true,"dtick":30},"showcoastlines":true,"coastlinecolor":"Black","showlakes":false,"showrivers":false,"showland":true,"landcolor":"LightGray","showocean":true,"oceancolor":"White"},"margin":{"r":0,"t":80,"l":0,"b":0},"title":{"text":"ESA-DRAMA-SARA\u003cbr\u003eimpact locations","y":0.95,"x":0.5,"xanchor":"center","yanchor":"top"},"height":700,"showlegend":false}}
+                Plotly.react('divPlotly', plotly_data.data, plotly_data.layout, {responsive: true});
+            </script>
+            <div class="content1">
+                
+                                    <button type="button" class="collapsible">Show data</button>
+                                    <div class="content"><table border="1" class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>latitude</th>
+      <th>longitude</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>SP2</td>
+      <td>-3.8736381568866840e+01</td>
+      <td>-1.1180007568727679e+02</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>SP1</td>
+      <td>-3.8736381568866840e+01</td>
+      <td>-1.1180007568727679e+02</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>TCU</td>
+      <td>-4.6749070491226476e+01</td>
+      <td>-1.1425444920928977e+02</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Batt1</td>
+      <td>-4.9950030088319167e+01</td>
+      <td>-1.1539936105240925e+02</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Batt2</td>
+      <td>-4.9950030088319167e+01</td>
+      <td>-1.1539936105240925e+02</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>RWL1</td>
+      <td>-4.7741373723831785e+01</td>
+      <td>-1.1459153632691536e+02</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>RWL2</td>
+      <td>-4.7741373723831785e+01</td>
+      <td>-1.1459153632691536e+02</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>RWL3</td>
+      <td>-4.7741373723831785e+01</td>
+      <td>-1.1459153632691536e+02</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Tank1</td>
+      <td>-5.3139422008873204e+01</td>
+      <td>-1.1667415152107129e+02</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Tank2</td>
+      <td>-5.3139422008873204e+01</td>
+      <td>-1.1667415152107129e+02</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Tank3</td>
+      <td>-5.3139422008873204e+01</td>
+      <td>-1.1667415152107129e+02</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Tank4</td>
+      <td>-5.3139422008873204e+01</td>
+      <td>-1.1667415152107129e+02</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>PL3</td>
+      <td>-4.6719014246341352e+01</td>
+      <td>-1.1424227192377693e+02</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Antenna</td>
+      <td>-4.4248866433742528e+01</td>
+      <td>-1.1342545354555008e+02</td>
+    </tr>
+  </tbody>
+</table>
+                                    </div>
+                                    
+            </div>
+
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                      content.style.display = "none";
+                    } else {
+                      content.style.display = "block";
+                    }
+                  });
+                }
+            </script>
+
+        </body>
+
+    </html>

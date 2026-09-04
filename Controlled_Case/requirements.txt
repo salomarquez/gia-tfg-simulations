@@ -1,0 +1,8 @@
+numpy
+pandas
+seaborn
+matplotlib
+xmltodict
+pyyaml
+tqdm
+lxml

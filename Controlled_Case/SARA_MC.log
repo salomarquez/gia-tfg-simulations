@@ -1,0 +1,1053 @@
+2026-08-29 12:19:53,243 [INFO]: [2026-08-29 12:19:53.178825] Created output directory: results\source_0829_121953_300_res
+2026-08-29 12:19:53,243 [INFO]: [2026-08-29 12:19:53.178825] Storing inputs in: results\source_0829_121953_300_inp
+2026-08-29 12:19:55,526 [INFO]: Number of materials: 42
+2026-08-29 12:20:02,980 [INFO]: Created config, running SARA...
+2026-08-29 12:20:06,036 [INFO]: Starting run 0
+2026-08-29 12:20:06,246 [INFO]: Starting run 1
+2026-08-29 12:20:06,292 [INFO]: Starting run 2
+2026-08-29 12:20:06,308 [INFO]: Starting run 3
+2026-08-29 12:20:06,330 [INFO]: Starting run 4
+2026-08-29 12:20:06,358 [INFO]: Starting run 5
+2026-08-29 12:20:06,368 [INFO]: Starting run 6
+2026-08-29 12:20:06,386 [INFO]: Starting run 7
+2026-08-29 12:20:06,403 [INFO]: Starting run 8
+2026-08-29 12:20:06,459 [INFO]: Starting run 9
+2026-08-29 12:20:06,460 [INFO]: Starting run 10
+2026-08-29 12:20:06,493 [INFO]: Starting run 11
+2026-08-29 12:22:32,145 [INFO]: Starting run 12
+2026-08-29 12:22:32,162 [INFO]: Starting run 13
+2026-08-29 12:22:32,174 [INFO]: Starting run 14
+2026-08-29 12:22:32,186 [INFO]: Starting run 15
+2026-08-29 12:22:32,200 [INFO]: Starting run 16
+2026-08-29 12:22:32,213 [INFO]: Starting run 17
+2026-08-29 12:22:32,226 [INFO]: Starting run 18
+2026-08-29 12:22:32,241 [INFO]: Starting run 19
+2026-08-29 12:22:32,254 [INFO]: Starting run 20
+2026-08-29 12:22:32,265 [INFO]: Starting run 21
+2026-08-29 12:22:32,278 [INFO]: Starting run 22
+2026-08-29 12:22:40,779 [INFO]: Starting run 23
+2026-08-29 12:22:47,919 [INFO]: Starting run 24
+2026-08-29 12:22:48,173 [INFO]: Starting run 25
+2026-08-29 12:22:48,260 [INFO]: Starting run 26
+2026-08-29 12:22:48,291 [INFO]: Starting run 27
+2026-08-29 12:22:48,390 [INFO]: Starting run 28
+2026-08-29 12:22:48,413 [INFO]: Starting run 29
+2026-08-29 12:22:48,439 [INFO]: Starting run 30
+2026-08-29 12:22:48,464 [INFO]: Starting run 31
+2026-08-29 12:22:48,482 [INFO]: Starting run 32
+2026-08-29 12:22:48,497 [INFO]: Starting run 33
+2026-08-29 12:22:48,521 [INFO]: Starting run 34
+2026-08-29 12:22:48,597 [INFO]: Starting run 35
+2026-08-29 12:24:58,039 [INFO]: SARA execution time: 0:02:09.773874
+2026-08-29 12:24:58,051 [INFO]: Contents of results\source_0829_121953_300_res\run_26: ['run_0']
+2026-08-29 12:24:58,071 [INFO]: SARA execution time: 0:02:09.444951
+2026-08-29 12:24:58,156 [INFO]: Contents of results\source_0829_121953_300_res\run_35: ['run_0']
+2026-08-29 12:24:58,158 [INFO]: SARA execution time: 0:02:10.158236
+2026-08-29 12:24:58,168 [INFO]: Contents of results\source_0829_121953_300_res\run_24: ['run_0']
+2026-08-29 12:24:58,199 [INFO]: Starting run 36
+2026-08-29 12:24:58,218 [INFO]: Starting run 37
+2026-08-29 12:24:58,245 [INFO]: Starting run 38
+2026-08-29 12:26:42,947 [INFO]: [2026-08-29 12:26:42.747623] Created output directory: results\source_0829_122642_30_res
+2026-08-29 12:26:42,947 [INFO]: [2026-08-29 12:26:42.747623] Storing inputs in: results\source_0829_122642_30_inp
+2026-08-29 12:26:43,617 [INFO]: Number of materials: 42
+2026-08-29 12:26:44,128 [INFO]: Created config, running SARA...
+2026-08-29 12:26:46,267 [INFO]: Starting run 0
+2026-08-29 12:26:46,319 [INFO]: Starting run 1
+2026-08-29 12:26:46,330 [INFO]: Starting run 2
+2026-08-29 12:26:46,344 [INFO]: Starting run 3
+2026-08-29 12:26:46,405 [INFO]: Starting run 4
+2026-08-29 12:26:46,428 [INFO]: Starting run 5
+2026-08-29 12:26:46,452 [INFO]: Starting run 6
+2026-08-29 12:26:46,488 [INFO]: Starting run 7
+2026-08-29 12:26:46,498 [INFO]: Starting run 8
+2026-08-29 12:26:46,510 [INFO]: Starting run 9
+2026-08-29 12:26:46,521 [INFO]: Starting run 10
+2026-08-29 12:26:46,531 [INFO]: Starting run 11
+2026-08-29 12:27:47,901 [INFO]: SARA execution time: 0:01:01.579862
+2026-08-29 12:27:47,901 [INFO]: Contents of results\source_0829_122642_30_res\run_1: ['run_0']
+2026-08-29 12:27:47,922 [INFO]: Starting run 12
+2026-08-29 12:27:48,540 [INFO]: SARA execution time: 0:01:02.273270
+2026-08-29 12:27:48,542 [INFO]: Contents of results\source_0829_122642_30_res\run_0: ['run_0']
+2026-08-29 12:27:48,558 [INFO]: Starting run 13
+2026-08-29 12:27:49,855 [INFO]: SARA execution time: 0:01:03.357174
+2026-08-29 12:27:49,857 [INFO]: Contents of results\source_0829_122642_30_res\run_8: ['run_0']
+2026-08-29 12:27:49,893 [INFO]: Starting run 14
+2026-08-29 12:27:55,160 [INFO]: SARA execution time: 0:01:08.732592
+2026-08-29 12:27:55,160 [INFO]: Contents of results\source_0829_122642_30_res\run_5: ['run_0']
+2026-08-29 12:27:55,183 [INFO]: Starting run 15
+2026-08-29 12:28:01,225 [INFO]: SARA execution time: 0:01:14.693631
+2026-08-29 12:28:01,225 [INFO]: Contents of results\source_0829_122642_30_res\run_11: ['run_0']
+2026-08-29 12:28:01,246 [INFO]: Starting run 16
+2026-08-29 12:28:02,212 [INFO]: SARA execution time: 0:01:15.724564
+2026-08-29 12:28:02,214 [INFO]: Contents of results\source_0829_122642_30_res\run_7: ['run_0']
+2026-08-29 12:28:02,259 [INFO]: Starting run 17
+2026-08-29 12:28:08,688 [INFO]: SARA execution time: 0:01:22.343419
+2026-08-29 12:28:08,688 [INFO]: Contents of results\source_0829_122642_30_res\run_3: ['run_0']
+2026-08-29 12:28:08,708 [INFO]: Starting run 18
+2026-08-29 12:28:12,854 [INFO]: SARA execution time: 0:01:26.343816
+2026-08-29 12:28:12,856 [INFO]: Contents of results\source_0829_122642_30_res\run_9: ['run_0']
+2026-08-29 12:28:12,887 [INFO]: Starting run 19
+2026-08-29 12:28:15,296 [INFO]: SARA execution time: 0:01:28.966252
+2026-08-29 12:28:15,297 [INFO]: Contents of results\source_0829_122642_30_res\run_2: ['run_0']
+2026-08-29 12:28:15,324 [INFO]: Starting run 20
+2026-08-29 12:28:22,805 [INFO]: SARA execution time: 0:01:36.399841
+2026-08-29 12:28:22,805 [INFO]: Contents of results\source_0829_122642_30_res\run_4: ['run_0']
+2026-08-29 12:28:22,808 [INFO]: Starting run 21
+2026-08-29 12:28:23,004 [INFO]: SARA execution time: 0:01:36.551446
+2026-08-29 12:28:23,004 [INFO]: Contents of results\source_0829_122642_30_res\run_6: ['run_0']
+2026-08-29 12:28:23,017 [INFO]: Starting run 22
+2026-08-29 12:28:32,932 [INFO]: SARA execution time: 0:01:46.411204
+2026-08-29 12:28:32,932 [INFO]: Contents of results\source_0829_122642_30_res\run_10: ['run_0']
+2026-08-29 12:28:32,950 [INFO]: Starting run 23
+2026-08-29 12:29:21,341 [INFO]: SARA execution time: 0:01:31.448590
+2026-08-29 12:29:21,341 [INFO]: Contents of results\source_0829_122642_30_res\run_14: ['run_0']
+2026-08-29 12:29:21,359 [INFO]: Starting run 24
+2026-08-29 12:29:27,905 [INFO]: SARA execution time: 0:01:39.982610
+2026-08-29 12:29:27,905 [INFO]: Contents of results\source_0829_122642_30_res\run_12: ['run_0']
+2026-08-29 12:29:27,937 [INFO]: Starting run 25
+2026-08-29 12:29:35,654 [INFO]: SARA execution time: 0:01:26.946084
+2026-08-29 12:29:35,658 [INFO]: Contents of results\source_0829_122642_30_res\run_18: ['run_0']
+2026-08-29 12:29:35,679 [INFO]: Starting run 26
+2026-08-29 12:29:39,004 [INFO]: SARA execution time: 0:01:37.757411
+2026-08-29 12:29:39,005 [INFO]: Contents of results\source_0829_122642_30_res\run_16: ['run_0']
+2026-08-29 12:29:39,029 [INFO]: Starting run 27
+2026-08-29 12:29:41,537 [INFO]: SARA execution time: 0:01:28.649598
+2026-08-29 12:29:41,539 [INFO]: Contents of results\source_0829_122642_30_res\run_19: ['run_0']
+2026-08-29 12:29:41,558 [INFO]: Starting run 28
+2026-08-29 12:29:45,374 [INFO]: SARA execution time: 0:01:56.816048
+2026-08-29 12:29:45,374 [INFO]: Contents of results\source_0829_122642_30_res\run_13: ['run_0']
+2026-08-29 12:29:45,400 [INFO]: Starting run 29
+2026-08-29 12:29:45,546 [INFO]: SARA execution time: 0:01:50.363193
+2026-08-29 12:29:45,635 [INFO]: Contents of results\source_0829_122642_30_res\run_15: ['run_0']
+2026-08-29 12:29:51,780 [INFO]: SARA execution time: 0:01:28.762797
+2026-08-29 12:29:51,780 [INFO]: Contents of results\source_0829_122642_30_res\run_22: ['run_0']
+2026-08-29 12:29:58,218 [INFO]: SARA execution time: 0:01:42.893855
+2026-08-29 12:29:58,219 [INFO]: Contents of results\source_0829_122642_30_res\run_20: ['run_0']
+2026-08-29 12:30:01,331 [INFO]: SARA execution time: 0:01:28.381023
+2026-08-29 12:30:01,331 [INFO]: Contents of results\source_0829_122642_30_res\run_23: ['run_0']
+2026-08-29 12:30:01,557 [INFO]: SARA execution time: 0:01:59.299158
+2026-08-29 12:30:01,558 [INFO]: Contents of results\source_0829_122642_30_res\run_17: ['run_0']
+2026-08-29 12:30:10,115 [INFO]: SARA execution time: 0:01:47.307803
+2026-08-29 12:30:10,115 [INFO]: Contents of results\source_0829_122642_30_res\run_21: ['run_0']
+2026-08-29 12:30:41,231 [INFO]: SARA execution time: 0:01:19.871779
+2026-08-29 12:30:41,231 [INFO]: Contents of results\source_0829_122642_30_res\run_24: ['run_0']
+2026-08-29 12:30:45,622 [INFO]: SARA execution time: 0:01:00.222765
+2026-08-29 12:30:45,636 [INFO]: Contents of results\source_0829_122642_30_res\run_29: ['run_0']
+2026-08-29 12:30:46,908 [INFO]: SARA execution time: 0:01:07.879499
+2026-08-29 12:30:46,908 [INFO]: Contents of results\source_0829_122642_30_res\run_27: ['run_0']
+2026-08-29 12:30:48,103 [INFO]: SARA execution time: 0:01:20.167079
+2026-08-29 12:30:48,103 [INFO]: Contents of results\source_0829_122642_30_res\run_25: ['run_0']
+2026-08-29 12:30:49,119 [INFO]: SARA execution time: 0:01:13.439368
+2026-08-29 12:30:49,119 [INFO]: Contents of results\source_0829_122642_30_res\run_26: ['run_0']
+2026-08-29 12:30:49,418 [INFO]: SARA execution time: 0:01:07.860372
+2026-08-29 12:30:49,418 [INFO]: Contents of results\source_0829_122642_30_res\run_28: ['run_0']
+2026-08-29 12:30:49,476 [INFO]: Cleaning up results directories
+2026-08-29 12:30:49,476 [INFO]: The script ended at 2026-08-29 12:30:49.476757 and the duration is 0:04:06.729134
+2026-08-29 12:30:49,476 [INFO]: Average per-run per-cpu duration: 0:01:38.691648
+2026-08-29 13:39:53,315 [INFO]: [2026-08-29 13:39:53.264450] Created output directory: results\source_0829_133953_300_res
+2026-08-29 13:39:53,315 [INFO]: [2026-08-29 13:39:53.264450] Storing inputs in: results\source_0829_133953_300_inp
+2026-08-29 13:39:54,743 [INFO]: Number of materials: 42
+2026-08-29 13:39:59,479 [INFO]: Created config, running SARA...
+2026-08-29 13:40:00,787 [INFO]: Starting run 0
+2026-08-29 13:40:00,798 [INFO]: Starting run 1
+2026-08-29 13:40:00,813 [INFO]: Starting run 2
+2026-08-29 13:40:00,829 [INFO]: Starting run 3
+2026-08-29 13:40:00,840 [INFO]: Starting run 4
+2026-08-29 13:40:00,851 [INFO]: Starting run 5
+2026-08-29 13:40:00,860 [INFO]: Starting run 6
+2026-08-29 13:40:00,869 [INFO]: Starting run 7
+2026-08-29 13:40:00,877 [INFO]: Starting run 8
+2026-08-29 13:40:00,886 [INFO]: Starting run 9
+2026-08-29 13:40:00,896 [INFO]: Starting run 10
+2026-08-29 13:40:00,905 [INFO]: Starting run 11
+2026-08-29 13:41:41,467 [INFO]: SARA execution time: 0:01:40.604974
+2026-08-29 13:41:41,481 [INFO]: Contents of results\source_0829_133953_300_res\run_5: ['run_0']
+2026-08-29 13:41:41,521 [INFO]: SARA execution time: 0:01:40.631614
+2026-08-29 13:41:41,536 [INFO]: Contents of results\source_0829_133953_300_res\run_8: ['run_0']
+2026-08-29 13:41:41,600 [INFO]: Starting run 12
+2026-08-29 13:41:41,638 [INFO]: SARA execution time: 0:01:40.762775
+2026-08-29 13:41:41,646 [INFO]: Contents of results\source_0829_133953_300_res\run_7: ['run_0']
+2026-08-29 13:41:41,660 [INFO]: SARA execution time: 0:01:40.840998
+2026-08-29 13:41:41,669 [INFO]: Contents of results\source_0829_133953_300_res\run_2: ['run_0']
+2026-08-29 13:41:41,685 [INFO]: SARA execution time: 0:01:40.818860
+2026-08-29 13:41:41,692 [INFO]: Contents of results\source_0829_133953_300_res\run_6: ['run_0']
+2026-08-29 13:41:41,764 [INFO]: Starting run 13
+2026-08-29 13:41:41,787 [INFO]: SARA execution time: 0:01:40.873738
+2026-08-29 13:41:41,796 [INFO]: Contents of results\source_0829_133953_300_res\run_11: ['run_0']
+2026-08-29 13:41:41,812 [INFO]: Starting run 14
+2026-08-29 13:41:41,850 [INFO]: Starting run 15
+2026-08-29 13:41:41,898 [INFO]: Starting run 16
+2026-08-29 13:41:41,941 [INFO]: Starting run 17
+2026-08-29 13:41:50,340 [INFO]: SARA execution time: 0:01:49.546526
+2026-08-29 13:41:50,355 [INFO]: Contents of results\source_0829_133953_300_res\run_0: ['run_0']
+2026-08-29 13:41:50,405 [INFO]: Starting run 18
+2026-08-29 13:41:50,571 [INFO]: SARA execution time: 0:01:49.668454
+2026-08-29 13:41:50,583 [INFO]: Contents of results\source_0829_133953_300_res\run_10: ['run_0']
+2026-08-29 13:41:50,774 [INFO]: Starting run 19
+2026-08-29 13:41:54,213 [INFO]: SARA execution time: 0:01:53.320630
+2026-08-29 13:41:54,225 [INFO]: Contents of results\source_0829_133953_300_res\run_9: ['run_0']
+2026-08-29 13:41:54,239 [INFO]: SARA execution time: 0:01:53.392058
+2026-08-29 13:41:54,253 [INFO]: Contents of results\source_0829_133953_300_res\run_4: ['run_0']
+2026-08-29 13:41:54,276 [INFO]: Starting run 20
+2026-08-29 13:41:54,310 [INFO]: Starting run 21
+2026-08-29 13:41:54,399 [INFO]: SARA execution time: 0:01:53.595840
+2026-08-29 13:41:54,415 [INFO]: Contents of results\source_0829_133953_300_res\run_1: ['run_0']
+2026-08-29 13:41:54,454 [INFO]: Starting run 22
+2026-08-29 13:41:55,628 [INFO]: SARA execution time: 0:01:54.794388
+2026-08-29 13:41:55,638 [INFO]: Contents of results\source_0829_133953_300_res\run_3: ['run_0']
+2026-08-29 13:41:55,675 [INFO]: Starting run 23
+2026-08-29 13:42:42,693 [INFO]: SARA execution time: 0:01:00.793578
+2026-08-29 13:42:42,695 [INFO]: Contents of results\source_0829_133953_300_res\run_16: ['run_0']
+2026-08-29 13:42:42,728 [INFO]: Starting run 24
+2026-08-29 13:42:48,506 [INFO]: SARA execution time: 0:01:06.742118
+2026-08-29 13:42:48,507 [INFO]: Contents of results\source_0829_133953_300_res\run_13: ['run_0']
+2026-08-29 13:42:48,595 [INFO]: Starting run 25
+2026-08-29 13:42:50,358 [INFO]: SARA execution time: 0:01:08.758774
+2026-08-29 13:42:50,361 [INFO]: Contents of results\source_0829_133953_300_res\run_12: ['run_0']
+2026-08-29 13:42:50,398 [INFO]: Starting run 26
+2026-08-29 13:42:51,128 [INFO]: SARA execution time: 0:01:09.273092
+2026-08-29 13:42:51,138 [INFO]: Contents of results\source_0829_133953_300_res\run_15: ['run_0']
+2026-08-29 13:42:51,167 [INFO]: Starting run 27
+2026-08-29 13:42:53,482 [INFO]: SARA execution time: 0:01:11.541147
+2026-08-29 13:42:53,486 [INFO]: Contents of results\source_0829_133953_300_res\run_17: ['run_0']
+2026-08-29 13:42:53,509 [INFO]: Starting run 28
+2026-08-29 13:42:53,516 [INFO]: SARA execution time: 0:01:02.741413
+2026-08-29 13:42:53,520 [INFO]: Contents of results\source_0829_133953_300_res\run_19: ['run_0']
+2026-08-29 13:42:53,540 [INFO]: Starting run 29
+2026-08-29 13:42:54,079 [INFO]: SARA execution time: 0:00:59.768277
+2026-08-29 13:42:54,080 [INFO]: Contents of results\source_0829_133953_300_res\run_21: ['run_0']
+2026-08-29 13:42:54,101 [INFO]: Starting run 30
+2026-08-29 13:43:02,840 [INFO]: SARA execution time: 0:01:07.164173
+2026-08-29 13:43:02,842 [INFO]: Contents of results\source_0829_133953_300_res\run_23: ['run_0']
+2026-08-29 13:43:02,862 [INFO]: Starting run 31
+2026-08-29 13:43:06,165 [INFO]: SARA execution time: 0:01:11.711208
+2026-08-29 13:43:06,165 [INFO]: Contents of results\source_0829_133953_300_res\run_22: ['run_0']
+2026-08-29 13:43:06,184 [INFO]: Starting run 32
+2026-08-29 13:43:16,309 [INFO]: SARA execution time: 0:01:22.031657
+2026-08-29 13:43:16,309 [INFO]: Contents of results\source_0829_133953_300_res\run_20: ['run_0']
+2026-08-29 13:43:16,331 [INFO]: Starting run 33
+2026-08-29 13:43:21,713 [INFO]: SARA execution time: 0:01:39.900228
+2026-08-29 13:43:21,713 [INFO]: Contents of results\source_0829_133953_300_res\run_14: ['run_0']
+2026-08-29 13:43:21,733 [INFO]: Starting run 34
+2026-08-29 13:43:24,692 [INFO]: SARA execution time: 0:01:34.286443
+2026-08-29 13:43:24,692 [INFO]: Contents of results\source_0829_133953_300_res\run_18: ['run_0']
+2026-08-29 13:43:24,705 [INFO]: Starting run 35
+2026-08-29 13:43:49,384 [INFO]: SARA execution time: 0:01:06.655936
+2026-08-29 13:43:49,385 [INFO]: Contents of results\source_0829_133953_300_res\run_24: ['run_0']
+2026-08-29 13:43:49,399 [INFO]: Starting run 36
+2026-08-29 13:43:55,058 [INFO]: SARA execution time: 0:01:03.889569
+2026-08-29 13:43:55,093 [INFO]: Contents of results\source_0829_133953_300_res\run_27: ['run_0']
+2026-08-29 13:43:55,174 [INFO]: Starting run 37
+2026-08-29 13:44:02,425 [INFO]: SARA execution time: 0:01:12.027212
+2026-08-29 13:44:02,426 [INFO]: Contents of results\source_0829_133953_300_res\run_26: ['run_0']
+2026-08-29 13:44:02,445 [INFO]: Starting run 38
+2026-08-29 13:44:05,743 [INFO]: SARA execution time: 0:01:17.147788
+2026-08-29 13:44:05,744 [INFO]: SARA execution time: 0:01:12.235166
+2026-08-29 13:44:05,744 [INFO]: Contents of results\source_0829_133953_300_res\run_25: ['run_0']
+2026-08-29 13:44:05,744 [INFO]: Contents of results\source_0829_133953_300_res\run_28: ['run_0']
+2026-08-29 13:44:05,759 [INFO]: Starting run 39
+2026-08-29 13:44:05,787 [INFO]: Starting run 40
+2026-08-29 13:44:24,308 [INFO]: SARA execution time: 0:01:21.445639
+2026-08-29 13:44:24,309 [INFO]: Contents of results\source_0829_133953_300_res\run_31: ['run_0']
+2026-08-29 13:44:24,470 [INFO]: Starting run 41
+2026-08-29 13:44:28,829 [INFO]: SARA execution time: 0:01:34.727434
+2026-08-29 13:44:28,830 [INFO]: Contents of results\source_0829_133953_300_res\run_30: ['run_0']
+2026-08-29 13:44:28,860 [INFO]: Starting run 42
+2026-08-29 13:44:31,373 [INFO]: SARA execution time: 0:01:37.833022
+2026-08-29 13:44:31,374 [INFO]: Contents of results\source_0829_133953_300_res\run_29: ['run_0']
+2026-08-29 13:44:31,398 [INFO]: Starting run 43
+2026-08-29 13:44:41,047 [INFO]: SARA execution time: 0:01:34.863045
+2026-08-29 13:44:41,048 [INFO]: Contents of results\source_0829_133953_300_res\run_32: ['run_0']
+2026-08-29 13:44:41,069 [INFO]: Starting run 44
+2026-08-29 13:44:41,721 [INFO]: SARA execution time: 0:01:19.988139
+2026-08-29 13:44:41,721 [INFO]: Contents of results\source_0829_133953_300_res\run_34: ['run_0']
+2026-08-29 13:44:41,750 [INFO]: Starting run 45
+2026-08-29 13:44:51,076 [INFO]: SARA execution time: 0:01:26.370808
+2026-08-29 13:44:51,079 [INFO]: Contents of results\source_0829_133953_300_res\run_35: ['run_0']
+2026-08-29 13:44:51,098 [INFO]: Starting run 46
+2026-08-29 13:44:59,756 [INFO]: SARA execution time: 0:01:10.357355
+2026-08-29 13:44:59,757 [INFO]: Contents of results\source_0829_133953_300_res\run_36: ['run_0']
+2026-08-29 13:44:59,776 [INFO]: Starting run 47
+2026-08-29 13:45:01,805 [INFO]: SARA execution time: 0:01:06.630799
+2026-08-29 13:45:01,809 [INFO]: Contents of results\source_0829_133953_300_res\run_37: ['run_0']
+2026-08-29 13:45:01,832 [INFO]: Starting run 48
+2026-08-29 13:45:03,074 [INFO]: SARA execution time: 0:01:46.743131
+2026-08-29 13:45:03,075 [INFO]: Contents of results\source_0829_133953_300_res\run_33: ['run_0']
+2026-08-29 13:45:03,096 [INFO]: Starting run 49
+2026-08-29 13:45:08,317 [INFO]: SARA execution time: 0:01:05.871731
+2026-08-29 13:45:08,318 [INFO]: Contents of results\source_0829_133953_300_res\run_38: ['run_0']
+2026-08-29 13:45:08,334 [INFO]: Starting run 50
+2026-08-29 13:45:27,301 [INFO]: SARA execution time: 0:01:21.542168
+2026-08-29 13:45:27,302 [INFO]: Contents of results\source_0829_133953_300_res\run_39: ['run_0']
+2026-08-29 13:45:27,319 [INFO]: Starting run 51
+2026-08-29 13:45:31,718 [INFO]: SARA execution time: 0:01:07.248865
+2026-08-29 13:45:31,719 [INFO]: Contents of results\source_0829_133953_300_res\run_41: ['run_0']
+2026-08-29 13:45:31,733 [INFO]: Starting run 52
+2026-08-29 13:45:33,644 [INFO]: SARA execution time: 0:01:04.784329
+2026-08-29 13:45:33,645 [INFO]: Contents of results\source_0829_133953_300_res\run_42: ['run_0']
+2026-08-29 13:45:33,658 [INFO]: Starting run 53
+2026-08-29 13:45:46,066 [INFO]: SARA execution time: 0:01:14.668293
+2026-08-29 13:45:46,067 [INFO]: Contents of results\source_0829_133953_300_res\run_43: ['run_0']
+2026-08-29 13:45:46,081 [INFO]: Starting run 54
+2026-08-29 13:45:50,493 [INFO]: SARA execution time: 0:00:59.394640
+2026-08-29 13:45:50,493 [INFO]: Contents of results\source_0829_133953_300_res\run_46: ['run_0']
+2026-08-29 13:45:50,502 [INFO]: Starting run 55
+2026-08-29 13:46:03,054 [INFO]: SARA execution time: 0:01:21.303511
+2026-08-29 13:46:03,055 [INFO]: Contents of results\source_0829_133953_300_res\run_45: ['run_0']
+2026-08-29 13:46:03,111 [INFO]: Starting run 56
+2026-08-29 13:46:05,449 [INFO]: SARA execution time: 0:01:03.616338
+2026-08-29 13:46:05,450 [INFO]: Contents of results\source_0829_133953_300_res\run_48: ['run_0']
+2026-08-29 13:46:05,478 [INFO]: Starting run 57
+2026-08-29 13:46:06,838 [INFO]: SARA execution time: 0:02:01.050544
+2026-08-29 13:46:06,839 [INFO]: Contents of results\source_0829_133953_300_res\run_40: ['run_0']
+2026-08-29 13:46:06,870 [INFO]: Starting run 58
+2026-08-29 13:46:14,032 [INFO]: SARA execution time: 0:01:05.698820
+2026-08-29 13:46:14,032 [INFO]: Contents of results\source_0829_133953_300_res\run_50: ['run_0']
+2026-08-29 13:46:14,044 [INFO]: Starting run 59
+2026-08-29 13:46:14,286 [INFO]: SARA execution time: 0:01:33.217037
+2026-08-29 13:46:14,286 [INFO]: Contents of results\source_0829_133953_300_res\run_44: ['run_0']
+2026-08-29 13:46:14,298 [INFO]: Starting run 60
+2026-08-29 13:46:29,313 [INFO]: SARA execution time: 0:01:26.217284
+2026-08-29 13:46:29,315 [INFO]: Contents of results\source_0829_133953_300_res\run_49: ['run_0']
+2026-08-29 13:46:29,333 [INFO]: Starting run 61
+2026-08-29 13:46:36,962 [INFO]: SARA execution time: 0:01:37.185923
+2026-08-29 13:46:36,963 [INFO]: Contents of results\source_0829_133953_300_res\run_47: ['run_0']
+2026-08-29 13:46:36,993 [INFO]: Starting run 62
+2026-08-29 13:46:57,550 [INFO]: SARA execution time: 0:01:11.469400
+2026-08-29 13:46:57,551 [INFO]: Contents of results\source_0829_133953_300_res\run_54: ['run_0']
+2026-08-29 13:46:57,575 [INFO]: Starting run 63
+2026-08-29 13:47:01,949 [INFO]: SARA execution time: 0:01:28.291407
+2026-08-29 13:47:01,950 [INFO]: Contents of results\source_0829_133953_300_res\run_53: ['run_0']
+2026-08-29 13:47:01,980 [INFO]: Starting run 64
+2026-08-29 13:47:03,699 [INFO]: SARA execution time: 0:01:13.197271
+2026-08-29 13:47:03,700 [INFO]: Contents of results\source_0829_133953_300_res\run_55: ['run_0']
+2026-08-29 13:47:03,716 [INFO]: Starting run 65
+2026-08-29 13:47:18,545 [INFO]: SARA execution time: 0:01:13.066999
+2026-08-29 13:47:18,546 [INFO]: Contents of results\source_0829_133953_300_res\run_57: ['run_0']
+2026-08-29 13:47:18,566 [INFO]: Starting run 66
+2026-08-29 13:47:20,872 [INFO]: SARA execution time: 0:01:17.761324
+2026-08-29 13:47:20,873 [INFO]: Contents of results\source_0829_133953_300_res\run_56: ['run_0']
+2026-08-29 13:47:20,895 [INFO]: Starting run 67
+2026-08-29 13:47:21,349 [INFO]: SARA execution time: 0:01:14.478220
+2026-08-29 13:47:21,350 [INFO]: Contents of results\source_0829_133953_300_res\run_58: ['run_0']
+2026-08-29 13:47:21,370 [INFO]: Starting run 68
+2026-08-29 13:47:24,853 [INFO]: SARA execution time: 0:01:53.119850
+2026-08-29 13:47:24,854 [INFO]: Contents of results\source_0829_133953_300_res\run_52: ['run_0']
+2026-08-29 13:47:24,873 [INFO]: Starting run 69
+2026-08-29 13:47:26,755 [INFO]: SARA execution time: 0:01:12.456653
+2026-08-29 13:47:26,756 [INFO]: Contents of results\source_0829_133953_300_res\run_60: ['run_0']
+2026-08-29 13:47:26,772 [INFO]: Starting run 70
+2026-08-29 13:47:27,610 [INFO]: SARA execution time: 0:02:00.290332
+2026-08-29 13:47:27,611 [INFO]: Contents of results\source_0829_133953_300_res\run_51: ['run_0']
+2026-08-29 13:47:27,630 [INFO]: Starting run 71
+2026-08-29 13:47:37,808 [INFO]: SARA execution time: 0:01:23.763920
+2026-08-29 13:47:37,809 [INFO]: Contents of results\source_0829_133953_300_res\run_59: ['run_0']
+2026-08-29 13:47:37,823 [INFO]: Starting run 72
+2026-08-29 13:47:40,384 [INFO]: SARA execution time: 0:01:11.050392
+2026-08-29 13:47:40,385 [INFO]: Contents of results\source_0829_133953_300_res\run_61: ['run_0']
+2026-08-29 13:47:40,401 [INFO]: Starting run 73
+2026-08-29 13:47:42,590 [INFO]: SARA execution time: 0:01:05.596911
+2026-08-29 13:47:42,591 [INFO]: Contents of results\source_0829_133953_300_res\run_62: ['run_0']
+2026-08-29 13:47:42,603 [INFO]: Starting run 74
+2026-08-29 13:47:54,051 [INFO]: SARA execution time: 0:00:56.476330
+2026-08-29 13:47:54,052 [INFO]: Contents of results\source_0829_133953_300_res\run_63: ['run_0']
+2026-08-29 13:47:54,067 [INFO]: Starting run 75
+2026-08-29 13:48:01,976 [INFO]: SARA execution time: 0:00:59.996933
+2026-08-29 13:48:01,977 [INFO]: Contents of results\source_0829_133953_300_res\run_64: ['run_0']
+2026-08-29 13:48:01,993 [INFO]: Starting run 76
+2026-08-29 13:48:08,084 [INFO]: SARA execution time: 0:00:49.518815
+2026-08-29 13:48:08,085 [INFO]: Contents of results\source_0829_133953_300_res\run_66: ['run_0']
+2026-08-29 13:48:08,102 [INFO]: Starting run 77
+2026-08-29 13:48:11,992 [INFO]: SARA execution time: 0:01:08.275499
+2026-08-29 13:48:11,993 [INFO]: Contents of results\source_0829_133953_300_res\run_65: ['run_0']
+2026-08-29 13:48:12,010 [INFO]: Starting run 78
+2026-08-29 13:48:17,584 [INFO]: SARA execution time: 0:00:56.688758
+2026-08-29 13:48:17,586 [INFO]: Contents of results\source_0829_133953_300_res\run_67: ['run_0']
+2026-08-29 13:48:17,606 [INFO]: Starting run 79
+2026-08-29 13:48:18,275 [INFO]: SARA execution time: 0:00:51.503293
+2026-08-29 13:48:18,276 [INFO]: Contents of results\source_0829_133953_300_res\run_70: ['run_0']
+2026-08-29 13:48:18,294 [INFO]: Starting run 80
+2026-08-29 13:48:24,027 [INFO]: SARA execution time: 0:01:02.656997
+2026-08-29 13:48:24,028 [INFO]: Contents of results\source_0829_133953_300_res\run_68: ['run_0']
+2026-08-29 13:48:24,047 [INFO]: Starting run 81
+2026-08-29 13:48:25,403 [INFO]: SARA execution time: 0:01:00.529464
+2026-08-29 13:48:25,404 [INFO]: Contents of results\source_0829_133953_300_res\run_69: ['run_0']
+2026-08-29 13:48:25,424 [INFO]: Starting run 82
+2026-08-29 13:48:27,533 [INFO]: SARA execution time: 0:00:59.902899
+2026-08-29 13:48:27,533 [INFO]: Contents of results\source_0829_133953_300_res\run_71: ['run_0']
+2026-08-29 13:48:27,550 [INFO]: Starting run 83
+2026-08-29 13:48:31,560 [INFO]: SARA execution time: 0:00:51.160093
+2026-08-29 13:48:31,561 [INFO]: Contents of results\source_0829_133953_300_res\run_73: ['run_0']
+2026-08-29 13:48:31,576 [INFO]: Starting run 84
+2026-08-29 13:48:32,038 [INFO]: SARA execution time: 0:00:54.214758
+2026-08-29 13:48:32,039 [INFO]: Contents of results\source_0829_133953_300_res\run_72: ['run_0']
+2026-08-29 13:48:32,051 [INFO]: Starting run 85
+2026-08-29 13:48:45,917 [INFO]: SARA execution time: 0:01:03.314205
+2026-08-29 13:48:45,918 [INFO]: Contents of results\source_0829_133953_300_res\run_74: ['run_0']
+2026-08-29 13:48:45,932 [INFO]: Starting run 86
+2026-08-29 13:48:47,146 [INFO]: SARA execution time: 0:00:53.079706
+2026-08-29 13:48:47,147 [INFO]: Contents of results\source_0829_133953_300_res\run_75: ['run_0']
+2026-08-29 13:48:47,162 [INFO]: Starting run 87
+2026-08-29 13:49:05,293 [INFO]: SARA execution time: 0:00:57.190667
+2026-08-29 13:49:05,294 [INFO]: Contents of results\source_0829_133953_300_res\run_77: ['run_0']
+2026-08-29 13:49:05,312 [INFO]: Starting run 88
+2026-08-29 13:49:11,015 [INFO]: SARA execution time: 0:00:52.722165
+2026-08-29 13:49:11,016 [INFO]: Contents of results\source_0829_133953_300_res\run_80: ['run_0']
+2026-08-29 13:49:11,032 [INFO]: Starting run 89
+2026-08-29 13:49:11,146 [INFO]: SARA execution time: 0:00:53.540173
+2026-08-29 13:49:11,147 [INFO]: Contents of results\source_0829_133953_300_res\run_79: ['run_0']
+2026-08-29 13:49:11,166 [INFO]: Starting run 90
+2026-08-29 13:49:17,320 [INFO]: SARA execution time: 0:01:15.327347
+2026-08-29 13:49:17,321 [INFO]: Contents of results\source_0829_133953_300_res\run_76: ['run_0']
+2026-08-29 13:49:17,341 [INFO]: Starting run 91
+2026-08-29 13:49:22,259 [INFO]: SARA execution time: 0:00:54.708747
+2026-08-29 13:49:22,260 [INFO]: Contents of results\source_0829_133953_300_res\run_83: ['run_0']
+2026-08-29 13:49:22,280 [INFO]: Starting run 92
+2026-08-29 13:49:23,463 [INFO]: SARA execution time: 0:00:51.412089
+2026-08-29 13:49:23,464 [INFO]: Contents of results\source_0829_133953_300_res\run_85: ['run_0']
+2026-08-29 13:49:23,481 [INFO]: Starting run 93
+2026-08-29 13:49:29,622 [INFO]: SARA execution time: 0:01:17.611955
+2026-08-29 13:49:29,623 [INFO]: Contents of results\source_0829_133953_300_res\run_78: ['run_0']
+2026-08-29 13:49:29,645 [INFO]: Starting run 94
+2026-08-29 13:49:41,603 [INFO]: SARA execution time: 0:01:16.178924
+2026-08-29 13:49:41,607 [INFO]: Contents of results\source_0829_133953_300_res\run_82: ['run_0']
+2026-08-29 13:49:41,704 [INFO]: Starting run 95
+2026-08-29 13:49:56,687 [INFO]: SARA execution time: 0:01:25.111624
+2026-08-29 13:49:56,691 [INFO]: Contents of results\source_0829_133953_300_res\run_84: ['run_0']
+2026-08-29 13:49:56,758 [INFO]: Starting run 96
+2026-08-29 13:49:59,015 [INFO]: SARA execution time: 0:01:34.968113
+2026-08-29 13:49:59,016 [INFO]: Contents of results\source_0829_133953_300_res\run_81: ['run_0']
+2026-08-29 13:49:59,029 [INFO]: Starting run 97
+2026-08-29 13:50:01,172 [INFO]: SARA execution time: 0:01:15.239169
+2026-08-29 13:50:01,173 [INFO]: Contents of results\source_0829_133953_300_res\run_86: ['run_0']
+2026-08-29 13:50:01,184 [INFO]: Starting run 98
+2026-08-29 13:50:25,287 [INFO]: SARA execution time: 0:01:14.254176
+2026-08-29 13:50:25,287 [INFO]: Contents of results\source_0829_133953_300_res\run_89: ['run_0']
+2026-08-29 13:50:25,302 [INFO]: Starting run 99
+2026-08-29 13:50:27,948 [INFO]: SARA execution time: 0:01:22.635427
+2026-08-29 13:50:27,948 [INFO]: Contents of results\source_0829_133953_300_res\run_88: ['run_0']
+2026-08-29 13:50:27,962 [INFO]: Starting run 100
+2026-08-29 13:50:29,611 [INFO]: SARA execution time: 0:01:18.445243
+2026-08-29 13:50:29,612 [INFO]: Contents of results\source_0829_133953_300_res\run_90: ['run_0']
+2026-08-29 13:50:29,724 [INFO]: Starting run 101
+2026-08-29 13:50:39,513 [INFO]: SARA execution time: 0:01:52.351377
+2026-08-29 13:50:39,513 [INFO]: Contents of results\source_0829_133953_300_res\run_87: ['run_0']
+2026-08-29 13:50:39,528 [INFO]: Starting run 102
+2026-08-29 13:50:44,155 [INFO]: SARA execution time: 0:01:21.876809
+2026-08-29 13:50:44,156 [INFO]: Contents of results\source_0829_133953_300_res\run_92: ['run_0']
+2026-08-29 13:50:44,171 [INFO]: Starting run 103
+2026-08-29 13:50:48,657 [INFO]: SARA execution time: 0:01:31.316599
+2026-08-29 13:50:48,657 [INFO]: Contents of results\source_0829_133953_300_res\run_91: ['run_0']
+2026-08-29 13:50:48,668 [INFO]: Starting run 104
+2026-08-29 13:50:56,579 [INFO]: SARA execution time: 0:00:57.549440
+2026-08-29 13:50:56,579 [INFO]: Contents of results\source_0829_133953_300_res\run_97: ['run_0']
+2026-08-29 13:50:56,595 [INFO]: Starting run 105
+2026-08-29 13:51:06,073 [INFO]: SARA execution time: 0:01:36.428657
+2026-08-29 13:51:06,074 [INFO]: Contents of results\source_0829_133953_300_res\run_94: ['run_0']
+2026-08-29 13:51:06,092 [INFO]: Starting run 106
+2026-08-29 13:51:07,268 [INFO]: SARA execution time: 0:01:43.786988
+2026-08-29 13:51:07,269 [INFO]: Contents of results\source_0829_133953_300_res\run_93: ['run_0']
+2026-08-29 13:51:07,287 [INFO]: Starting run 107
+2026-08-29 13:51:10,320 [INFO]: SARA execution time: 0:01:28.617624
+2026-08-29 13:51:10,320 [INFO]: Contents of results\source_0829_133953_300_res\run_95: ['run_0']
+2026-08-29 13:51:10,342 [INFO]: Starting run 108
+2026-08-29 13:51:14,317 [INFO]: SARA execution time: 0:01:17.558826
+2026-08-29 13:51:14,318 [INFO]: Contents of results\source_0829_133953_300_res\run_96: ['run_0']
+2026-08-29 13:51:14,336 [INFO]: Starting run 109
+2026-08-29 13:51:18,688 [INFO]: SARA execution time: 0:01:17.503715
+2026-08-29 13:51:18,689 [INFO]: Contents of results\source_0829_133953_300_res\run_98: ['run_0']
+2026-08-29 13:51:18,709 [INFO]: Starting run 110
+2026-08-29 13:51:22,688 [INFO]: SARA execution time: 0:00:54.726512
+2026-08-29 13:51:22,689 [INFO]: Contents of results\source_0829_133953_300_res\run_100: ['run_0']
+2026-08-29 13:51:22,760 [INFO]: Starting run 111
+2026-08-29 13:51:28,365 [INFO]: SARA execution time: 0:00:58.641023
+2026-08-29 13:51:28,366 [INFO]: Contents of results\source_0829_133953_300_res\run_101: ['run_0']
+2026-08-29 13:51:28,383 [INFO]: Starting run 112
+2026-08-29 13:51:38,113 [INFO]: SARA execution time: 0:00:53.940275
+2026-08-29 13:51:38,113 [INFO]: Contents of results\source_0829_133953_300_res\run_103: ['run_0']
+2026-08-29 13:51:38,131 [INFO]: Starting run 113
+2026-08-29 13:51:39,691 [INFO]: SARA execution time: 0:01:14.388896
+2026-08-29 13:51:39,692 [INFO]: Contents of results\source_0829_133953_300_res\run_99: ['run_0']
+2026-08-29 13:51:39,713 [INFO]: Starting run 114
+2026-08-29 13:51:42,766 [INFO]: SARA execution time: 0:01:03.237696
+2026-08-29 13:51:42,767 [INFO]: Contents of results\source_0829_133953_300_res\run_102: ['run_0']
+2026-08-29 13:51:42,777 [INFO]: Starting run 115
+2026-08-29 13:52:03,312 [INFO]: SARA execution time: 0:01:06.717827
+2026-08-29 13:52:03,316 [INFO]: Contents of results\source_0829_133953_300_res\run_105: ['run_0']
+2026-08-29 13:52:03,386 [INFO]: Starting run 116
+2026-08-29 13:52:12,600 [INFO]: SARA execution time: 0:01:23.931754
+2026-08-29 13:52:12,603 [INFO]: Contents of results\source_0829_133953_300_res\run_104: ['run_0']
+2026-08-29 13:52:12,675 [INFO]: Starting run 117
+2026-08-29 13:52:17,330 [INFO]: SARA execution time: 0:01:10.041166
+2026-08-29 13:52:17,333 [INFO]: Contents of results\source_0829_133953_300_res\run_107: ['run_0']
+2026-08-29 13:52:17,402 [INFO]: Starting run 118
+2026-08-29 13:52:27,472 [INFO]: SARA execution time: 0:01:13.135309
+2026-08-29 13:52:27,473 [INFO]: Contents of results\source_0829_133953_300_res\run_109: ['run_0']
+2026-08-29 13:52:27,484 [INFO]: Starting run 119
+2026-08-29 13:52:28,167 [INFO]: SARA execution time: 0:01:09.457130
+2026-08-29 13:52:28,167 [INFO]: Contents of results\source_0829_133953_300_res\run_110: ['run_0']
+2026-08-29 13:52:28,178 [INFO]: Starting run 120
+2026-08-29 13:52:39,819 [INFO]: SARA execution time: 0:01:29.476465
+2026-08-29 13:52:39,820 [INFO]: Contents of results\source_0829_133953_300_res\run_108: ['run_0']
+2026-08-29 13:52:39,843 [INFO]: Starting run 121
+2026-08-29 13:52:41,338 [INFO]: SARA execution time: 0:01:12.953611
+2026-08-29 13:52:41,338 [INFO]: Contents of results\source_0829_133953_300_res\run_112: ['run_0']
+2026-08-29 13:52:41,359 [INFO]: Starting run 122
+2026-08-29 13:52:45,681 [INFO]: SARA execution time: 0:01:39.589816
+2026-08-29 13:52:45,682 [INFO]: Contents of results\source_0829_133953_300_res\run_106: ['run_0']
+2026-08-29 13:52:45,703 [INFO]: Starting run 123
+2026-08-29 13:52:49,129 [INFO]: SARA execution time: 0:01:26.369511
+2026-08-29 13:52:49,130 [INFO]: Contents of results\source_0829_133953_300_res\run_111: ['run_0']
+2026-08-29 13:52:49,149 [INFO]: Starting run 124
+2026-08-29 13:52:54,397 [INFO]: SARA execution time: 0:01:16.266068
+2026-08-29 13:52:54,398 [INFO]: Contents of results\source_0829_133953_300_res\run_113: ['run_0']
+2026-08-29 13:52:54,412 [INFO]: Starting run 125
+2026-08-29 13:52:54,436 [INFO]: SARA execution time: 0:01:14.722847
+2026-08-29 13:52:54,436 [INFO]: Contents of results\source_0829_133953_300_res\run_114: ['run_0']
+2026-08-29 13:52:54,456 [INFO]: Starting run 126
+2026-08-29 13:52:54,579 [INFO]: SARA execution time: 0:01:11.801353
+2026-08-29 13:52:54,579 [INFO]: Contents of results\source_0829_133953_300_res\run_115: ['run_0']
+2026-08-29 13:52:54,596 [INFO]: Starting run 127
+2026-08-29 13:53:09,557 [INFO]: SARA execution time: 0:00:56.881855
+2026-08-29 13:53:09,558 [INFO]: Contents of results\source_0829_133953_300_res\run_117: ['run_0']
+2026-08-29 13:53:09,574 [INFO]: Starting run 128
+2026-08-29 13:53:18,548 [INFO]: SARA execution time: 0:01:01.147078
+2026-08-29 13:53:18,550 [INFO]: Contents of results\source_0829_133953_300_res\run_118: ['run_0']
+2026-08-29 13:53:18,567 [INFO]: Starting run 129
+2026-08-29 13:53:22,374 [INFO]: SARA execution time: 0:00:54.890889
+2026-08-29 13:53:22,375 [INFO]: Contents of results\source_0829_133953_300_res\run_119: ['run_0']
+2026-08-29 13:53:22,391 [INFO]: Starting run 130
+2026-08-29 13:53:24,961 [INFO]: SARA execution time: 0:00:56.782707
+2026-08-29 13:53:24,961 [INFO]: Contents of results\source_0829_133953_300_res\run_120: ['run_0']
+2026-08-29 13:53:24,977 [INFO]: Starting run 131
+2026-08-29 13:53:30,747 [INFO]: SARA execution time: 0:01:27.361551
+2026-08-29 13:53:30,748 [INFO]: Contents of results\source_0829_133953_300_res\run_116: ['run_0']
+2026-08-29 13:53:30,767 [INFO]: Starting run 132
+2026-08-29 13:53:34,694 [INFO]: SARA execution time: 0:00:54.852329
+2026-08-29 13:53:34,694 [INFO]: Contents of results\source_0829_133953_300_res\run_121: ['run_0']
+2026-08-29 13:53:34,708 [INFO]: Starting run 133
+2026-08-29 13:53:41,905 [INFO]: SARA execution time: 0:00:56.202509
+2026-08-29 13:53:41,906 [INFO]: Contents of results\source_0829_133953_300_res\run_123: ['run_0']
+2026-08-29 13:53:41,922 [INFO]: Starting run 134
+2026-08-29 13:53:46,906 [INFO]: SARA execution time: 0:00:57.755985
+2026-08-29 13:53:46,910 [INFO]: Contents of results\source_0829_133953_300_res\run_124: ['run_0']
+2026-08-29 13:53:46,992 [INFO]: Starting run 135
+2026-08-29 13:53:53,875 [INFO]: SARA execution time: 0:01:12.516449
+2026-08-29 13:53:53,878 [INFO]: Contents of results\source_0829_133953_300_res\run_122: ['run_0']
+2026-08-29 13:53:53,995 [INFO]: Starting run 136
+2026-08-29 13:54:02,725 [INFO]: SARA execution time: 0:01:08.267904
+2026-08-29 13:54:02,728 [INFO]: Contents of results\source_0829_133953_300_res\run_126: ['run_0']
+2026-08-29 13:54:02,792 [INFO]: Starting run 137
+2026-08-29 13:54:25,941 [INFO]: SARA execution time: 0:01:07.373292
+2026-08-29 13:54:25,942 [INFO]: Contents of results\source_0829_133953_300_res\run_129: ['run_0']
+2026-08-29 13:54:25,956 [INFO]: Starting run 138
+2026-08-29 13:54:26,343 [INFO]: SARA execution time: 0:01:31.747541
+2026-08-29 13:54:26,345 [INFO]: Contents of results\source_0829_133953_300_res\run_127: ['run_0']
+2026-08-29 13:54:26,362 [INFO]: Starting run 139
+2026-08-29 13:54:26,919 [INFO]: SARA execution time: 0:01:32.506947
+2026-08-29 13:54:26,919 [INFO]: Contents of results\source_0829_133953_300_res\run_125: ['run_0']
+2026-08-29 13:54:26,936 [INFO]: Starting run 140
+2026-08-29 13:54:27,972 [INFO]: SARA execution time: 0:01:18.398848
+2026-08-29 13:54:27,973 [INFO]: Contents of results\source_0829_133953_300_res\run_128: ['run_0']
+2026-08-29 13:54:27,987 [INFO]: Starting run 141
+2026-08-29 13:54:38,684 [INFO]: SARA execution time: 0:01:13.706520
+2026-08-29 13:54:38,685 [INFO]: Contents of results\source_0829_133953_300_res\run_131: ['run_0']
+2026-08-29 13:54:38,703 [INFO]: Starting run 142
+2026-08-29 13:54:56,669 [INFO]: SARA execution time: 0:01:14.746923
+2026-08-29 13:54:56,670 [INFO]: Contents of results\source_0829_133953_300_res\run_134: ['run_0']
+2026-08-29 13:54:56,690 [INFO]: Starting run 143
+2026-08-29 13:54:59,644 [INFO]: SARA execution time: 0:01:28.876772
+2026-08-29 13:54:59,646 [INFO]: Contents of results\source_0829_133953_300_res\run_132: ['run_0']
+2026-08-29 13:54:59,665 [INFO]: Starting run 144
+2026-08-29 13:54:59,716 [INFO]: SARA execution time: 0:00:56.923780
+2026-08-29 13:54:59,716 [INFO]: Contents of results\source_0829_133953_300_res\run_137: ['run_0']
+2026-08-29 13:54:59,734 [INFO]: Starting run 145
+2026-08-29 13:55:03,325 [INFO]: SARA execution time: 0:01:40.934624
+2026-08-29 13:55:03,326 [INFO]: Contents of results\source_0829_133953_300_res\run_130: ['run_0']
+2026-08-29 13:55:03,349 [INFO]: Starting run 146
+2026-08-29 13:55:08,438 [INFO]: SARA execution time: 0:01:33.729533
+2026-08-29 13:55:08,439 [INFO]: Contents of results\source_0829_133953_300_res\run_133: ['run_0']
+2026-08-29 13:55:08,454 [INFO]: Starting run 147
+2026-08-29 13:55:08,718 [INFO]: SARA execution time: 0:01:14.724134
+2026-08-29 13:55:08,719 [INFO]: Contents of results\source_0829_133953_300_res\run_136: ['run_0']
+2026-08-29 13:55:08,735 [INFO]: Starting run 148
+2026-08-29 13:55:25,557 [INFO]: SARA execution time: 0:00:57.569686
+2026-08-29 13:55:25,558 [INFO]: Contents of results\source_0829_133953_300_res\run_141: ['run_0']
+2026-08-29 13:55:25,577 [INFO]: Starting run 149
+2026-08-29 13:55:34,565 [INFO]: SARA execution time: 0:01:47.574166
+2026-08-29 13:55:34,569 [INFO]: Contents of results\source_0829_133953_300_res\run_135: ['run_0']
+2026-08-29 13:55:34,661 [INFO]: Starting run 150
+2026-08-29 13:55:46,249 [INFO]: SARA execution time: 0:01:20.292728
+2026-08-29 13:55:46,252 [INFO]: Contents of results\source_0829_133953_300_res\run_138: ['run_0']
+2026-08-29 13:55:46,333 [INFO]: Starting run 151
+2026-08-29 13:55:57,761 [INFO]: SARA execution time: 0:01:31.398657
+2026-08-29 13:55:57,761 [INFO]: Contents of results\source_0829_133953_300_res\run_139: ['run_0']
+2026-08-29 13:55:57,773 [INFO]: Starting run 152
+2026-08-29 13:56:01,591 [INFO]: SARA execution time: 0:01:22.888490
+2026-08-29 13:56:01,592 [INFO]: Contents of results\source_0829_133953_300_res\run_142: ['run_0']
+2026-08-29 13:56:01,606 [INFO]: Starting run 153
+2026-08-29 13:56:11,966 [INFO]: SARA execution time: 0:01:12.301141
+2026-08-29 13:56:11,966 [INFO]: Contents of results\source_0829_133953_300_res\run_144: ['run_0']
+2026-08-29 13:56:11,974 [INFO]: Starting run 154
+2026-08-29 13:56:23,533 [INFO]: SARA execution time: 0:01:20.185212
+2026-08-29 13:56:23,534 [INFO]: Contents of results\source_0829_133953_300_res\run_146: ['run_0']
+2026-08-29 13:56:23,553 [INFO]: Starting run 155
+2026-08-29 13:56:28,368 [INFO]: SARA execution time: 0:01:31.678110
+2026-08-29 13:56:28,369 [INFO]: Contents of results\source_0829_133953_300_res\run_143: ['run_0']
+2026-08-29 13:56:28,383 [INFO]: Starting run 156
+2026-08-29 13:56:30,489 [INFO]: SARA execution time: 0:01:22.034878
+2026-08-29 13:56:30,490 [INFO]: Contents of results\source_0829_133953_300_res\run_147: ['run_0']
+2026-08-29 13:56:30,506 [INFO]: Starting run 157
+2026-08-29 13:56:33,280 [INFO]: SARA execution time: 0:02:06.344758
+2026-08-29 13:56:33,281 [INFO]: Contents of results\source_0829_133953_300_res\run_140: ['run_0']
+2026-08-29 13:56:33,293 [INFO]: Starting run 158
+2026-08-29 13:56:43,226 [INFO]: SARA execution time: 0:01:43.490861
+2026-08-29 13:56:43,227 [INFO]: Contents of results\source_0829_133953_300_res\run_145: ['run_0']
+2026-08-29 13:56:43,246 [INFO]: Starting run 159
+2026-08-29 13:56:47,674 [INFO]: SARA execution time: 0:01:38.939018
+2026-08-29 13:56:47,674 [INFO]: Contents of results\source_0829_133953_300_res\run_148: ['run_0']
+2026-08-29 13:56:47,693 [INFO]: Starting run 160
+2026-08-29 13:56:50,890 [INFO]: SARA execution time: 0:01:25.314245
+2026-08-29 13:56:50,891 [INFO]: Contents of results\source_0829_133953_300_res\run_149: ['run_0']
+2026-08-29 13:56:50,906 [INFO]: Starting run 161
+2026-08-29 13:56:57,823 [INFO]: SARA execution time: 0:01:23.163782
+2026-08-29 13:56:57,823 [INFO]: Contents of results\source_0829_133953_300_res\run_150: ['run_0']
+2026-08-29 13:56:57,838 [INFO]: Starting run 162
+2026-08-29 13:57:13,069 [INFO]: SARA execution time: 0:01:15.296076
+2026-08-29 13:57:13,069 [INFO]: Contents of results\source_0829_133953_300_res\run_152: ['run_0']
+2026-08-29 13:57:13,088 [INFO]: Starting run 163
+2026-08-29 13:57:16,173 [INFO]: SARA execution time: 0:01:04.199082
+2026-08-29 13:57:16,174 [INFO]: Contents of results\source_0829_133953_300_res\run_154: ['run_0']
+2026-08-29 13:57:16,190 [INFO]: Starting run 164
+2026-08-29 13:57:33,369 [INFO]: SARA execution time: 0:01:47.035980
+2026-08-29 13:57:33,371 [INFO]: Contents of results\source_0829_133953_300_res\run_151: ['run_0']
+2026-08-29 13:57:33,475 [INFO]: Starting run 165
+2026-08-29 13:57:35,170 [INFO]: SARA execution time: 0:01:33.564772
+2026-08-29 13:57:35,172 [INFO]: Contents of results\source_0829_133953_300_res\run_153: ['run_0']
+2026-08-29 13:57:35,347 [INFO]: Starting run 166
+2026-08-29 13:57:51,559 [INFO]: SARA execution time: 0:01:18.266471
+2026-08-29 13:57:51,559 [INFO]: Contents of results\source_0829_133953_300_res\run_158: ['run_0']
+2026-08-29 13:57:51,580 [INFO]: Starting run 167
+2026-08-29 13:57:52,381 [INFO]: SARA execution time: 0:01:23.997076
+2026-08-29 13:57:52,381 [INFO]: Contents of results\source_0829_133953_300_res\run_156: ['run_0']
+2026-08-29 13:57:52,395 [INFO]: Starting run 168
+2026-08-29 13:57:57,648 [INFO]: SARA execution time: 0:01:34.095213
+2026-08-29 13:57:57,649 [INFO]: Contents of results\source_0829_133953_300_res\run_155: ['run_0']
+2026-08-29 13:57:57,665 [INFO]: Starting run 169
+2026-08-29 13:57:59,094 [INFO]: SARA execution time: 0:01:11.401473
+2026-08-29 13:57:59,095 [INFO]: Contents of results\source_0829_133953_300_res\run_160: ['run_0']
+2026-08-29 13:57:59,108 [INFO]: Starting run 170
+2026-08-29 13:57:59,751 [INFO]: SARA execution time: 0:01:08.843252
+2026-08-29 13:57:59,751 [INFO]: Contents of results\source_0829_133953_300_res\run_161: ['run_0']
+2026-08-29 13:57:59,763 [INFO]: Starting run 171
+2026-08-29 13:58:03,480 [INFO]: SARA execution time: 0:01:20.234109
+2026-08-29 13:58:03,481 [INFO]: Contents of results\source_0829_133953_300_res\run_159: ['run_0']
+2026-08-29 13:58:03,499 [INFO]: Starting run 172
+2026-08-29 13:58:09,454 [INFO]: SARA execution time: 0:01:11.615733
+2026-08-29 13:58:09,455 [INFO]: Contents of results\source_0829_133953_300_res\run_162: ['run_0']
+2026-08-29 13:58:09,466 [INFO]: Starting run 173
+2026-08-29 13:58:19,978 [INFO]: SARA execution time: 0:01:49.471957
+2026-08-29 13:58:19,980 [INFO]: Contents of results\source_0829_133953_300_res\run_157: ['run_0']
+2026-08-29 13:58:19,999 [INFO]: Starting run 174
+2026-08-29 13:58:27,137 [INFO]: SARA execution time: 0:01:10.947604
+2026-08-29 13:58:27,138 [INFO]: Contents of results\source_0829_133953_300_res\run_164: ['run_0']
+2026-08-29 13:58:27,154 [INFO]: Starting run 175
+2026-08-29 13:58:31,735 [INFO]: SARA execution time: 0:00:58.260525
+2026-08-29 13:58:31,735 [INFO]: Contents of results\source_0829_133953_300_res\run_165: ['run_0']
+2026-08-29 13:58:31,747 [INFO]: Starting run 176
+2026-08-29 13:58:46,160 [INFO]: SARA execution time: 0:01:33.071078
+2026-08-29 13:58:46,160 [INFO]: Contents of results\source_0829_133953_300_res\run_163: ['run_0']
+2026-08-29 13:58:46,209 [INFO]: Starting run 177
+2026-08-29 13:58:48,106 [INFO]: SARA execution time: 0:00:56.525078
+2026-08-29 13:58:48,107 [INFO]: Contents of results\source_0829_133953_300_res\run_167: ['run_0']
+2026-08-29 13:58:48,125 [INFO]: Starting run 178
+2026-08-29 13:58:49,408 [INFO]: SARA execution time: 0:00:57.011630
+2026-08-29 13:58:49,408 [INFO]: Contents of results\source_0829_133953_300_res\run_168: ['run_0']
+2026-08-29 13:58:49,426 [INFO]: Starting run 179
+2026-08-29 13:58:55,017 [INFO]: SARA execution time: 0:01:19.673546
+2026-08-29 13:58:55,018 [INFO]: Contents of results\source_0829_133953_300_res\run_166: ['run_0']
+2026-08-29 13:58:55,037 [INFO]: Starting run 180
+2026-08-29 13:58:57,165 [INFO]: SARA execution time: 0:00:59.499740
+2026-08-29 13:58:57,165 [INFO]: Contents of results\source_0829_133953_300_res\run_169: ['run_0']
+2026-08-29 13:58:57,184 [INFO]: Starting run 181
+2026-08-29 13:59:10,524 [INFO]: SARA execution time: 0:01:11.414633
+2026-08-29 13:59:10,530 [INFO]: Contents of results\source_0829_133953_300_res\run_170: ['run_0']
+2026-08-29 13:59:10,651 [INFO]: Starting run 182
+2026-08-29 13:59:30,503 [INFO]: SARA execution time: 0:01:27.004296
+2026-08-29 13:59:30,505 [INFO]: Contents of results\source_0829_133953_300_res\run_172: ['run_0']
+2026-08-29 13:59:30,582 [INFO]: Starting run 183
+2026-08-29 13:59:37,262 [INFO]: SARA execution time: 0:01:37.498899
+2026-08-29 13:59:37,263 [INFO]: Contents of results\source_0829_133953_300_res\run_171: ['run_0']
+2026-08-29 13:59:37,277 [INFO]: Starting run 184
+2026-08-29 13:59:43,016 [INFO]: SARA execution time: 0:01:33.550059
+2026-08-29 13:59:43,016 [INFO]: Contents of results\source_0829_133953_300_res\run_173: ['run_0']
+2026-08-29 13:59:43,030 [INFO]: Starting run 185
+2026-08-29 13:59:46,487 [INFO]: SARA execution time: 0:01:14.740864
+2026-08-29 13:59:46,488 [INFO]: Contents of results\source_0829_133953_300_res\run_176: ['run_0']
+2026-08-29 13:59:46,503 [INFO]: Starting run 186
+2026-08-29 13:59:54,146 [INFO]: SARA execution time: 0:01:26.991680
+2026-08-29 13:59:54,147 [INFO]: Contents of results\source_0829_133953_300_res\run_175: ['run_0']
+2026-08-29 13:59:54,164 [INFO]: Starting run 187
+2026-08-29 14:00:07,450 [INFO]: SARA execution time: 0:01:47.450818
+2026-08-29 14:00:07,452 [INFO]: Contents of results\source_0829_133953_300_res\run_174: ['run_0']
+2026-08-29 14:00:07,473 [INFO]: Starting run 188
+2026-08-29 14:00:07,905 [INFO]: SARA execution time: 0:01:21.696865
+2026-08-29 14:00:07,906 [INFO]: Contents of results\source_0829_133953_300_res\run_177: ['run_0']
+2026-08-29 14:00:07,922 [INFO]: Starting run 189
+2026-08-29 14:00:09,127 [INFO]: SARA execution time: 0:01:21.001462
+2026-08-29 14:00:09,128 [INFO]: Contents of results\source_0829_133953_300_res\run_178: ['run_0']
+2026-08-29 14:00:09,145 [INFO]: Starting run 190
+2026-08-29 14:00:17,539 [INFO]: SARA execution time: 0:01:20.355393
+2026-08-29 14:00:17,540 [INFO]: Contents of results\source_0829_133953_300_res\run_181: ['run_0']
+2026-08-29 14:00:17,562 [INFO]: Starting run 191
+2026-08-29 14:00:22,800 [INFO]: SARA execution time: 0:01:27.762720
+2026-08-29 14:00:22,801 [INFO]: Contents of results\source_0829_133953_300_res\run_180: ['run_0']
+2026-08-29 14:00:22,829 [INFO]: Starting run 192
+2026-08-29 14:00:27,534 [INFO]: SARA execution time: 0:01:16.883658
+2026-08-29 14:00:27,535 [INFO]: Contents of results\source_0829_133953_300_res\run_182: ['run_0']
+2026-08-29 14:00:27,553 [INFO]: Starting run 193
+2026-08-29 14:00:31,367 [INFO]: SARA execution time: 0:01:41.940503
+2026-08-29 14:00:31,368 [INFO]: Contents of results\source_0829_133953_300_res\run_179: ['run_0']
+2026-08-29 14:00:31,387 [INFO]: Starting run 194
+2026-08-29 14:00:33,945 [INFO]: SARA execution time: 0:00:56.668065
+2026-08-29 14:00:33,945 [INFO]: Contents of results\source_0829_133953_300_res\run_184: ['run_0']
+2026-08-29 14:00:33,958 [INFO]: Starting run 195
+2026-08-29 14:00:57,630 [INFO]: SARA execution time: 0:01:14.600859
+2026-08-29 14:00:57,633 [INFO]: Contents of results\source_0829_133953_300_res\run_185: ['run_0']
+2026-08-29 14:00:57,706 [INFO]: Starting run 196
+2026-08-29 14:01:12,605 [INFO]: SARA execution time: 0:01:42.029246
+2026-08-29 14:01:12,606 [INFO]: Contents of results\source_0829_133953_300_res\run_183: ['run_0']
+2026-08-29 14:01:12,622 [INFO]: Starting run 197
+2026-08-29 14:01:16,139 [INFO]: SARA execution time: 0:01:29.636591
+2026-08-29 14:01:16,140 [INFO]: Contents of results\source_0829_133953_300_res\run_186: ['run_0']
+2026-08-29 14:01:16,151 [INFO]: Starting run 198
+2026-08-29 14:01:27,161 [INFO]: SARA execution time: 0:01:18.015703
+2026-08-29 14:01:27,161 [INFO]: Contents of results\source_0829_133953_300_res\run_190: ['run_0']
+2026-08-29 14:01:27,179 [INFO]: Starting run 199
+2026-08-29 14:01:29,229 [INFO]: SARA execution time: 0:01:21.305208
+2026-08-29 14:01:29,229 [INFO]: Contents of results\source_0829_133953_300_res\run_189: ['run_0']
+2026-08-29 14:01:29,248 [INFO]: Starting run 200
+2026-08-29 14:01:30,139 [INFO]: SARA execution time: 0:01:35.975299
+2026-08-29 14:01:30,140 [INFO]: Contents of results\source_0829_133953_300_res\run_187: ['run_0']
+2026-08-29 14:01:30,160 [INFO]: Starting run 201
+2026-08-29 14:01:33,973 [INFO]: SARA execution time: 0:01:26.500038
+2026-08-29 14:01:33,974 [INFO]: Contents of results\source_0829_133953_300_res\run_188: ['run_0']
+2026-08-29 14:01:33,996 [INFO]: Starting run 202
+2026-08-29 14:01:35,104 [INFO]: SARA execution time: 0:01:17.541313
+2026-08-29 14:01:35,104 [INFO]: Contents of results\source_0829_133953_300_res\run_191: ['run_0']
+2026-08-29 14:01:35,122 [INFO]: Starting run 203
+2026-08-29 14:01:44,284 [INFO]: SARA execution time: 0:01:16.730758
+2026-08-29 14:01:44,284 [INFO]: Contents of results\source_0829_133953_300_res\run_193: ['run_0']
+2026-08-29 14:01:44,293 [INFO]: Starting run 204
+2026-08-29 14:01:57,253 [INFO]: SARA execution time: 0:01:34.424068
+2026-08-29 14:01:57,254 [INFO]: Contents of results\source_0829_133953_300_res\run_192: ['run_0']
+2026-08-29 14:01:57,268 [INFO]: Starting run 205
+2026-08-29 14:02:29,156 [INFO]: SARA execution time: 0:01:16.532980
+2026-08-29 14:02:29,161 [INFO]: Contents of results\source_0829_133953_300_res\run_197: ['run_0']
+2026-08-29 14:02:29,281 [INFO]: Starting run 206
+2026-08-29 14:02:29,782 [INFO]: SARA execution time: 0:01:55.822942
+2026-08-29 14:02:29,784 [INFO]: Contents of results\source_0829_133953_300_res\run_195: ['run_0']
+2026-08-29 14:02:29,866 [INFO]: Starting run 207
+2026-08-29 14:02:38,304 [INFO]: SARA execution time: 0:02:06.917323
+2026-08-29 14:02:38,306 [INFO]: Contents of results\source_0829_133953_300_res\run_194: ['run_0']
+2026-08-29 14:02:38,398 [INFO]: Starting run 208
+2026-08-29 14:02:58,463 [INFO]: SARA execution time: 0:01:31.284644
+2026-08-29 14:02:58,463 [INFO]: Contents of results\source_0829_133953_300_res\run_199: ['run_0']
+2026-08-29 14:02:58,490 [INFO]: Starting run 209
+2026-08-29 14:02:59,843 [INFO]: SARA execution time: 0:01:24.720658
+2026-08-29 14:02:59,844 [INFO]: Contents of results\source_0829_133953_300_res\run_203: ['run_0']
+2026-08-29 14:02:59,860 [INFO]: Starting run 210
+2026-08-29 14:03:00,378 [INFO]: SARA execution time: 0:01:44.226357
+2026-08-29 14:03:00,379 [INFO]: Contents of results\source_0829_133953_300_res\run_198: ['run_0']
+2026-08-29 14:03:00,397 [INFO]: Starting run 211
+2026-08-29 14:03:00,401 [INFO]: SARA execution time: 0:01:31.152784
+2026-08-29 14:03:00,401 [INFO]: Contents of results\source_0829_133953_300_res\run_200: ['run_0']
+2026-08-29 14:03:00,418 [INFO]: Starting run 212
+2026-08-29 14:03:02,789 [INFO]: SARA execution time: 0:02:05.082901
+2026-08-29 14:03:02,790 [INFO]: Contents of results\source_0829_133953_300_res\run_196: ['run_0']
+2026-08-29 14:03:02,812 [INFO]: Starting run 213
+2026-08-29 14:03:08,945 [INFO]: SARA execution time: 0:01:34.949332
+2026-08-29 14:03:08,946 [INFO]: Contents of results\source_0829_133953_300_res\run_202: ['run_0']
+2026-08-29 14:03:08,965 [INFO]: Starting run 214
+2026-08-29 14:03:13,978 [INFO]: SARA execution time: 0:01:29.685106
+2026-08-29 14:03:13,979 [INFO]: Contents of results\source_0829_133953_300_res\run_204: ['run_0']
+2026-08-29 14:03:13,997 [INFO]: Starting run 215
+2026-08-29 14:03:16,519 [INFO]: SARA execution time: 0:01:46.359132
+2026-08-29 14:03:16,520 [INFO]: Contents of results\source_0829_133953_300_res\run_201: ['run_0']
+2026-08-29 14:03:16,538 [INFO]: Starting run 216
+2026-08-29 14:03:30,694 [INFO]: SARA execution time: 0:01:33.426208
+2026-08-29 14:03:30,694 [INFO]: Contents of results\source_0829_133953_300_res\run_205: ['run_0']
+2026-08-29 14:03:30,710 [INFO]: Starting run 217
+2026-08-29 14:03:43,050 [INFO]: SARA execution time: 0:01:13.769386
+2026-08-29 14:03:43,051 [INFO]: Contents of results\source_0829_133953_300_res\run_206: ['run_0']
+2026-08-29 14:03:43,066 [INFO]: Starting run 218
+2026-08-29 14:03:44,582 [INFO]: SARA execution time: 0:01:06.184068
+2026-08-29 14:03:44,582 [INFO]: Contents of results\source_0829_133953_300_res\run_208: ['run_0']
+2026-08-29 14:03:44,597 [INFO]: Starting run 219
+2026-08-29 14:04:12,427 [INFO]: SARA execution time: 0:01:12.007563
+2026-08-29 14:04:12,430 [INFO]: Contents of results\source_0829_133953_300_res\run_212: ['run_0']
+2026-08-29 14:04:12,540 [INFO]: Starting run 220
+2026-08-29 14:04:24,460 [INFO]: SARA execution time: 0:01:25.970949
+2026-08-29 14:04:24,461 [INFO]: Contents of results\source_0829_133953_300_res\run_209: ['run_0']
+2026-08-29 14:04:24,476 [INFO]: Starting run 221
+2026-08-29 14:04:26,418 [INFO]: SARA execution time: 0:01:26.558204
+2026-08-29 14:04:26,418 [INFO]: Contents of results\source_0829_133953_300_res\run_210: ['run_0']
+2026-08-29 14:04:26,434 [INFO]: Starting run 222
+2026-08-29 14:04:31,767 [INFO]: SARA execution time: 0:02:01.902776
+2026-08-29 14:04:31,767 [INFO]: Contents of results\source_0829_133953_300_res\run_207: ['run_0']
+2026-08-29 14:04:31,788 [INFO]: Starting run 223
+2026-08-29 14:04:35,695 [INFO]: SARA execution time: 0:01:32.883383
+2026-08-29 14:04:35,696 [INFO]: Contents of results\source_0829_133953_300_res\run_213: ['run_0']
+2026-08-29 14:04:35,713 [INFO]: Starting run 224
+2026-08-29 14:04:40,406 [INFO]: SARA execution time: 0:01:40.009355
+2026-08-29 14:04:40,407 [INFO]: Contents of results\source_0829_133953_300_res\run_211: ['run_0']
+2026-08-29 14:04:40,426 [INFO]: Starting run 225
+2026-08-29 14:04:41,787 [INFO]: SARA execution time: 0:01:27.790002
+2026-08-29 14:04:41,788 [INFO]: Contents of results\source_0829_133953_300_res\run_215: ['run_0']
+2026-08-29 14:04:41,810 [INFO]: Starting run 226
+2026-08-29 14:04:55,304 [INFO]: SARA execution time: 0:01:46.339400
+2026-08-29 14:04:55,306 [INFO]: Contents of results\source_0829_133953_300_res\run_214: ['run_0']
+2026-08-29 14:04:55,327 [INFO]: Starting run 227
+2026-08-29 14:04:57,075 [INFO]: SARA execution time: 0:01:40.537488
+2026-08-29 14:04:57,076 [INFO]: Contents of results\source_0829_133953_300_res\run_216: ['run_0']
+2026-08-29 14:04:57,096 [INFO]: Starting run 228
+2026-08-29 14:04:58,284 [INFO]: SARA execution time: 0:01:15.217242
+2026-08-29 14:04:58,285 [INFO]: Contents of results\source_0829_133953_300_res\run_218: ['run_0']
+2026-08-29 14:04:58,298 [INFO]: Starting run 229
+2026-08-29 14:04:58,302 [INFO]: SARA execution time: 0:01:27.591575
+2026-08-29 14:04:58,303 [INFO]: Contents of results\source_0829_133953_300_res\run_217: ['run_0']
+2026-08-29 14:04:58,320 [INFO]: Starting run 230
+2026-08-29 14:05:10,740 [INFO]: SARA execution time: 0:01:26.143358
+2026-08-29 14:05:10,741 [INFO]: Contents of results\source_0829_133953_300_res\run_219: ['run_0']
+2026-08-29 14:05:10,757 [INFO]: Starting run 231
+2026-08-29 14:05:15,742 [INFO]: SARA execution time: 0:01:03.201903
+2026-08-29 14:05:15,743 [INFO]: Contents of results\source_0829_133953_300_res\run_220: ['run_0']
+2026-08-29 14:05:15,756 [INFO]: Starting run 232
+2026-08-29 14:05:29,182 [INFO]: SARA execution time: 0:01:02.747699
+2026-08-29 14:05:29,183 [INFO]: Contents of results\source_0829_133953_300_res\run_222: ['run_0']
+2026-08-29 14:05:29,198 [INFO]: Starting run 233
+2026-08-29 14:05:32,387 [INFO]: SARA execution time: 0:01:07.911033
+2026-08-29 14:05:32,388 [INFO]: Contents of results\source_0829_133953_300_res\run_221: ['run_0']
+2026-08-29 14:05:32,406 [INFO]: Starting run 234
+2026-08-29 14:05:38,799 [INFO]: SARA execution time: 0:00:56.988935
+2026-08-29 14:05:38,802 [INFO]: Contents of results\source_0829_133953_300_res\run_226: ['run_0']
+2026-08-29 14:05:38,889 [INFO]: Starting run 235
+2026-08-29 14:05:39,676 [INFO]: SARA execution time: 0:01:07.887977
+2026-08-29 14:05:39,679 [INFO]: Contents of results\source_0829_133953_300_res\run_223: ['run_0']
+2026-08-29 14:05:39,764 [INFO]: Starting run 236
+2026-08-29 14:06:09,807 [INFO]: SARA execution time: 0:01:34.094805
+2026-08-29 14:06:09,808 [INFO]: Contents of results\source_0829_133953_300_res\run_224: ['run_0']
+2026-08-29 14:06:09,821 [INFO]: Starting run 237
+2026-08-29 14:06:18,581 [INFO]: SARA execution time: 0:01:20.260723
+2026-08-29 14:06:18,582 [INFO]: Contents of results\source_0829_133953_300_res\run_230: ['run_0']
+2026-08-29 14:06:18,597 [INFO]: Starting run 238
+2026-08-29 14:06:19,227 [INFO]: SARA execution time: 0:01:38.800563
+2026-08-29 14:06:19,227 [INFO]: Contents of results\source_0829_133953_300_res\run_225: ['run_0']
+2026-08-29 14:06:19,243 [INFO]: Starting run 239
+2026-08-29 14:06:21,656 [INFO]: SARA execution time: 0:01:23.358673
+2026-08-29 14:06:21,657 [INFO]: Contents of results\source_0829_133953_300_res\run_229: ['run_0']
+2026-08-29 14:06:21,673 [INFO]: Starting run 240
+2026-08-29 14:06:24,194 [INFO]: SARA execution time: 0:01:28.866556
+2026-08-29 14:06:24,195 [INFO]: Contents of results\source_0829_133953_300_res\run_227: ['run_0']
+2026-08-29 14:06:24,213 [INFO]: Starting run 241
+2026-08-29 14:06:27,047 [INFO]: SARA execution time: 0:01:29.951296
+2026-08-29 14:06:27,049 [INFO]: Contents of results\source_0829_133953_300_res\run_228: ['run_0']
+2026-08-29 14:06:27,085 [INFO]: Starting run 242
+2026-08-29 14:06:34,881 [INFO]: SARA execution time: 0:01:19.125134
+2026-08-29 14:06:34,882 [INFO]: Contents of results\source_0829_133953_300_res\run_232: ['run_0']
+2026-08-29 14:06:34,899 [INFO]: Starting run 243
+2026-08-29 14:06:41,278 [INFO]: SARA execution time: 0:01:12.080142
+2026-08-29 14:06:41,279 [INFO]: Contents of results\source_0829_133953_300_res\run_233: ['run_0']
+2026-08-29 14:06:41,295 [INFO]: Starting run 244
+2026-08-29 14:06:50,516 [INFO]: SARA execution time: 0:01:11.626747
+2026-08-29 14:06:50,517 [INFO]: Contents of results\source_0829_133953_300_res\run_235: ['run_0']
+2026-08-29 14:06:50,534 [INFO]: Starting run 245
+2026-08-29 14:06:56,426 [INFO]: SARA execution time: 0:01:45.669033
+2026-08-29 14:06:56,427 [INFO]: Contents of results\source_0829_133953_300_res\run_231: ['run_0']
+2026-08-29 14:06:56,444 [INFO]: Starting run 246
+2026-08-29 14:07:01,611 [INFO]: SARA execution time: 0:01:29.204974
+2026-08-29 14:07:01,612 [INFO]: Contents of results\source_0829_133953_300_res\run_234: ['run_0']
+2026-08-29 14:07:01,627 [INFO]: Starting run 247
+2026-08-29 14:07:12,364 [INFO]: SARA execution time: 0:01:32.600709
+2026-08-29 14:07:12,365 [INFO]: Contents of results\source_0829_133953_300_res\run_236: ['run_0']
+2026-08-29 14:07:12,387 [INFO]: Starting run 248
+2026-08-29 14:07:16,211 [INFO]: SARA execution time: 0:00:56.968029
+2026-08-29 14:07:16,212 [INFO]: Contents of results\source_0829_133953_300_res\run_239: ['run_0']
+2026-08-29 14:07:16,229 [INFO]: Starting run 249
+2026-08-29 14:07:20,289 [INFO]: SARA execution time: 0:01:10.468614
+2026-08-29 14:07:20,290 [INFO]: Contents of results\source_0829_133953_300_res\run_237: ['run_0']
+2026-08-29 14:07:20,305 [INFO]: Starting run 250
+2026-08-29 14:07:21,880 [INFO]: SARA execution time: 0:01:00.206412
+2026-08-29 14:07:21,881 [INFO]: Contents of results\source_0829_133953_300_res\run_240: ['run_0']
+2026-08-29 14:07:21,896 [INFO]: Starting run 251
+2026-08-29 14:07:30,066 [INFO]: SARA execution time: 0:00:55.167186
+2026-08-29 14:07:30,070 [INFO]: Contents of results\source_0829_133953_300_res\run_243: ['run_0']
+2026-08-29 14:07:30,138 [INFO]: Starting run 252
+2026-08-29 14:07:59,191 [INFO]: SARA execution time: 0:01:40.594573
+2026-08-29 14:07:59,192 [INFO]: Contents of results\source_0829_133953_300_res\run_238: ['run_0']
+2026-08-29 14:07:59,208 [INFO]: Starting run 253
+2026-08-29 14:08:01,264 [INFO]: SARA execution time: 0:01:34.178785
+2026-08-29 14:08:01,264 [INFO]: Contents of results\source_0829_133953_300_res\run_242: ['run_0']
+2026-08-29 14:08:01,278 [INFO]: Starting run 254
+2026-08-29 14:08:07,503 [INFO]: SARA execution time: 0:01:16.968480
+2026-08-29 14:08:07,503 [INFO]: Contents of results\source_0829_133953_300_res\run_245: ['run_0']
+2026-08-29 14:08:07,516 [INFO]: Starting run 255
+2026-08-29 14:08:11,300 [INFO]: SARA execution time: 0:01:47.087377
+2026-08-29 14:08:11,301 [INFO]: Contents of results\source_0829_133953_300_res\run_241: ['run_0']
+2026-08-29 14:08:11,312 [INFO]: Starting run 256
+2026-08-29 14:08:13,122 [INFO]: SARA execution time: 0:01:31.827837
+2026-08-29 14:08:13,122 [INFO]: Contents of results\source_0829_133953_300_res\run_244: ['run_0']
+2026-08-29 14:08:13,133 [INFO]: Starting run 257
+2026-08-29 14:08:14,939 [INFO]: SARA execution time: 0:01:18.494279
+2026-08-29 14:08:14,939 [INFO]: Contents of results\source_0829_133953_300_res\run_246: ['run_0']
+2026-08-29 14:08:14,948 [INFO]: Starting run 258
+2026-08-29 14:08:37,964 [INFO]: SARA execution time: 0:01:25.577285
+2026-08-29 14:08:37,965 [INFO]: Contents of results\source_0829_133953_300_res\run_248: ['run_0']
+2026-08-29 14:08:37,984 [INFO]: Starting run 259
+2026-08-29 14:08:37,990 [INFO]: SARA execution time: 0:01:17.684702
+2026-08-29 14:08:37,990 [INFO]: Contents of results\source_0829_133953_300_res\run_250: ['run_0']
+2026-08-29 14:08:38,013 [INFO]: Starting run 260
+2026-08-29 14:08:42,186 [INFO]: SARA execution time: 0:01:12.047480
+2026-08-29 14:08:42,187 [INFO]: Contents of results\source_0829_133953_300_res\run_252: ['run_0']
+2026-08-29 14:08:42,206 [INFO]: Starting run 261
+2026-08-29 14:08:44,451 [INFO]: SARA execution time: 0:01:22.554686
+2026-08-29 14:08:44,452 [INFO]: Contents of results\source_0829_133953_300_res\run_251: ['run_0']
+2026-08-29 14:08:44,470 [INFO]: Starting run 262
+2026-08-29 14:08:46,058 [INFO]: SARA execution time: 0:01:29.829004
+2026-08-29 14:08:46,059 [INFO]: Contents of results\source_0829_133953_300_res\run_249: ['run_0']
+2026-08-29 14:08:46,074 [INFO]: Starting run 263
+2026-08-29 14:08:49,925 [INFO]: SARA execution time: 0:00:48.646448
+2026-08-29 14:08:49,925 [INFO]: Contents of results\source_0829_133953_300_res\run_254: ['run_0']
+2026-08-29 14:08:49,940 [INFO]: Starting run 264
+2026-08-29 14:08:54,120 [INFO]: SARA execution time: 0:01:52.492490
+2026-08-29 14:08:54,121 [INFO]: Contents of results\source_0829_133953_300_res\run_247: ['run_0']
+2026-08-29 14:08:54,140 [INFO]: Starting run 265
+2026-08-29 14:08:59,790 [INFO]: SARA execution time: 0:00:48.478088
+2026-08-29 14:08:59,791 [INFO]: Contents of results\source_0829_133953_300_res\run_256: ['run_0']
+2026-08-29 14:08:59,806 [INFO]: Starting run 266
+2026-08-29 14:09:08,382 [INFO]: SARA execution time: 0:01:00.865783
+2026-08-29 14:09:08,383 [INFO]: Contents of results\source_0829_133953_300_res\run_255: ['run_0']
+2026-08-29 14:09:08,403 [INFO]: Starting run 267
+2026-08-29 14:09:12,720 [INFO]: SARA execution time: 0:01:13.512482
+2026-08-29 14:09:12,720 [INFO]: Contents of results\source_0829_133953_300_res\run_253: ['run_0']
+2026-08-29 14:09:12,737 [INFO]: Starting run 268
+2026-08-29 14:09:15,186 [INFO]: SARA execution time: 0:01:02.052772
+2026-08-29 14:09:15,187 [INFO]: Contents of results\source_0829_133953_300_res\run_257: ['run_0']
+2026-08-29 14:09:15,205 [INFO]: Starting run 269
+2026-08-29 14:09:46,835 [INFO]: SARA execution time: 0:01:31.886817
+2026-08-29 14:09:46,836 [INFO]: Contents of results\source_0829_133953_300_res\run_258: ['run_0']
+2026-08-29 14:09:46,847 [INFO]: Starting run 270
+2026-08-29 14:09:53,699 [INFO]: SARA execution time: 0:01:15.685871
+2026-08-29 14:09:53,699 [INFO]: Contents of results\source_0829_133953_300_res\run_260: ['run_0']
+2026-08-29 14:09:53,710 [INFO]: Starting run 271
+2026-08-29 14:10:01,310 [INFO]: SARA execution time: 0:01:23.325998
+2026-08-29 14:10:01,311 [INFO]: Contents of results\source_0829_133953_300_res\run_259: ['run_0']
+2026-08-29 14:10:01,325 [INFO]: Starting run 272
+2026-08-29 14:10:10,761 [INFO]: SARA execution time: 0:01:20.820172
+2026-08-29 14:10:10,761 [INFO]: Contents of results\source_0829_133953_300_res\run_264: ['run_0']
+2026-08-29 14:10:10,774 [INFO]: Starting run 273
+2026-08-29 14:10:12,112 [INFO]: SARA execution time: 0:01:29.906358
+2026-08-29 14:10:12,113 [INFO]: Contents of results\source_0829_133953_300_res\run_261: ['run_0']
+2026-08-29 14:10:12,140 [INFO]: Starting run 274
+2026-08-29 14:10:18,812 [INFO]: SARA execution time: 0:01:32.738076
+2026-08-29 14:10:18,812 [INFO]: Contents of results\source_0829_133953_300_res\run_263: ['run_0']
+2026-08-29 14:10:18,826 [INFO]: Starting run 275
+2026-08-29 14:10:19,823 [INFO]: SARA execution time: 0:01:25.683180
+2026-08-29 14:10:19,823 [INFO]: Contents of results\source_0829_133953_300_res\run_265: ['run_0']
+2026-08-29 14:10:19,839 [INFO]: Starting run 276
+2026-08-29 14:10:29,931 [INFO]: SARA execution time: 0:01:17.195470
+2026-08-29 14:10:29,931 [INFO]: Contents of results\source_0829_133953_300_res\run_268: ['run_0']
+2026-08-29 14:10:29,962 [INFO]: Starting run 277
+2026-08-29 14:10:32,222 [INFO]: SARA execution time: 0:01:17.016203
+2026-08-29 14:10:32,223 [INFO]: Contents of results\source_0829_133953_300_res\run_269: ['run_0']
+2026-08-29 14:10:32,242 [INFO]: Starting run 278
+2026-08-29 14:10:33,920 [INFO]: SARA execution time: 0:01:25.517835
+2026-08-29 14:10:33,921 [INFO]: Contents of results\source_0829_133953_300_res\run_267: ['run_0']
+2026-08-29 14:10:33,939 [INFO]: Starting run 279
+2026-08-29 14:10:34,550 [INFO]: SARA execution time: 0:01:34.744787
+2026-08-29 14:10:34,550 [INFO]: Contents of results\source_0829_133953_300_res\run_266: ['run_0']
+2026-08-29 14:10:34,569 [INFO]: Starting run 280
+2026-08-29 14:10:35,425 [INFO]: SARA execution time: 0:01:50.955166
+2026-08-29 14:10:35,426 [INFO]: Contents of results\source_0829_133953_300_res\run_262: ['run_0']
+2026-08-29 14:10:35,446 [INFO]: Starting run 281
+2026-08-29 14:10:49,415 [INFO]: SARA execution time: 0:01:02.568297
+2026-08-29 14:10:49,417 [INFO]: Contents of results\source_0829_133953_300_res\run_270: ['run_0']
+2026-08-29 14:10:49,430 [INFO]: Starting run 282
+2026-08-29 14:11:03,808 [INFO]: SARA execution time: 0:01:10.097547
+2026-08-29 14:11:03,809 [INFO]: Contents of results\source_0829_133953_300_res\run_271: ['run_0']
+2026-08-29 14:11:03,825 [INFO]: Starting run 283
+2026-08-29 14:11:31,316 [INFO]: SARA execution time: 0:01:20.542692
+2026-08-29 14:11:31,319 [INFO]: Contents of results\source_0829_133953_300_res\run_273: ['run_0']
+2026-08-29 14:11:31,397 [INFO]: Starting run 284
+2026-08-29 14:11:33,712 [INFO]: SARA execution time: 0:01:21.572879
+2026-08-29 14:11:33,712 [INFO]: Contents of results\source_0829_133953_300_res\run_274: ['run_0']
+2026-08-29 14:11:33,729 [INFO]: Starting run 285
+2026-08-29 14:11:36,230 [INFO]: SARA execution time: 0:01:16.390609
+2026-08-29 14:11:36,230 [INFO]: Contents of results\source_0829_133953_300_res\run_276: ['run_0']
+2026-08-29 14:11:36,247 [INFO]: Starting run 286
+2026-08-29 14:11:38,546 [INFO]: SARA execution time: 0:01:06.303647
+2026-08-29 14:11:38,546 [INFO]: Contents of results\source_0829_133953_300_res\run_278: ['run_0']
+2026-08-29 14:11:38,561 [INFO]: Starting run 287
+2026-08-29 14:11:38,713 [INFO]: SARA execution time: 0:01:19.886179
+2026-08-29 14:11:38,713 [INFO]: Contents of results\source_0829_133953_300_res\run_275: ['run_0']
+2026-08-29 14:11:38,727 [INFO]: Starting run 288
+2026-08-29 14:11:39,833 [INFO]: SARA execution time: 0:01:09.871614
+2026-08-29 14:11:39,834 [INFO]: Contents of results\source_0829_133953_300_res\run_277: ['run_0']
+2026-08-29 14:11:39,848 [INFO]: Starting run 289
+2026-08-29 14:11:40,935 [INFO]: SARA execution time: 0:01:39.609909
+2026-08-29 14:11:40,935 [INFO]: Contents of results\source_0829_133953_300_res\run_272: ['run_0']
+2026-08-29 14:11:40,950 [INFO]: Starting run 290
+2026-08-29 14:11:42,992 [INFO]: SARA execution time: 0:01:08.423133
+2026-08-29 14:11:42,992 [INFO]: Contents of results\source_0829_133953_300_res\run_280: ['run_0']
+2026-08-29 14:11:43,002 [INFO]: Starting run 291
+2026-08-29 14:11:47,200 [INFO]: SARA execution time: 0:01:13.259642
+2026-08-29 14:11:47,200 [INFO]: Contents of results\source_0829_133953_300_res\run_279: ['run_0']
+2026-08-29 14:11:47,218 [INFO]: Starting run 292
+2026-08-29 14:11:53,847 [INFO]: SARA execution time: 0:01:18.401494
+2026-08-29 14:11:53,847 [INFO]: Contents of results\source_0829_133953_300_res\run_281: ['run_0']
+2026-08-29 14:11:53,865 [INFO]: Starting run 293
+2026-08-29 14:11:58,585 [INFO]: SARA execution time: 0:01:09.154395
+2026-08-29 14:11:58,585 [INFO]: Contents of results\source_0829_133953_300_res\run_282: ['run_0']
+2026-08-29 14:11:58,599 [INFO]: Starting run 294
+2026-08-29 14:12:19,325 [INFO]: SARA execution time: 0:00:47.929774
+2026-08-29 14:12:19,328 [INFO]: Contents of results\source_0829_133953_300_res\run_284: ['run_0']
+2026-08-29 14:12:19,348 [INFO]: Starting run 295
+2026-08-29 14:12:22,110 [INFO]: SARA execution time: 0:01:18.285052
+2026-08-29 14:12:22,111 [INFO]: Contents of results\source_0829_133953_300_res\run_283: ['run_0']
+2026-08-29 14:12:22,132 [INFO]: Starting run 296
+2026-08-29 14:12:24,700 [INFO]: SARA execution time: 0:00:46.139348
+2026-08-29 14:12:24,701 [INFO]: Contents of results\source_0829_133953_300_res\run_287: ['run_0']
+2026-08-29 14:12:24,719 [INFO]: Starting run 297
+2026-08-29 14:12:27,403 [INFO]: SARA execution time: 0:00:48.675930
+2026-08-29 14:12:27,403 [INFO]: Contents of results\source_0829_133953_300_res\run_288: ['run_0']
+2026-08-29 14:12:27,419 [INFO]: Starting run 298
+2026-08-29 14:12:28,013 [INFO]: SARA execution time: 0:00:54.284401
+2026-08-29 14:12:28,013 [INFO]: Contents of results\source_0829_133953_300_res\run_285: ['run_0']
+2026-08-29 14:12:28,029 [INFO]: Starting run 299
+2026-08-29 14:12:41,504 [INFO]: SARA execution time: 0:00:58.501992
+2026-08-29 14:12:41,506 [INFO]: Contents of results\source_0829_133953_300_res\run_291: ['run_0']
+2026-08-29 14:12:49,417 [INFO]: SARA execution time: 0:00:50.817192
+2026-08-29 14:12:49,418 [INFO]: Contents of results\source_0829_133953_300_res\run_294: ['run_0']
+2026-08-29 14:12:57,073 [INFO]: SARA execution time: 0:01:16.123000
+2026-08-29 14:12:57,076 [INFO]: Contents of results\source_0829_133953_300_res\run_290: ['run_0']
+2026-08-29 14:13:17,384 [INFO]: SARA execution time: 0:01:23.518808
+2026-08-29 14:13:17,384 [INFO]: Contents of results\source_0829_133953_300_res\run_293: ['run_0']
+2026-08-29 14:13:17,473 [INFO]: SARA execution time: 0:01:30.254653
+2026-08-29 14:13:17,473 [INFO]: Contents of results\source_0829_133953_300_res\run_292: ['run_0']
+2026-08-29 14:13:20,959 [INFO]: SARA execution time: 0:01:44.711661
+2026-08-29 14:13:20,959 [INFO]: Contents of results\source_0829_133953_300_res\run_286: ['run_0']
+2026-08-29 14:13:21,992 [INFO]: SARA execution time: 0:01:42.144628
+2026-08-29 14:13:21,993 [INFO]: Contents of results\source_0829_133953_300_res\run_289: ['run_0']
+2026-08-29 14:13:28,594 [INFO]: SARA execution time: 0:01:06.462204
+2026-08-29 14:13:28,595 [INFO]: Contents of results\source_0829_133953_300_res\run_296: ['run_0']
+2026-08-29 14:13:28,628 [INFO]: SARA execution time: 0:01:00.598216
+2026-08-29 14:13:28,629 [INFO]: Contents of results\source_0829_133953_300_res\run_299: ['run_0']
+2026-08-29 14:13:29,483 [INFO]: SARA execution time: 0:01:04.765664
+2026-08-29 14:13:29,483 [INFO]: Contents of results\source_0829_133953_300_res\run_297: ['run_0']
+2026-08-29 14:13:31,844 [INFO]: SARA execution time: 0:01:12.495372
+2026-08-29 14:13:31,844 [INFO]: Contents of results\source_0829_133953_300_res\run_295: ['run_0']
+2026-08-29 14:13:33,617 [INFO]: SARA execution time: 0:01:06.198143
+2026-08-29 14:13:33,617 [INFO]: Contents of results\source_0829_133953_300_res\run_298: ['run_0']
+2026-08-29 14:13:33,747 [INFO]: Cleaning up results directories
+2026-08-29 14:13:33,757 [INFO]: The script ended at 2026-08-29 14:13:33.756629 and the duration is 0:33:40.492179
+2026-08-29 14:13:33,757 [INFO]: Average per-run per-cpu duration: 0:01:20.819688

@@ -1,0 +1,1183 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#               ESA Debris Risk Assessment and Mitigation Analysis
+#
+#   ---- DRAMA ( SESAM 2.3.0 ( built Mar 17 2026 16:55:01) ) ----
+#                                      ESA 2022
+#
+#                        execution log file -sesam.log-
+#                   run date+time: Sat Aug 29 14:08:43 2026
+
+info: Starting Sesam
+info: SESAM module initialising
+info: Using voxelator cache dir: C:\Users\salom\OneDrive\Documentos\DRAMA\MelpomeneSARAcontrolled\SARA_cache
+warning: oxideReactionProbability for drama-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-A316 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-A316_Semi-Empirical < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-BatCell < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Bat-Li < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Bat-NiCd < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Beryllium < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Carbon-Carbon < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Copper < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-El-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-FusedSilicaProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-GFRPProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Haynes25Thick < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Haynes25Thin < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HC-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HC-CFRP-4ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HC-CFRP-8ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HiperCo < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Inconel718 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Inermet < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Invar < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Iron < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Molybdenum < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-SiC < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-SolarPanel-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-TiAl6v4 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-TiAl6v4_Semi-Empirical < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Tungsten < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-ZerodurProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+info: Fragment satelliteOne initializing
+info: Creation of object list
+info: Creating Object with UniqueID: 979a2b11-8171-4e88-926f-49c693fbc997
+info: Opening netCDF file C:\Program Files\DRAMA\TOOLS\SARA\REENTRY/data/ATDB_BOX.nc for reading DONE.
+info: Using ATDB for BOX created with SAM on 20200306 from data created by Belstead Research Limited.
+info: Included new object 'bus' to fragment list
+info: Creating Object with UniqueID: f96060ed-428d-4fb5-8368-873633a99715
+info: Included new object 'TCU' to fragment list
+info: Creating Object with UniqueID: c819661c-34ef-46e7-b1eb-890ade42e3af
+info: Included new object 'PCU' to fragment list
+info: Creating Object with UniqueID: ae939109-80e7-4590-ada6-8ab74859c3a8
+info: Included new object 'BCDR' to fragment list
+info: Creating Object with UniqueID: c0ddc3c0-47ce-435f-9deb-b33486eaf601
+info: Included new object 'BCU' to fragment list
+info: Creating Object with UniqueID: 1f19522d-2f3c-43e6-a00c-b01d1ab94228
+info: Included new object 'PPDU' to fragment list
+info: Creating Object with UniqueID: af198f6d-3064-4af9-b015-299d247ceb1c
+info: Included new object 'Batt1' to fragment list
+info: Creating Object with UniqueID: d16b1e16-5604-4ba9-b689-56da46d221ab
+info: Included new object 'Batt2' to fragment list
+info: Creating Object with UniqueID: a68c82cf-50d9-4d72-b8e8-fb77b034ddcc
+info: Included new object 'Decoder' to fragment list
+info: Creating Object with UniqueID: 56f33935-71e7-4b62-bc25-5f086ef8f008
+info: Included new object 'CTU' to fragment list
+info: Creating Object with UniqueID: e603a0ac-b50a-49ba-94e7-c8487de979d7
+info: Included new object 'RTU' to fragment list
+info: Creating Object with UniqueID: 0e801314-4be9-4a8e-8863-be55cd8972a8
+info: Included new object 'MBU' to fragment list
+info: Creating Object with UniqueID: 9da080c0-a677-4e48-9413-7396776e2156
+info: Included new object 'X-PND1' to fragment list
+info: Creating Object with UniqueID: c287fba3-8bbe-4179-bca3-e0297868e371
+info: Included new object 'TRU1' to fragment list
+info: Creating Object with UniqueID: 937ad039-148d-4738-aeef-7ba048002fe8
+info: Included new object 'X-PND2' to fragment list
+info: Creating Object with UniqueID: 197bea65-bd7c-4823-addb-ea50438d3765
+info: Included new object 'TRU2' to fragment list
+info: Creating Object with UniqueID: b9715501-449b-451c-a5a4-f4d9347e2f59
+info: Opening netCDF file C:\Program Files\DRAMA\TOOLS\SARA\REENTRY/data/ATDB_CYLINDER.nc for reading DONE.
+info: Using ATDB for CYLINDER created with ATDB_converter r1933 on 20190411 from data created by Hyperschall Technologie Göttingen GmbH.
+info: Included new object 'MTR1' to fragment list
+info: Creating Object with UniqueID: 84879cea-7d5c-4089-841e-3521c24c746a
+info: Included new object 'MTR2' to fragment list
+info: Creating Object with UniqueID: e7d005bd-2d30-4a52-9e61-1e8b09175adb
+info: Included new object 'MTR3' to fragment list
+info: Creating Object with UniqueID: 0f2288de-76e2-422f-8b97-5b27ae9b0726
+info: Included new object 'MRU' to fragment list
+info: Creating Object with UniqueID: c190928b-6fde-4737-b38b-d6640dd3ce29
+info: Included new object 'ACC' to fragment list
+info: Creating Object with UniqueID: 5bc781a5-30a8-496a-8919-d3a3bbe9e65a
+info: Included new object 'PDU' to fragment list
+info: Creating Object with UniqueID: 8dd6e192-40c1-4d95-82a7-e0edd97e769a
+info: Included new object 'Gyro2' to fragment list
+info: Creating Object with UniqueID: bb912958-2642-4cbc-b737-06295400219b
+info: Included new object 'Gyro1' to fragment list
+info: Creating Object with UniqueID: 318234c8-2183-4007-81bb-1283b9ac978d
+info: Included new object 'RWL1' to fragment list
+info: Creating Object with UniqueID: a40b1f77-c92a-4243-81e3-b466a50bfde1
+info: Included new object 'RWL2' to fragment list
+info: Creating Object with UniqueID: 119d8c8d-71bc-47b0-a9bd-51a2b6addec4
+info: Included new object 'RWL3' to fragment list
+info: Creating Object with UniqueID: 73aad817-0c8f-4729-8cfc-bdb457fa3af1
+info: Included new object 'RWE1' to fragment list
+info: Creating Object with UniqueID: cbd88e14-9f02-4477-ba19-2ae766ccf9c2
+info: Included new object 'RWE2' to fragment list
+info: Creating Object with UniqueID: f846371b-1403-415a-b518-e78f9a87d5e8
+info: Included new object 'STRE1' to fragment list
+info: Creating Object with UniqueID: 019e359a-7b6d-4e88-ae45-6c0cb1b9f231
+info: Included new object 'STRE2' to fragment list
+info: Creating Object with UniqueID: 1c53a534-00ac-486c-b9b2-0e0baa3dd619
+info: Included new object 'STRE3' to fragment list
+info: Creating Object with UniqueID: cf475c8e-4dd9-43c4-93e1-443e41ca045a
+info: Included new object 'STR1' to fragment list
+info: Creating Object with UniqueID: b96f24b8-3482-41b4-8ff7-10c9d0096fe0
+info: Included new object 'STR2' to fragment list
+info: Creating Object with UniqueID: d97c8a48-c211-4c49-8222-dd2e42cdea91
+info: Included new object 'STR3' to fragment list
+info: Creating Object with UniqueID: ee66698f-c75d-43c5-b156-2cd23c7f0b27
+info: Opening netCDF file C:\Program Files\DRAMA\TOOLS\SARA\REENTRY/data/ATDB_SPHERE.nc for reading DONE.
+info: Using ATDB for SPHERE created with ATDB_converter r1933 on 20190411 from data created by Hyperschall Technologie Göttingen GmbH.
+info: Included new object 'Tank1' to fragment list
+info: Creating Object with UniqueID: ffb7ad0c-de50-4506-9ac0-24e4e92d744a
+info: Included new object 'Tank2' to fragment list
+info: Creating Object with UniqueID: 8b61be35-13d4-42ca-8f77-1b6779254cf8
+info: Included new object 'Tank3' to fragment list
+info: Creating Object with UniqueID: 389962c4-a9f5-4569-a92f-de23a2bb6b37
+info: Included new object 'Tank4' to fragment list
+info: Creating Object with UniqueID: 59d481ee-9a4a-46ff-a838-aae6a28c6260
+info: Included new object 'Thrsts01' to fragment list
+info: Creating Object with UniqueID: 620e19a4-466b-4bba-a398-8f525affac3d
+info: Included new object 'Thrsts02' to fragment list
+info: Creating Object with UniqueID: c416fe56-926f-46db-b927-4be42a4d9065
+info: Included new object 'Thrsts03' to fragment list
+info: Creating Object with UniqueID: aeb11028-b76a-43cd-a9d4-ee683f1705fa
+info: Included new object 'Thrsts04' to fragment list
+info: Creating Object with UniqueID: 6667d821-b59b-4463-ac0a-bbbe54856cd6
+info: Included new object 'Thrsts05' to fragment list
+info: Creating Object with UniqueID: abab9127-0b6e-4497-9b6b-b68ba946f31a
+info: Included new object 'Thrsts06' to fragment list
+info: Creating Object with UniqueID: 665b0c33-d97a-48c7-94c9-0244f53f9b66
+info: Included new object 'Thrsts07' to fragment list
+info: Creating Object with UniqueID: 7ecbb7cf-716a-48b1-9a41-06240e41c6b3
+info: Included new object 'Thrsts08' to fragment list
+info: Creating Object with UniqueID: 64430daf-7a7f-4d86-a819-ffba0dc23fb2
+info: Included new object 'Thrsts09' to fragment list
+info: Creating Object with UniqueID: 6e3d1bbb-13e9-4442-964d-844681a58ed3
+info: Included new object 'Thrsts10' to fragment list
+info: Creating Object with UniqueID: 154facb8-7f48-4d67-90e6-840ed3871701
+info: Included new object 'Thrsts11' to fragment list
+info: Creating Object with UniqueID: 4461046c-8760-4cb2-890e-6f23af75245d
+info: Included new object 'Thrsts12' to fragment list
+info: Creating Object with UniqueID: 59021d81-e300-48fb-805b-990b78d5406e
+info: Included new object 'PLE2' to fragment list
+info: Creating Object with UniqueID: fb72a6d7-379b-4d67-912e-df10bf793b11
+info: Included new object 'PLE1' to fragment list
+info: Creating Object with UniqueID: 6eeaa09a-906e-4f96-a8c8-21bf581813b5
+info: Included new object 'PLE3' to fragment list
+info: Creating Object with UniqueID: a01ccfa4-f683-4afb-ba27-6505203cee73
+info: Included new object 'PL3' to fragment list
+info: Creating Object with UniqueID: c5961bc0-58db-4518-85cb-9d7fef46573c
+info: Included new object 'PL4a1' to fragment list
+info: Creating Object with UniqueID: 472587ed-e637-49d6-9630-2ab84943f807
+info: Included new object 'PL4a2' to fragment list
+info: Creating Object with UniqueID: d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b
+info: Included new object 'PL4a3' to fragment list
+info: Creating Object with UniqueID: d7860001-2d1f-4f10-9b6b-132541453973
+info: Included new object 'PL4a4' to fragment list
+info: Creating Object with UniqueID: bee5e541-a026-4d56-9efc-2d0ff76a9365
+info: Included new object 'PL4b1' to fragment list
+info: Creating Object with UniqueID: 63bdbfe0-5407-438d-b310-a798cd3ae679
+info: Included new object 'PL4b2' to fragment list
+info: Creating Object with UniqueID: b78c86b8-baea-46f4-bff5-e29a3c50d235
+info: Included new object 'PL4b3' to fragment list
+info: Creating Object with UniqueID: 6a53677c-cbe4-409e-a37a-d7b94566fcde
+info: Included new object 'PL4b4' to fragment list
+info: Creating Object with UniqueID: f29cdd37-5183-4cf7-91b5-574dc6133dbb
+info: Included new object 'PLE3a' to fragment list
+info: Creating Object with UniqueID: e97e0bad-27a1-41c8-9d5a-9b47ac34faa9
+info: Included new object 'PLE3c' to fragment list
+info: Creating Object with UniqueID: 56f0d198-bc1f-47a6-b695-7e804d590123
+info: Included new object 'PLE3b' to fragment list
+info: Creating Object with UniqueID: 595b4488-85ee-41e1-a105-fc4bf1317551
+info: Included new object 'Antenna' to fragment list
+info: Creating Object with UniqueID: 4ae24a21-dc87-4063-8453-d38910897acc
+info: Included new object 'SP1' to fragment list
+info: Creating Object with UniqueID: adae528d-13f8-4993-b263-1ae8ad1588ea
+info: Included new object 'SP2' to fragment list
+info: Handling of inclusions
+info: inclusion with parent ID: 979a2b11-8171-4e88-926f-49c693fbc997
+info: childID: f96060ed-428d-4fb5-8368-873633a99715
+info: childID: c819661c-34ef-46e7-b1eb-890ade42e3af
+info: childID: ae939109-80e7-4590-ada6-8ab74859c3a8
+info: childID: c0ddc3c0-47ce-435f-9deb-b33486eaf601
+info: childID: 1f19522d-2f3c-43e6-a00c-b01d1ab94228
+info: childID: af198f6d-3064-4af9-b015-299d247ceb1c
+info: childID: d16b1e16-5604-4ba9-b689-56da46d221ab
+info: childID: a68c82cf-50d9-4d72-b8e8-fb77b034ddcc
+info: childID: 56f33935-71e7-4b62-bc25-5f086ef8f008
+info: childID: e603a0ac-b50a-49ba-94e7-c8487de979d7
+info: childID: 0e801314-4be9-4a8e-8863-be55cd8972a8
+info: childID: 9da080c0-a677-4e48-9413-7396776e2156
+info: childID: c287fba3-8bbe-4179-bca3-e0297868e371
+info: childID: 937ad039-148d-4738-aeef-7ba048002fe8
+info: childID: 197bea65-bd7c-4823-addb-ea50438d3765
+info: childID: b9715501-449b-451c-a5a4-f4d9347e2f59
+info: childID: 84879cea-7d5c-4089-841e-3521c24c746a
+info: childID: e7d005bd-2d30-4a52-9e61-1e8b09175adb
+info: childID: 0f2288de-76e2-422f-8b97-5b27ae9b0726
+info: childID: c190928b-6fde-4737-b38b-d6640dd3ce29
+info: childID: 5bc781a5-30a8-496a-8919-d3a3bbe9e65a
+info: childID: 8dd6e192-40c1-4d95-82a7-e0edd97e769a
+info: childID: bb912958-2642-4cbc-b737-06295400219b
+info: childID: 318234c8-2183-4007-81bb-1283b9ac978d
+info: childID: a40b1f77-c92a-4243-81e3-b466a50bfde1
+info: childID: 119d8c8d-71bc-47b0-a9bd-51a2b6addec4
+info: childID: 73aad817-0c8f-4729-8cfc-bdb457fa3af1
+info: childID: cbd88e14-9f02-4477-ba19-2ae766ccf9c2
+info: childID: f846371b-1403-415a-b518-e78f9a87d5e8
+info: childID: 019e359a-7b6d-4e88-ae45-6c0cb1b9f231
+info: childID: 1c53a534-00ac-486c-b9b2-0e0baa3dd619
+info: childID: cf475c8e-4dd9-43c4-93e1-443e41ca045a
+info: childID: b96f24b8-3482-41b4-8ff7-10c9d0096fe0
+info: childID: d97c8a48-c211-4c49-8222-dd2e42cdea91
+info: childID: ee66698f-c75d-43c5-b156-2cd23c7f0b27
+info: childID: ffb7ad0c-de50-4506-9ac0-24e4e92d744a
+info: childID: 8b61be35-13d4-42ca-8f77-1b6779254cf8
+info: childID: 389962c4-a9f5-4569-a92f-de23a2bb6b37
+info: childID: 59d481ee-9a4a-46ff-a838-aae6a28c6260
+info: childID: 620e19a4-466b-4bba-a398-8f525affac3d
+info: childID: c416fe56-926f-46db-b927-4be42a4d9065
+info: childID: aeb11028-b76a-43cd-a9d4-ee683f1705fa
+info: childID: 6667d821-b59b-4463-ac0a-bbbe54856cd6
+info: childID: abab9127-0b6e-4497-9b6b-b68ba946f31a
+info: childID: 665b0c33-d97a-48c7-94c9-0244f53f9b66
+info: childID: 7ecbb7cf-716a-48b1-9a41-06240e41c6b3
+info: childID: 64430daf-7a7f-4d86-a819-ffba0dc23fb2
+info: childID: 6e3d1bbb-13e9-4442-964d-844681a58ed3
+info: childID: 154facb8-7f48-4d67-90e6-840ed3871701
+info: childID: 4461046c-8760-4cb2-890e-6f23af75245d
+info: childID: 59021d81-e300-48fb-805b-990b78d5406e
+info: childID: fb72a6d7-379b-4d67-912e-df10bf793b11
+info: childID: 6eeaa09a-906e-4f96-a8c8-21bf581813b5
+info: childID: a01ccfa4-f683-4afb-ba27-6505203cee73
+info: childID: c5961bc0-58db-4518-85cb-9d7fef46573c
+info: childID: 472587ed-e637-49d6-9630-2ab84943f807
+info: childID: d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b
+info: childID: d7860001-2d1f-4f10-9b6b-132541453973
+info: childID: bee5e541-a026-4d56-9efc-2d0ff76a9365
+info: childID: 63bdbfe0-5407-438d-b310-a798cd3ae679
+info: childID: b78c86b8-baea-46f4-bff5-e29a3c50d235
+info: childID: 6a53677c-cbe4-409e-a37a-d7b94566fcde
+info: childID: f29cdd37-5183-4cf7-91b5-574dc6133dbb
+info: childID: e97e0bad-27a1-41c8-9d5a-9b47ac34faa9
+info: childID: 56f0d198-bc1f-47a6-b695-7e804d590123
+info: Setting-up break-up triggers
+info: Found breakUpTriggers for parent 979a2b11-8171-4e88-926f-49c693fbc997
+info: Setting breakUp altitude for parent 979a2b11-8171-4e88-926f-49c693fbc997 to 78000.100000
+info: Setting breakUp massLoss for parent 979a2b11-8171-4e88-926f-49c693fbc997 to 1.000000
+info: Handling of connections
+info: Using spacecraft mass calculated from objects hierarchy: 1231.756000
+info: Testing for altitude above149km with input State: system= 232132, epoch= 2041-11-01T00:05:00, elements= 6767.328445, 0.047829, 97.737512, 117.137863, 230.708719, 322.773173
+info: Initial altitude below 149.000000km. Converting input for sesam.
+info: starting CstateConvertToHtgSesam with input State: system= 232132, epoch= 2041-11-01T00:05:00, elements= 6767.328445, 0.047829, 97.737512, 117.137863, 230.708719, 322.773173
+info: Passing geodetic state below 149.000000km to sesam: State: system= 235102, epoch= 2041-11-01T00:04:59, elements= 127.136669, -13.343181, -106.041050, 8.054324, -1.498807, -100.995005
+info: Using static environment from CSV file C:\Program Files\DRAMA\TOOLS\SARA\REENTRY/data/StaticEnvironmentData.csv.
+info: SESAM initialisation DONE.
+info: SESAM propagation started
+info: Starting propagation of Fragment with uniqueID 1810666323995381476.
+info: Using data read from file C:\Users\salom\OneDrive\Documentos\DRAMA\MelpomeneSARAcontrolled\SARA_cache/ShadingFactorMatrix_7829692231376879671.nc
+info: EVENT area adae528d-13f8-4993-b263-1ae8ad1588ea 1.154786 4.876000 0.947322
+info: EVENT area 4ae24a21-dc87-4063-8453-d38910897acc 1.154786 4.876000 0.947322
+info: EVENT area 979a2b11-8171-4e88-926f-49c693fbc997 1.196529 6.000000 0.797686
+info: EVENT area 595b4488-85ee-41e1-a105-fc4bf1317551 1.738241 8.116000 0.856699
+info: EVENT start 1810666323995381476 1231.756000 5.244343 2041-11-01T00:04:59
+info: EVENT connection 979a2b11-8171-4e88-926f-49c693fbc997 adae528d-13f8-4993-b263-1ae8ad1588ea temperature 300.000000
+info: ConnectionTo between 979a2b11-8171-4e88-926f-49c693fbc997 and adae528d-13f8-4993-b263-1ae8ad1588ea broke up, because temperature (300.000000) > breakUpTemperature (273.150000)
+info: EVENT connection 979a2b11-8171-4e88-926f-49c693fbc997 4ae24a21-dc87-4063-8453-d38910897acc temperature 300.000000
+info: ConnectionTo between 979a2b11-8171-4e88-926f-49c693fbc997 and 4ae24a21-dc87-4063-8453-d38910897acc broke up, because temperature (300.000000) > breakUpTemperature (273.150000)
+info: Compound 1810666323995381476 reached end of life because connection between 979a2b11-8171-4e88-926f-49c693fbc997 and adae528d-13f8-4993-b263-1ae8ad1588ea reached end of life.
+info: ObjectTrajectory Written: PySara.Compound_of-SP2-SP1-bus-Antenna.1810666323995381476_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Compound_of-SP2-SP1-bus-Antenna.1810666323995381476.gnu
+info: AeroThermalHistory Written: PySara.SP2.1810666323995381476_adae528d-13f8-4993-b263-1ae8ad1588ea_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SP1.1810666323995381476_4ae24a21-dc87-4063-8453-d38910897acc_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.bus.1810666323995381476_979a2b11-8171-4e88-926f-49c693fbc997_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.Antenna.1810666323995381476_595b4488-85ee-41e1-a105-fc4bf1317551_AeroThermalHistory.txt
+info: EVENT end 1810666323995381476 1231.756000
+info: Adding 3 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID adae528d-13f8-4993-b263-1ae8ad1588ea.
+info: EVENT area adae528d-13f8-4993-b263-1ae8ad1588ea 1.219000
+info: EVENT start adae528d-13f8-4993-b263-1ae8ad1588ea 67.512000 1.219000 2041-11-01T00:04:59
+warning: The altitude is below the lowest value in the data. Therefore, the lowest altitude for which data are given is used (altitude = 0.000000 m).
+This message is shown only once.
+info: Fragment adae528d-13f8-4993-b263-1ae8ad1588ea reached end of life because of ground impact.
+info: Object adae528d-13f8-4993-b263-1ae8ad1588ea reached end of life.
+info: EVENT fragment adae528d-13f8-4993-b263-1ae8ad1588ea impact
+info: ObjectTrajectory Written: PySara.SP2.adae528d-13f8-4993-b263-1ae8ad1588ea_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SP2.adae528d-13f8-4993-b263-1ae8ad1588ea.gnu
+info: AeroThermalHistory Written: PySara.SP2.adae528d-13f8-4993-b263-1ae8ad1588ea_AeroThermalHistory.txt
+info: EVENT end adae528d-13f8-4993-b263-1ae8ad1588ea 7.644263
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 4ae24a21-dc87-4063-8453-d38910897acc.
+info: EVENT area 4ae24a21-dc87-4063-8453-d38910897acc 1.219000
+info: EVENT start 4ae24a21-dc87-4063-8453-d38910897acc 67.512000 1.219000 2041-11-01T00:04:59
+info: Fragment 4ae24a21-dc87-4063-8453-d38910897acc reached end of life because of ground impact.
+info: Object 4ae24a21-dc87-4063-8453-d38910897acc reached end of life.
+info: EVENT fragment 4ae24a21-dc87-4063-8453-d38910897acc impact
+info: ObjectTrajectory Written: PySara.SP1.4ae24a21-dc87-4063-8453-d38910897acc_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SP1.4ae24a21-dc87-4063-8453-d38910897acc.gnu
+info: AeroThermalHistory Written: PySara.SP1.4ae24a21-dc87-4063-8453-d38910897acc_AeroThermalHistory.txt
+info: EVENT end 4ae24a21-dc87-4063-8453-d38910897acc 7.644263
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 8892549400433805299.
+info: Using data read from file C:\Users\salom\OneDrive\Documentos\DRAMA\MelpomeneSARAcontrolled\SARA_cache/ShadingFactorMatrix_16362259355259777033.nc
+info: EVENT area 979a2b11-8171-4e88-926f-49c693fbc997 1.344088 6.000000 0.896059
+info: EVENT area 595b4488-85ee-41e1-a105-fc4bf1317551 1.959491 8.116000 0.965742
+info: EVENT start 8892549400433805299 1096.732000 3.303579 2041-11-01T00:04:59
+info: Object 979a2b11-8171-4e88-926f-49c693fbc997 reached breakUp altitude.
+info: EVENT childRel 979a2b11-8171-4e88-926f-49c693fbc997 altitude 77941.300584
+info: Object 979a2b11-8171-4e88-926f-49c693fbc997 reached end of life.
+info: Compound 8892549400433805299 reached end of life because object 979a2b11-8171-4e88-926f-49c693fbc997 reached end of life.
+info: ObjectTrajectory Written: PySara.Compound_of-bus-Antenna.8892549400433805299_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Compound_of-bus-Antenna.8892549400433805299.gnu
+info: AeroThermalHistory Written: PySara.bus.8892549400433805299_979a2b11-8171-4e88-926f-49c693fbc997_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.Antenna.8892549400433805299_595b4488-85ee-41e1-a105-fc4bf1317551_AeroThermalHistory.txt
+info: EVENT end 8892549400433805299 1096.120162
+info: Object 979a2b11-8171-4e88-926f-49c693fbc997 reached end of life.
+info: Dropping Connection between 979a2b11-8171-4e88-926f-49c693fbc997 and 595b4488-85ee-41e1-a105-fc4bf1317551 because 979a2b11-8171-4e88-926f-49c693fbc997
+info: Adding 66 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID f96060ed-428d-4fb5-8368-873633a99715.
+info: EVENT area f96060ed-428d-4fb5-8368-873633a99715 0.220300
+info: EVENT start f96060ed-428d-4fb5-8368-873633a99715 33.000000 0.220300 2041-11-01T00:10:57
+info: Fragment f96060ed-428d-4fb5-8368-873633a99715 reached end of life because of ground impact.
+info: Object f96060ed-428d-4fb5-8368-873633a99715 reached end of life.
+info: EVENT fragment f96060ed-428d-4fb5-8368-873633a99715 impact
+info: ObjectTrajectory Written: PySara.TCU.f96060ed-428d-4fb5-8368-873633a99715_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.TCU.f96060ed-428d-4fb5-8368-873633a99715.gnu
+info: AeroThermalHistory Written: PySara.TCU.f96060ed-428d-4fb5-8368-873633a99715_AeroThermalHistory.txt
+info: EVENT end f96060ed-428d-4fb5-8368-873633a99715 0.512244
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID c819661c-34ef-46e7-b1eb-890ade42e3af.
+info: EVENT area c819661c-34ef-46e7-b1eb-890ade42e3af 0.053500
+info: EVENT start c819661c-34ef-46e7-b1eb-890ade42e3af 5.000000 0.053500 2041-11-01T00:10:57
+info: Object c819661c-34ef-46e7-b1eb-890ade42e3af demised.
+info: EVENT object c819661c-34ef-46e7-b1eb-890ade42e3af demise
+info: Fragment c819661c-34ef-46e7-b1eb-890ade42e3af reached end of life because uncritical.
+info: Object c819661c-34ef-46e7-b1eb-890ade42e3af reached end of life.
+info: ObjectTrajectory Written: PySara.PCU.c819661c-34ef-46e7-b1eb-890ade42e3af_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PCU.c819661c-34ef-46e7-b1eb-890ade42e3af.gnu
+info: AeroThermalHistory Written: PySara.PCU.c819661c-34ef-46e7-b1eb-890ade42e3af_AeroThermalHistory.txt
+info: EVENT end c819661c-34ef-46e7-b1eb-890ade42e3af 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID ae939109-80e7-4590-ada6-8ab74859c3a8.
+info: EVENT area ae939109-80e7-4590-ada6-8ab74859c3a8 0.167550
+info: EVENT start ae939109-80e7-4590-ada6-8ab74859c3a8 19.000000 0.167550 2041-11-01T00:10:57
+info: Fragment ae939109-80e7-4590-ada6-8ab74859c3a8 reached end of life because uncritical.
+info: EVENT fragment ae939109-80e7-4590-ada6-8ab74859c3a8 uncritical
+info: Object ae939109-80e7-4590-ada6-8ab74859c3a8 reached end of life.
+info: ObjectTrajectory Written: PySara.BCDR.ae939109-80e7-4590-ada6-8ab74859c3a8_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.BCDR.ae939109-80e7-4590-ada6-8ab74859c3a8.gnu
+info: AeroThermalHistory Written: PySara.BCDR.ae939109-80e7-4590-ada6-8ab74859c3a8_AeroThermalHistory.txt
+info: EVENT end ae939109-80e7-4590-ada6-8ab74859c3a8 0.258734
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID c0ddc3c0-47ce-435f-9deb-b33486eaf601.
+info: EVENT area c0ddc3c0-47ce-435f-9deb-b33486eaf601 0.065000
+info: EVENT start c0ddc3c0-47ce-435f-9deb-b33486eaf601 4.000000 0.065000 2041-11-01T00:10:57
+info: Object c0ddc3c0-47ce-435f-9deb-b33486eaf601 demised.
+info: EVENT object c0ddc3c0-47ce-435f-9deb-b33486eaf601 demise
+info: Fragment c0ddc3c0-47ce-435f-9deb-b33486eaf601 reached end of life because uncritical.
+info: Object c0ddc3c0-47ce-435f-9deb-b33486eaf601 reached end of life.
+info: ObjectTrajectory Written: PySara.BCU.c0ddc3c0-47ce-435f-9deb-b33486eaf601_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.BCU.c0ddc3c0-47ce-435f-9deb-b33486eaf601.gnu
+info: AeroThermalHistory Written: PySara.BCU.c0ddc3c0-47ce-435f-9deb-b33486eaf601_AeroThermalHistory.txt
+info: EVENT end c0ddc3c0-47ce-435f-9deb-b33486eaf601 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 1f19522d-2f3c-43e6-a00c-b01d1ab94228.
+info: EVENT area 1f19522d-2f3c-43e6-a00c-b01d1ab94228 0.127650
+info: EVENT start 1f19522d-2f3c-43e6-a00c-b01d1ab94228 13.000000 0.127650 2041-11-01T00:10:57
+info: Object 1f19522d-2f3c-43e6-a00c-b01d1ab94228 reached end of life because of ballooning.
+info: EVENT object 1f19522d-2f3c-43e6-a00c-b01d1ab94228 balloon
+info: Object 1f19522d-2f3c-43e6-a00c-b01d1ab94228 reached end of life.
+info: ObjectTrajectory Written: PySara.PPDU.1f19522d-2f3c-43e6-a00c-b01d1ab94228_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PPDU.1f19522d-2f3c-43e6-a00c-b01d1ab94228.gnu
+info: AeroThermalHistory Written: PySara.PPDU.1f19522d-2f3c-43e6-a00c-b01d1ab94228_AeroThermalHistory.txt
+info: EVENT end 1f19522d-2f3c-43e6-a00c-b01d1ab94228 0.041819
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID af198f6d-3064-4af9-b015-299d247ceb1c.
+info: EVENT area af198f6d-3064-4af9-b015-299d247ceb1c 0.206700
+info: EVENT start af198f6d-3064-4af9-b015-299d247ceb1c 50.000000 0.206700 2041-11-01T00:10:57
+info: Fragment af198f6d-3064-4af9-b015-299d247ceb1c reached end of life because of ground impact.
+info: Object af198f6d-3064-4af9-b015-299d247ceb1c reached end of life.
+info: EVENT fragment af198f6d-3064-4af9-b015-299d247ceb1c impact
+info: ObjectTrajectory Written: PySara.Batt1.af198f6d-3064-4af9-b015-299d247ceb1c_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Batt1.af198f6d-3064-4af9-b015-299d247ceb1c.gnu
+info: AeroThermalHistory Written: PySara.Batt1.af198f6d-3064-4af9-b015-299d247ceb1c_AeroThermalHistory.txt
+info: EVENT end af198f6d-3064-4af9-b015-299d247ceb1c 4.112043
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID d16b1e16-5604-4ba9-b689-56da46d221ab.
+info: EVENT area d16b1e16-5604-4ba9-b689-56da46d221ab 0.206700
+info: EVENT start d16b1e16-5604-4ba9-b689-56da46d221ab 50.000000 0.206700 2041-11-01T00:10:57
+info: Fragment d16b1e16-5604-4ba9-b689-56da46d221ab reached end of life because of ground impact.
+info: Object d16b1e16-5604-4ba9-b689-56da46d221ab reached end of life.
+info: EVENT fragment d16b1e16-5604-4ba9-b689-56da46d221ab impact
+info: ObjectTrajectory Written: PySara.Batt2.d16b1e16-5604-4ba9-b689-56da46d221ab_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Batt2.d16b1e16-5604-4ba9-b689-56da46d221ab.gnu
+info: AeroThermalHistory Written: PySara.Batt2.d16b1e16-5604-4ba9-b689-56da46d221ab_AeroThermalHistory.txt
+info: EVENT end d16b1e16-5604-4ba9-b689-56da46d221ab 4.112043
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID a68c82cf-50d9-4d72-b8e8-fb77b034ddcc.
+info: EVENT area a68c82cf-50d9-4d72-b8e8-fb77b034ddcc 0.069700
+info: EVENT start a68c82cf-50d9-4d72-b8e8-fb77b034ddcc 6.000000 0.069700 2041-11-01T00:10:57
+info: Object a68c82cf-50d9-4d72-b8e8-fb77b034ddcc demised.
+info: EVENT object a68c82cf-50d9-4d72-b8e8-fb77b034ddcc demise
+info: Fragment a68c82cf-50d9-4d72-b8e8-fb77b034ddcc reached end of life because uncritical.
+info: Object a68c82cf-50d9-4d72-b8e8-fb77b034ddcc reached end of life.
+info: ObjectTrajectory Written: PySara.Decoder.a68c82cf-50d9-4d72-b8e8-fb77b034ddcc_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Decoder.a68c82cf-50d9-4d72-b8e8-fb77b034ddcc.gnu
+info: AeroThermalHistory Written: PySara.Decoder.a68c82cf-50d9-4d72-b8e8-fb77b034ddcc_AeroThermalHistory.txt
+info: EVENT end a68c82cf-50d9-4d72-b8e8-fb77b034ddcc 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 56f33935-71e7-4b62-bc25-5f086ef8f008.
+info: EVENT area 56f33935-71e7-4b62-bc25-5f086ef8f008 0.131250
+info: EVENT start 56f33935-71e7-4b62-bc25-5f086ef8f008 17.000000 0.131250 2041-11-01T00:10:57
+info: Object 56f33935-71e7-4b62-bc25-5f086ef8f008 reached end of life because of ballooning.
+info: EVENT object 56f33935-71e7-4b62-bc25-5f086ef8f008 balloon
+info: Object 56f33935-71e7-4b62-bc25-5f086ef8f008 reached end of life.
+info: ObjectTrajectory Written: PySara.CTU.56f33935-71e7-4b62-bc25-5f086ef8f008_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.CTU.56f33935-71e7-4b62-bc25-5f086ef8f008.gnu
+info: AeroThermalHistory Written: PySara.CTU.56f33935-71e7-4b62-bc25-5f086ef8f008_AeroThermalHistory.txt
+info: EVENT end 56f33935-71e7-4b62-bc25-5f086ef8f008 0.051135
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID e603a0ac-b50a-49ba-94e7-c8487de979d7.
+info: EVENT area e603a0ac-b50a-49ba-94e7-c8487de979d7 0.116950
+info: EVENT start e603a0ac-b50a-49ba-94e7-c8487de979d7 13.500000 0.116950 2041-11-01T00:10:57
+info: Object e603a0ac-b50a-49ba-94e7-c8487de979d7 reached end of life because of ballooning.
+info: EVENT object e603a0ac-b50a-49ba-94e7-c8487de979d7 balloon
+info: Object e603a0ac-b50a-49ba-94e7-c8487de979d7 reached end of life.
+info: ObjectTrajectory Written: PySara.RTU.e603a0ac-b50a-49ba-94e7-c8487de979d7_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.RTU.e603a0ac-b50a-49ba-94e7-c8487de979d7.gnu
+info: AeroThermalHistory Written: PySara.RTU.e603a0ac-b50a-49ba-94e7-c8487de979d7_AeroThermalHistory.txt
+info: EVENT end e603a0ac-b50a-49ba-94e7-c8487de979d7 0.003402
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 0e801314-4be9-4a8e-8863-be55cd8972a8.
+info: EVENT area 0e801314-4be9-4a8e-8863-be55cd8972a8 0.047100
+info: EVENT start 0e801314-4be9-4a8e-8863-be55cd8972a8 4.000000 0.047100 2041-11-01T00:10:57
+info: Object 0e801314-4be9-4a8e-8863-be55cd8972a8 demised.
+info: EVENT object 0e801314-4be9-4a8e-8863-be55cd8972a8 demise
+info: Fragment 0e801314-4be9-4a8e-8863-be55cd8972a8 reached end of life because uncritical.
+info: Object 0e801314-4be9-4a8e-8863-be55cd8972a8 reached end of life.
+info: ObjectTrajectory Written: PySara.MBU.0e801314-4be9-4a8e-8863-be55cd8972a8_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.MBU.0e801314-4be9-4a8e-8863-be55cd8972a8.gnu
+info: AeroThermalHistory Written: PySara.MBU.0e801314-4be9-4a8e-8863-be55cd8972a8_AeroThermalHistory.txt
+info: EVENT end 0e801314-4be9-4a8e-8863-be55cd8972a8 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 9da080c0-a677-4e48-9413-7396776e2156.
+info: EVENT area 9da080c0-a677-4e48-9413-7396776e2156 0.045550
+info: EVENT start 9da080c0-a677-4e48-9413-7396776e2156 5.000000 0.045550 2041-11-01T00:10:57
+info: Object 9da080c0-a677-4e48-9413-7396776e2156 demised.
+info: EVENT object 9da080c0-a677-4e48-9413-7396776e2156 demise
+info: Fragment 9da080c0-a677-4e48-9413-7396776e2156 reached end of life because uncritical.
+info: Object 9da080c0-a677-4e48-9413-7396776e2156 reached end of life.
+info: ObjectTrajectory Written: PySara.X-PND1.9da080c0-a677-4e48-9413-7396776e2156_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.X-PND1.9da080c0-a677-4e48-9413-7396776e2156.gnu
+info: AeroThermalHistory Written: PySara.X-PND1.9da080c0-a677-4e48-9413-7396776e2156_AeroThermalHistory.txt
+info: EVENT end 9da080c0-a677-4e48-9413-7396776e2156 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID c287fba3-8bbe-4179-bca3-e0297868e371.
+info: EVENT area c287fba3-8bbe-4179-bca3-e0297868e371 0.050000
+info: EVENT start c287fba3-8bbe-4179-bca3-e0297868e371 6.700000 0.050000 2041-11-01T00:10:57
+info: Object c287fba3-8bbe-4179-bca3-e0297868e371 demised.
+info: EVENT object c287fba3-8bbe-4179-bca3-e0297868e371 demise
+info: Fragment c287fba3-8bbe-4179-bca3-e0297868e371 reached end of life because uncritical.
+info: Object c287fba3-8bbe-4179-bca3-e0297868e371 reached end of life.
+info: ObjectTrajectory Written: PySara.TRU1.c287fba3-8bbe-4179-bca3-e0297868e371_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.TRU1.c287fba3-8bbe-4179-bca3-e0297868e371.gnu
+info: AeroThermalHistory Written: PySara.TRU1.c287fba3-8bbe-4179-bca3-e0297868e371_AeroThermalHistory.txt
+info: EVENT end c287fba3-8bbe-4179-bca3-e0297868e371 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 937ad039-148d-4738-aeef-7ba048002fe8.
+info: EVENT area 937ad039-148d-4738-aeef-7ba048002fe8 0.045550
+info: EVENT start 937ad039-148d-4738-aeef-7ba048002fe8 5.000000 0.045550 2041-11-01T00:10:57
+info: Object 937ad039-148d-4738-aeef-7ba048002fe8 demised.
+info: EVENT object 937ad039-148d-4738-aeef-7ba048002fe8 demise
+info: Fragment 937ad039-148d-4738-aeef-7ba048002fe8 reached end of life because uncritical.
+info: Object 937ad039-148d-4738-aeef-7ba048002fe8 reached end of life.
+info: ObjectTrajectory Written: PySara.X-PND2.937ad039-148d-4738-aeef-7ba048002fe8_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.X-PND2.937ad039-148d-4738-aeef-7ba048002fe8.gnu
+info: AeroThermalHistory Written: PySara.X-PND2.937ad039-148d-4738-aeef-7ba048002fe8_AeroThermalHistory.txt
+info: EVENT end 937ad039-148d-4738-aeef-7ba048002fe8 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 197bea65-bd7c-4823-addb-ea50438d3765.
+info: EVENT area 197bea65-bd7c-4823-addb-ea50438d3765 0.050000
+info: EVENT start 197bea65-bd7c-4823-addb-ea50438d3765 6.700000 0.050000 2041-11-01T00:10:57
+info: Object 197bea65-bd7c-4823-addb-ea50438d3765 demised.
+info: EVENT object 197bea65-bd7c-4823-addb-ea50438d3765 demise
+info: Fragment 197bea65-bd7c-4823-addb-ea50438d3765 reached end of life because uncritical.
+info: Object 197bea65-bd7c-4823-addb-ea50438d3765 reached end of life.
+info: ObjectTrajectory Written: PySara.TRU2.197bea65-bd7c-4823-addb-ea50438d3765_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.TRU2.197bea65-bd7c-4823-addb-ea50438d3765.gnu
+info: AeroThermalHistory Written: PySara.TRU2.197bea65-bd7c-4823-addb-ea50438d3765_AeroThermalHistory.txt
+info: EVENT end 197bea65-bd7c-4823-addb-ea50438d3765 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID b9715501-449b-451c-a5a4-f4d9347e2f59.
+info: EVENT area b9715501-449b-451c-a5a4-f4d9347e2f59 0.014775
+info: EVENT start b9715501-449b-451c-a5a4-f4d9347e2f59 2.200000 0.014775 2041-11-01T00:10:57
+info: Object b9715501-449b-451c-a5a4-f4d9347e2f59 demised.
+info: EVENT object b9715501-449b-451c-a5a4-f4d9347e2f59 demise
+info: Fragment b9715501-449b-451c-a5a4-f4d9347e2f59 reached end of life because uncritical.
+info: Object b9715501-449b-451c-a5a4-f4d9347e2f59 reached end of life.
+info: ObjectTrajectory Written: PySara.MTR1.b9715501-449b-451c-a5a4-f4d9347e2f59_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.MTR1.b9715501-449b-451c-a5a4-f4d9347e2f59.gnu
+info: AeroThermalHistory Written: PySara.MTR1.b9715501-449b-451c-a5a4-f4d9347e2f59_AeroThermalHistory.txt
+info: EVENT end b9715501-449b-451c-a5a4-f4d9347e2f59 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 84879cea-7d5c-4089-841e-3521c24c746a.
+info: EVENT area 84879cea-7d5c-4089-841e-3521c24c746a 0.014775
+info: EVENT start 84879cea-7d5c-4089-841e-3521c24c746a 2.200000 0.014775 2041-11-01T00:10:57
+info: Object 84879cea-7d5c-4089-841e-3521c24c746a demised.
+info: EVENT object 84879cea-7d5c-4089-841e-3521c24c746a demise
+info: Fragment 84879cea-7d5c-4089-841e-3521c24c746a reached end of life because uncritical.
+info: Object 84879cea-7d5c-4089-841e-3521c24c746a reached end of life.
+info: ObjectTrajectory Written: PySara.MTR2.84879cea-7d5c-4089-841e-3521c24c746a_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.MTR2.84879cea-7d5c-4089-841e-3521c24c746a.gnu
+info: AeroThermalHistory Written: PySara.MTR2.84879cea-7d5c-4089-841e-3521c24c746a_AeroThermalHistory.txt
+info: EVENT end 84879cea-7d5c-4089-841e-3521c24c746a 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID e7d005bd-2d30-4a52-9e61-1e8b09175adb.
+info: EVENT area e7d005bd-2d30-4a52-9e61-1e8b09175adb 0.014775
+info: EVENT start e7d005bd-2d30-4a52-9e61-1e8b09175adb 2.200000 0.014775 2041-11-01T00:10:57
+info: Object e7d005bd-2d30-4a52-9e61-1e8b09175adb demised.
+info: EVENT object e7d005bd-2d30-4a52-9e61-1e8b09175adb demise
+info: Fragment e7d005bd-2d30-4a52-9e61-1e8b09175adb reached end of life because uncritical.
+info: Object e7d005bd-2d30-4a52-9e61-1e8b09175adb reached end of life.
+info: ObjectTrajectory Written: PySara.MTR3.e7d005bd-2d30-4a52-9e61-1e8b09175adb_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.MTR3.e7d005bd-2d30-4a52-9e61-1e8b09175adb.gnu
+info: AeroThermalHistory Written: PySara.MTR3.e7d005bd-2d30-4a52-9e61-1e8b09175adb_AeroThermalHistory.txt
+info: EVENT end e7d005bd-2d30-4a52-9e61-1e8b09175adb 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 0f2288de-76e2-422f-8b97-5b27ae9b0726.
+info: EVENT area 0f2288de-76e2-422f-8b97-5b27ae9b0726 0.050200
+info: EVENT start 0f2288de-76e2-422f-8b97-5b27ae9b0726 3.500000 0.050200 2041-11-01T00:10:57
+info: Object 0f2288de-76e2-422f-8b97-5b27ae9b0726 demised.
+info: EVENT object 0f2288de-76e2-422f-8b97-5b27ae9b0726 demise
+info: Fragment 0f2288de-76e2-422f-8b97-5b27ae9b0726 reached end of life because uncritical.
+info: Object 0f2288de-76e2-422f-8b97-5b27ae9b0726 reached end of life.
+info: ObjectTrajectory Written: PySara.MRU.0f2288de-76e2-422f-8b97-5b27ae9b0726_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.MRU.0f2288de-76e2-422f-8b97-5b27ae9b0726.gnu
+info: AeroThermalHistory Written: PySara.MRU.0f2288de-76e2-422f-8b97-5b27ae9b0726_AeroThermalHistory.txt
+info: EVENT end 0f2288de-76e2-422f-8b97-5b27ae9b0726 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID c190928b-6fde-4737-b38b-d6640dd3ce29.
+info: EVENT area c190928b-6fde-4737-b38b-d6640dd3ce29 0.059800
+info: EVENT start c190928b-6fde-4737-b38b-d6640dd3ce29 6.500000 0.059800 2041-11-01T00:10:57
+info: Object c190928b-6fde-4737-b38b-d6640dd3ce29 demised.
+info: EVENT object c190928b-6fde-4737-b38b-d6640dd3ce29 demise
+info: Fragment c190928b-6fde-4737-b38b-d6640dd3ce29 reached end of life because uncritical.
+info: Object c190928b-6fde-4737-b38b-d6640dd3ce29 reached end of life.
+info: ObjectTrajectory Written: PySara.ACC.c190928b-6fde-4737-b38b-d6640dd3ce29_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.ACC.c190928b-6fde-4737-b38b-d6640dd3ce29.gnu
+info: AeroThermalHistory Written: PySara.ACC.c190928b-6fde-4737-b38b-d6640dd3ce29_AeroThermalHistory.txt
+info: EVENT end c190928b-6fde-4737-b38b-d6640dd3ce29 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 5bc781a5-30a8-496a-8919-d3a3bbe9e65a.
+info: EVENT area 5bc781a5-30a8-496a-8919-d3a3bbe9e65a 0.113700
+info: EVENT start 5bc781a5-30a8-496a-8919-d3a3bbe9e65a 11.300000 0.113700 2041-11-01T00:10:57
+info: Object 5bc781a5-30a8-496a-8919-d3a3bbe9e65a reached end of life because of ballooning.
+info: EVENT object 5bc781a5-30a8-496a-8919-d3a3bbe9e65a balloon
+info: Object 5bc781a5-30a8-496a-8919-d3a3bbe9e65a reached end of life.
+info: ObjectTrajectory Written: PySara.PDU.5bc781a5-30a8-496a-8919-d3a3bbe9e65a_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PDU.5bc781a5-30a8-496a-8919-d3a3bbe9e65a.gnu
+info: AeroThermalHistory Written: PySara.PDU.5bc781a5-30a8-496a-8919-d3a3bbe9e65a_AeroThermalHistory.txt
+info: EVENT end 5bc781a5-30a8-496a-8919-d3a3bbe9e65a 0.021730
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 8dd6e192-40c1-4d95-82a7-e0edd97e769a.
+info: EVENT area 8dd6e192-40c1-4d95-82a7-e0edd97e769a 0.044400
+info: EVENT start 8dd6e192-40c1-4d95-82a7-e0edd97e769a 3.300000 0.044400 2041-11-01T00:10:57
+info: Object 8dd6e192-40c1-4d95-82a7-e0edd97e769a demised.
+info: EVENT object 8dd6e192-40c1-4d95-82a7-e0edd97e769a demise
+info: Fragment 8dd6e192-40c1-4d95-82a7-e0edd97e769a reached end of life because uncritical.
+info: Object 8dd6e192-40c1-4d95-82a7-e0edd97e769a reached end of life.
+info: ObjectTrajectory Written: PySara.Gyro2.8dd6e192-40c1-4d95-82a7-e0edd97e769a_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Gyro2.8dd6e192-40c1-4d95-82a7-e0edd97e769a.gnu
+info: AeroThermalHistory Written: PySara.Gyro2.8dd6e192-40c1-4d95-82a7-e0edd97e769a_AeroThermalHistory.txt
+info: EVENT end 8dd6e192-40c1-4d95-82a7-e0edd97e769a 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID bb912958-2642-4cbc-b737-06295400219b.
+info: EVENT area bb912958-2642-4cbc-b737-06295400219b 0.044400
+info: EVENT start bb912958-2642-4cbc-b737-06295400219b 3.300000 0.044400 2041-11-01T00:10:57
+info: Object bb912958-2642-4cbc-b737-06295400219b demised.
+info: EVENT object bb912958-2642-4cbc-b737-06295400219b demise
+info: Fragment bb912958-2642-4cbc-b737-06295400219b reached end of life because uncritical.
+info: Object bb912958-2642-4cbc-b737-06295400219b reached end of life.
+info: ObjectTrajectory Written: PySara.Gyro1.bb912958-2642-4cbc-b737-06295400219b_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Gyro1.bb912958-2642-4cbc-b737-06295400219b.gnu
+info: AeroThermalHistory Written: PySara.Gyro1.bb912958-2642-4cbc-b737-06295400219b_AeroThermalHistory.txt
+info: EVENT end bb912958-2642-4cbc-b737-06295400219b 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 318234c8-2183-4007-81bb-1283b9ac978d.
+info: EVENT area 318234c8-2183-4007-81bb-1283b9ac978d 0.049912
+info: EVENT start 318234c8-2183-4007-81bb-1283b9ac978d 6.100000 0.049912 2041-11-01T00:10:57
+info: Automatically using analytical equations for plate due to flat Cylinder.
+info: Fragment 318234c8-2183-4007-81bb-1283b9ac978d reached end of life because of ground impact.
+info: Object 318234c8-2183-4007-81bb-1283b9ac978d reached end of life.
+info: EVENT fragment 318234c8-2183-4007-81bb-1283b9ac978d impact
+info: ObjectTrajectory Written: PySara.RWL1.318234c8-2183-4007-81bb-1283b9ac978d_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.RWL1.318234c8-2183-4007-81bb-1283b9ac978d.gnu
+info: AeroThermalHistory Written: PySara.RWL1.318234c8-2183-4007-81bb-1283b9ac978d_AeroThermalHistory.txt
+info: EVENT end 318234c8-2183-4007-81bb-1283b9ac978d 0.899102
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID a40b1f77-c92a-4243-81e3-b466a50bfde1.
+info: EVENT area a40b1f77-c92a-4243-81e3-b466a50bfde1 0.049912
+info: EVENT start a40b1f77-c92a-4243-81e3-b466a50bfde1 6.100000 0.049912 2041-11-01T00:10:57
+info: Automatically using analytical equations for plate due to flat Cylinder.
+info: Fragment a40b1f77-c92a-4243-81e3-b466a50bfde1 reached end of life because of ground impact.
+info: Object a40b1f77-c92a-4243-81e3-b466a50bfde1 reached end of life.
+info: EVENT fragment a40b1f77-c92a-4243-81e3-b466a50bfde1 impact
+info: ObjectTrajectory Written: PySara.RWL2.a40b1f77-c92a-4243-81e3-b466a50bfde1_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.RWL2.a40b1f77-c92a-4243-81e3-b466a50bfde1.gnu
+info: AeroThermalHistory Written: PySara.RWL2.a40b1f77-c92a-4243-81e3-b466a50bfde1_AeroThermalHistory.txt
+info: EVENT end a40b1f77-c92a-4243-81e3-b466a50bfde1 0.899102
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 119d8c8d-71bc-47b0-a9bd-51a2b6addec4.
+info: EVENT area 119d8c8d-71bc-47b0-a9bd-51a2b6addec4 0.049912
+info: EVENT start 119d8c8d-71bc-47b0-a9bd-51a2b6addec4 6.100000 0.049912 2041-11-01T00:10:57
+info: Automatically using analytical equations for plate due to flat Cylinder.
+info: Fragment 119d8c8d-71bc-47b0-a9bd-51a2b6addec4 reached end of life because of ground impact.
+info: Object 119d8c8d-71bc-47b0-a9bd-51a2b6addec4 reached end of life.
+info: EVENT fragment 119d8c8d-71bc-47b0-a9bd-51a2b6addec4 impact
+info: ObjectTrajectory Written: PySara.RWL3.119d8c8d-71bc-47b0-a9bd-51a2b6addec4_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.RWL3.119d8c8d-71bc-47b0-a9bd-51a2b6addec4.gnu
+info: AeroThermalHistory Written: PySara.RWL3.119d8c8d-71bc-47b0-a9bd-51a2b6addec4_AeroThermalHistory.txt
+info: EVENT end 119d8c8d-71bc-47b0-a9bd-51a2b6addec4 0.899102
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 73aad817-0c8f-4729-8cfc-bdb457fa3af1.
+info: EVENT area 73aad817-0c8f-4729-8cfc-bdb457fa3af1 0.050600
+info: EVENT start 73aad817-0c8f-4729-8cfc-bdb457fa3af1 4.500000 0.050600 2041-11-01T00:10:57
+info: Object 73aad817-0c8f-4729-8cfc-bdb457fa3af1 demised.
+info: EVENT object 73aad817-0c8f-4729-8cfc-bdb457fa3af1 demise
+info: Fragment 73aad817-0c8f-4729-8cfc-bdb457fa3af1 reached end of life because uncritical.
+info: Object 73aad817-0c8f-4729-8cfc-bdb457fa3af1 reached end of life.
+info: ObjectTrajectory Written: PySara.RWE1.73aad817-0c8f-4729-8cfc-bdb457fa3af1_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.RWE1.73aad817-0c8f-4729-8cfc-bdb457fa3af1.gnu
+info: AeroThermalHistory Written: PySara.RWE1.73aad817-0c8f-4729-8cfc-bdb457fa3af1_AeroThermalHistory.txt
+info: EVENT end 73aad817-0c8f-4729-8cfc-bdb457fa3af1 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID cbd88e14-9f02-4477-ba19-2ae766ccf9c2.
+info: EVENT area cbd88e14-9f02-4477-ba19-2ae766ccf9c2 0.050600
+info: EVENT start cbd88e14-9f02-4477-ba19-2ae766ccf9c2 4.500000 0.050600 2041-11-01T00:10:57
+info: Object cbd88e14-9f02-4477-ba19-2ae766ccf9c2 demised.
+info: EVENT object cbd88e14-9f02-4477-ba19-2ae766ccf9c2 demise
+info: Fragment cbd88e14-9f02-4477-ba19-2ae766ccf9c2 reached end of life because uncritical.
+info: Object cbd88e14-9f02-4477-ba19-2ae766ccf9c2 reached end of life.
+info: ObjectTrajectory Written: PySara.RWE2.cbd88e14-9f02-4477-ba19-2ae766ccf9c2_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.RWE2.cbd88e14-9f02-4477-ba19-2ae766ccf9c2.gnu
+info: AeroThermalHistory Written: PySara.RWE2.cbd88e14-9f02-4477-ba19-2ae766ccf9c2_AeroThermalHistory.txt
+info: EVENT end cbd88e14-9f02-4477-ba19-2ae766ccf9c2 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID f846371b-1403-415a-b518-e78f9a87d5e8.
+info: EVENT area f846371b-1403-415a-b518-e78f9a87d5e8 0.037600
+info: EVENT start f846371b-1403-415a-b518-e78f9a87d5e8 3.300000 0.037600 2041-11-01T00:10:57
+info: Object f846371b-1403-415a-b518-e78f9a87d5e8 demised.
+info: EVENT object f846371b-1403-415a-b518-e78f9a87d5e8 demise
+info: Fragment f846371b-1403-415a-b518-e78f9a87d5e8 reached end of life because uncritical.
+info: Object f846371b-1403-415a-b518-e78f9a87d5e8 reached end of life.
+info: ObjectTrajectory Written: PySara.STRE1.f846371b-1403-415a-b518-e78f9a87d5e8_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.STRE1.f846371b-1403-415a-b518-e78f9a87d5e8.gnu
+info: AeroThermalHistory Written: PySara.STRE1.f846371b-1403-415a-b518-e78f9a87d5e8_AeroThermalHistory.txt
+info: EVENT end f846371b-1403-415a-b518-e78f9a87d5e8 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 019e359a-7b6d-4e88-ae45-6c0cb1b9f231.
+info: EVENT area 019e359a-7b6d-4e88-ae45-6c0cb1b9f231 0.037600
+info: EVENT start 019e359a-7b6d-4e88-ae45-6c0cb1b9f231 3.300000 0.037600 2041-11-01T00:10:57
+info: Object 019e359a-7b6d-4e88-ae45-6c0cb1b9f231 demised.
+info: EVENT object 019e359a-7b6d-4e88-ae45-6c0cb1b9f231 demise
+info: Fragment 019e359a-7b6d-4e88-ae45-6c0cb1b9f231 reached end of life because uncritical.
+info: Object 019e359a-7b6d-4e88-ae45-6c0cb1b9f231 reached end of life.
+info: ObjectTrajectory Written: PySara.STRE2.019e359a-7b6d-4e88-ae45-6c0cb1b9f231_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.STRE2.019e359a-7b6d-4e88-ae45-6c0cb1b9f231.gnu
+info: AeroThermalHistory Written: PySara.STRE2.019e359a-7b6d-4e88-ae45-6c0cb1b9f231_AeroThermalHistory.txt
+info: EVENT end 019e359a-7b6d-4e88-ae45-6c0cb1b9f231 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 1c53a534-00ac-486c-b9b2-0e0baa3dd619.
+info: EVENT area 1c53a534-00ac-486c-b9b2-0e0baa3dd619 0.037600
+info: EVENT start 1c53a534-00ac-486c-b9b2-0e0baa3dd619 3.300000 0.037600 2041-11-01T00:10:57
+info: Object 1c53a534-00ac-486c-b9b2-0e0baa3dd619 demised.
+info: EVENT object 1c53a534-00ac-486c-b9b2-0e0baa3dd619 demise
+info: Fragment 1c53a534-00ac-486c-b9b2-0e0baa3dd619 reached end of life because uncritical.
+info: Object 1c53a534-00ac-486c-b9b2-0e0baa3dd619 reached end of life.
+info: ObjectTrajectory Written: PySara.STRE3.1c53a534-00ac-486c-b9b2-0e0baa3dd619_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.STRE3.1c53a534-00ac-486c-b9b2-0e0baa3dd619.gnu
+info: AeroThermalHistory Written: PySara.STRE3.1c53a534-00ac-486c-b9b2-0e0baa3dd619_AeroThermalHistory.txt
+info: EVENT end 1c53a534-00ac-486c-b9b2-0e0baa3dd619 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID cf475c8e-4dd9-43c4-93e1-443e41ca045a.
+info: EVENT area cf475c8e-4dd9-43c4-93e1-443e41ca045a 0.031200
+info: EVENT start cf475c8e-4dd9-43c4-93e1-443e41ca045a 3.000000 0.031200 2041-11-01T00:10:57
+info: Object cf475c8e-4dd9-43c4-93e1-443e41ca045a demised.
+info: EVENT object cf475c8e-4dd9-43c4-93e1-443e41ca045a demise
+info: Fragment cf475c8e-4dd9-43c4-93e1-443e41ca045a reached end of life because uncritical.
+info: Object cf475c8e-4dd9-43c4-93e1-443e41ca045a reached end of life.
+info: ObjectTrajectory Written: PySara.STR1.cf475c8e-4dd9-43c4-93e1-443e41ca045a_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.STR1.cf475c8e-4dd9-43c4-93e1-443e41ca045a.gnu
+info: AeroThermalHistory Written: PySara.STR1.cf475c8e-4dd9-43c4-93e1-443e41ca045a_AeroThermalHistory.txt
+info: EVENT end cf475c8e-4dd9-43c4-93e1-443e41ca045a 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID b96f24b8-3482-41b4-8ff7-10c9d0096fe0.
+info: EVENT area b96f24b8-3482-41b4-8ff7-10c9d0096fe0 0.031200
+info: EVENT start b96f24b8-3482-41b4-8ff7-10c9d0096fe0 3.000000 0.031200 2041-11-01T00:10:57
+info: Object b96f24b8-3482-41b4-8ff7-10c9d0096fe0 demised.
+info: EVENT object b96f24b8-3482-41b4-8ff7-10c9d0096fe0 demise
+info: Fragment b96f24b8-3482-41b4-8ff7-10c9d0096fe0 reached end of life because uncritical.
+info: Object b96f24b8-3482-41b4-8ff7-10c9d0096fe0 reached end of life.
+info: ObjectTrajectory Written: PySara.STR2.b96f24b8-3482-41b4-8ff7-10c9d0096fe0_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.STR2.b96f24b8-3482-41b4-8ff7-10c9d0096fe0.gnu
+info: AeroThermalHistory Written: PySara.STR2.b96f24b8-3482-41b4-8ff7-10c9d0096fe0_AeroThermalHistory.txt
+info: EVENT end b96f24b8-3482-41b4-8ff7-10c9d0096fe0 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID d97c8a48-c211-4c49-8222-dd2e42cdea91.
+info: EVENT area d97c8a48-c211-4c49-8222-dd2e42cdea91 0.031200
+info: EVENT start d97c8a48-c211-4c49-8222-dd2e42cdea91 3.000000 0.031200 2041-11-01T00:10:57
+info: Object d97c8a48-c211-4c49-8222-dd2e42cdea91 demised.
+info: EVENT object d97c8a48-c211-4c49-8222-dd2e42cdea91 demise
+info: Fragment d97c8a48-c211-4c49-8222-dd2e42cdea91 reached end of life because uncritical.
+info: Object d97c8a48-c211-4c49-8222-dd2e42cdea91 reached end of life.
+info: ObjectTrajectory Written: PySara.STR3.d97c8a48-c211-4c49-8222-dd2e42cdea91_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.STR3.d97c8a48-c211-4c49-8222-dd2e42cdea91.gnu
+info: AeroThermalHistory Written: PySara.STR3.d97c8a48-c211-4c49-8222-dd2e42cdea91_AeroThermalHistory.txt
+info: EVENT end d97c8a48-c211-4c49-8222-dd2e42cdea91 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID ee66698f-c75d-43c5-b156-2cd23c7f0b27.
+info: EVENT area ee66698f-c75d-43c5-b156-2cd23c7f0b27 0.070686
+info: EVENT start ee66698f-c75d-43c5-b156-2cd23c7f0b27 20.000000 0.070686 2041-11-01T00:10:57
+info: Fragment ee66698f-c75d-43c5-b156-2cd23c7f0b27 reached end of life because of ground impact.
+info: Object ee66698f-c75d-43c5-b156-2cd23c7f0b27 reached end of life.
+info: EVENT fragment ee66698f-c75d-43c5-b156-2cd23c7f0b27 impact
+info: ObjectTrajectory Written: PySara.Tank1.ee66698f-c75d-43c5-b156-2cd23c7f0b27_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Tank1.ee66698f-c75d-43c5-b156-2cd23c7f0b27.gnu
+info: AeroThermalHistory Written: PySara.Tank1.ee66698f-c75d-43c5-b156-2cd23c7f0b27_AeroThermalHistory.txt
+info: EVENT end ee66698f-c75d-43c5-b156-2cd23c7f0b27 20.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID ffb7ad0c-de50-4506-9ac0-24e4e92d744a.
+info: EVENT area ffb7ad0c-de50-4506-9ac0-24e4e92d744a 0.070686
+info: EVENT start ffb7ad0c-de50-4506-9ac0-24e4e92d744a 20.000000 0.070686 2041-11-01T00:10:57
+info: Fragment ffb7ad0c-de50-4506-9ac0-24e4e92d744a reached end of life because of ground impact.
+info: Object ffb7ad0c-de50-4506-9ac0-24e4e92d744a reached end of life.
+info: EVENT fragment ffb7ad0c-de50-4506-9ac0-24e4e92d744a impact
+info: ObjectTrajectory Written: PySara.Tank2.ffb7ad0c-de50-4506-9ac0-24e4e92d744a_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Tank2.ffb7ad0c-de50-4506-9ac0-24e4e92d744a.gnu
+info: AeroThermalHistory Written: PySara.Tank2.ffb7ad0c-de50-4506-9ac0-24e4e92d744a_AeroThermalHistory.txt
+info: EVENT end ffb7ad0c-de50-4506-9ac0-24e4e92d744a 20.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 8b61be35-13d4-42ca-8f77-1b6779254cf8.
+info: EVENT area 8b61be35-13d4-42ca-8f77-1b6779254cf8 0.070686
+info: EVENT start 8b61be35-13d4-42ca-8f77-1b6779254cf8 20.000000 0.070686 2041-11-01T00:10:57
+info: Fragment 8b61be35-13d4-42ca-8f77-1b6779254cf8 reached end of life because of ground impact.
+info: Object 8b61be35-13d4-42ca-8f77-1b6779254cf8 reached end of life.
+info: EVENT fragment 8b61be35-13d4-42ca-8f77-1b6779254cf8 impact
+info: ObjectTrajectory Written: PySara.Tank3.8b61be35-13d4-42ca-8f77-1b6779254cf8_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Tank3.8b61be35-13d4-42ca-8f77-1b6779254cf8.gnu
+info: AeroThermalHistory Written: PySara.Tank3.8b61be35-13d4-42ca-8f77-1b6779254cf8_AeroThermalHistory.txt
+info: EVENT end 8b61be35-13d4-42ca-8f77-1b6779254cf8 20.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 389962c4-a9f5-4569-a92f-de23a2bb6b37.
+info: EVENT area 389962c4-a9f5-4569-a92f-de23a2bb6b37 0.070686
+info: EVENT start 389962c4-a9f5-4569-a92f-de23a2bb6b37 20.000000 0.070686 2041-11-01T00:10:57
+info: Fragment 389962c4-a9f5-4569-a92f-de23a2bb6b37 reached end of life because of ground impact.
+info: Object 389962c4-a9f5-4569-a92f-de23a2bb6b37 reached end of life.
+info: EVENT fragment 389962c4-a9f5-4569-a92f-de23a2bb6b37 impact
+info: ObjectTrajectory Written: PySara.Tank4.389962c4-a9f5-4569-a92f-de23a2bb6b37_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Tank4.389962c4-a9f5-4569-a92f-de23a2bb6b37.gnu
+info: AeroThermalHistory Written: PySara.Tank4.389962c4-a9f5-4569-a92f-de23a2bb6b37_AeroThermalHistory.txt
+info: EVENT end 389962c4-a9f5-4569-a92f-de23a2bb6b37 20.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 59d481ee-9a4a-46ff-a838-aae6a28c6260.
+info: EVENT area 59d481ee-9a4a-46ff-a838-aae6a28c6260 0.004926
+info: EVENT start 59d481ee-9a4a-46ff-a838-aae6a28c6260 0.300000 0.004926 2041-11-01T00:10:57
+info: Object 59d481ee-9a4a-46ff-a838-aae6a28c6260 demised.
+info: EVENT object 59d481ee-9a4a-46ff-a838-aae6a28c6260 demise
+info: Fragment 59d481ee-9a4a-46ff-a838-aae6a28c6260 reached end of life because uncritical.
+info: Object 59d481ee-9a4a-46ff-a838-aae6a28c6260 reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts01.59d481ee-9a4a-46ff-a838-aae6a28c6260_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts01.59d481ee-9a4a-46ff-a838-aae6a28c6260.gnu
+info: AeroThermalHistory Written: PySara.Thrsts01.59d481ee-9a4a-46ff-a838-aae6a28c6260_AeroThermalHistory.txt
+info: EVENT end 59d481ee-9a4a-46ff-a838-aae6a28c6260 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 620e19a4-466b-4bba-a398-8f525affac3d.
+info: EVENT area 620e19a4-466b-4bba-a398-8f525affac3d 0.004926
+info: EVENT start 620e19a4-466b-4bba-a398-8f525affac3d 0.300000 0.004926 2041-11-01T00:10:57
+info: Object 620e19a4-466b-4bba-a398-8f525affac3d demised.
+info: EVENT object 620e19a4-466b-4bba-a398-8f525affac3d demise
+info: Fragment 620e19a4-466b-4bba-a398-8f525affac3d reached end of life because uncritical.
+info: Object 620e19a4-466b-4bba-a398-8f525affac3d reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts02.620e19a4-466b-4bba-a398-8f525affac3d_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts02.620e19a4-466b-4bba-a398-8f525affac3d.gnu
+info: AeroThermalHistory Written: PySara.Thrsts02.620e19a4-466b-4bba-a398-8f525affac3d_AeroThermalHistory.txt
+info: EVENT end 620e19a4-466b-4bba-a398-8f525affac3d 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID c416fe56-926f-46db-b927-4be42a4d9065.
+info: EVENT area c416fe56-926f-46db-b927-4be42a4d9065 0.004926
+info: EVENT start c416fe56-926f-46db-b927-4be42a4d9065 0.300000 0.004926 2041-11-01T00:10:57
+info: Object c416fe56-926f-46db-b927-4be42a4d9065 demised.
+info: EVENT object c416fe56-926f-46db-b927-4be42a4d9065 demise
+info: Fragment c416fe56-926f-46db-b927-4be42a4d9065 reached end of life because uncritical.
+info: Object c416fe56-926f-46db-b927-4be42a4d9065 reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts03.c416fe56-926f-46db-b927-4be42a4d9065_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts03.c416fe56-926f-46db-b927-4be42a4d9065.gnu
+info: AeroThermalHistory Written: PySara.Thrsts03.c416fe56-926f-46db-b927-4be42a4d9065_AeroThermalHistory.txt
+info: EVENT end c416fe56-926f-46db-b927-4be42a4d9065 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID aeb11028-b76a-43cd-a9d4-ee683f1705fa.
+info: EVENT area aeb11028-b76a-43cd-a9d4-ee683f1705fa 0.004926
+info: EVENT start aeb11028-b76a-43cd-a9d4-ee683f1705fa 0.300000 0.004926 2041-11-01T00:10:57
+info: Object aeb11028-b76a-43cd-a9d4-ee683f1705fa demised.
+info: EVENT object aeb11028-b76a-43cd-a9d4-ee683f1705fa demise
+info: Fragment aeb11028-b76a-43cd-a9d4-ee683f1705fa reached end of life because uncritical.
+info: Object aeb11028-b76a-43cd-a9d4-ee683f1705fa reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts04.aeb11028-b76a-43cd-a9d4-ee683f1705fa_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts04.aeb11028-b76a-43cd-a9d4-ee683f1705fa.gnu
+info: AeroThermalHistory Written: PySara.Thrsts04.aeb11028-b76a-43cd-a9d4-ee683f1705fa_AeroThermalHistory.txt
+info: EVENT end aeb11028-b76a-43cd-a9d4-ee683f1705fa 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 6667d821-b59b-4463-ac0a-bbbe54856cd6.
+info: EVENT area 6667d821-b59b-4463-ac0a-bbbe54856cd6 0.004926
+info: EVENT start 6667d821-b59b-4463-ac0a-bbbe54856cd6 0.300000 0.004926 2041-11-01T00:10:57
+info: Object 6667d821-b59b-4463-ac0a-bbbe54856cd6 demised.
+info: EVENT object 6667d821-b59b-4463-ac0a-bbbe54856cd6 demise
+info: Fragment 6667d821-b59b-4463-ac0a-bbbe54856cd6 reached end of life because uncritical.
+info: Object 6667d821-b59b-4463-ac0a-bbbe54856cd6 reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts05.6667d821-b59b-4463-ac0a-bbbe54856cd6_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts05.6667d821-b59b-4463-ac0a-bbbe54856cd6.gnu
+info: AeroThermalHistory Written: PySara.Thrsts05.6667d821-b59b-4463-ac0a-bbbe54856cd6_AeroThermalHistory.txt
+info: EVENT end 6667d821-b59b-4463-ac0a-bbbe54856cd6 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID abab9127-0b6e-4497-9b6b-b68ba946f31a.
+info: EVENT area abab9127-0b6e-4497-9b6b-b68ba946f31a 0.004926
+info: EVENT start abab9127-0b6e-4497-9b6b-b68ba946f31a 0.300000 0.004926 2041-11-01T00:10:57
+info: Object abab9127-0b6e-4497-9b6b-b68ba946f31a demised.
+info: EVENT object abab9127-0b6e-4497-9b6b-b68ba946f31a demise
+info: Fragment abab9127-0b6e-4497-9b6b-b68ba946f31a reached end of life because uncritical.
+info: Object abab9127-0b6e-4497-9b6b-b68ba946f31a reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts06.abab9127-0b6e-4497-9b6b-b68ba946f31a_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts06.abab9127-0b6e-4497-9b6b-b68ba946f31a.gnu
+info: AeroThermalHistory Written: PySara.Thrsts06.abab9127-0b6e-4497-9b6b-b68ba946f31a_AeroThermalHistory.txt
+info: EVENT end abab9127-0b6e-4497-9b6b-b68ba946f31a 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 665b0c33-d97a-48c7-94c9-0244f53f9b66.
+info: EVENT area 665b0c33-d97a-48c7-94c9-0244f53f9b66 0.004926
+info: EVENT start 665b0c33-d97a-48c7-94c9-0244f53f9b66 0.300000 0.004926 2041-11-01T00:10:57
+info: Object 665b0c33-d97a-48c7-94c9-0244f53f9b66 demised.
+info: EVENT object 665b0c33-d97a-48c7-94c9-0244f53f9b66 demise
+info: Fragment 665b0c33-d97a-48c7-94c9-0244f53f9b66 reached end of life because uncritical.
+info: Object 665b0c33-d97a-48c7-94c9-0244f53f9b66 reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts07.665b0c33-d97a-48c7-94c9-0244f53f9b66_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts07.665b0c33-d97a-48c7-94c9-0244f53f9b66.gnu
+info: AeroThermalHistory Written: PySara.Thrsts07.665b0c33-d97a-48c7-94c9-0244f53f9b66_AeroThermalHistory.txt
+info: EVENT end 665b0c33-d97a-48c7-94c9-0244f53f9b66 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 7ecbb7cf-716a-48b1-9a41-06240e41c6b3.
+info: EVENT area 7ecbb7cf-716a-48b1-9a41-06240e41c6b3 0.004926
+info: EVENT start 7ecbb7cf-716a-48b1-9a41-06240e41c6b3 0.300000 0.004926 2041-11-01T00:10:57
+info: Object 7ecbb7cf-716a-48b1-9a41-06240e41c6b3 demised.
+info: EVENT object 7ecbb7cf-716a-48b1-9a41-06240e41c6b3 demise
+info: Fragment 7ecbb7cf-716a-48b1-9a41-06240e41c6b3 reached end of life because uncritical.
+info: Object 7ecbb7cf-716a-48b1-9a41-06240e41c6b3 reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts08.7ecbb7cf-716a-48b1-9a41-06240e41c6b3_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts08.7ecbb7cf-716a-48b1-9a41-06240e41c6b3.gnu
+info: AeroThermalHistory Written: PySara.Thrsts08.7ecbb7cf-716a-48b1-9a41-06240e41c6b3_AeroThermalHistory.txt
+info: EVENT end 7ecbb7cf-716a-48b1-9a41-06240e41c6b3 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 64430daf-7a7f-4d86-a819-ffba0dc23fb2.
+info: EVENT area 64430daf-7a7f-4d86-a819-ffba0dc23fb2 0.004926
+info: EVENT start 64430daf-7a7f-4d86-a819-ffba0dc23fb2 0.300000 0.004926 2041-11-01T00:10:57
+info: Object 64430daf-7a7f-4d86-a819-ffba0dc23fb2 demised.
+info: EVENT object 64430daf-7a7f-4d86-a819-ffba0dc23fb2 demise
+info: Fragment 64430daf-7a7f-4d86-a819-ffba0dc23fb2 reached end of life because uncritical.
+info: Object 64430daf-7a7f-4d86-a819-ffba0dc23fb2 reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts09.64430daf-7a7f-4d86-a819-ffba0dc23fb2_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts09.64430daf-7a7f-4d86-a819-ffba0dc23fb2.gnu
+info: AeroThermalHistory Written: PySara.Thrsts09.64430daf-7a7f-4d86-a819-ffba0dc23fb2_AeroThermalHistory.txt
+info: EVENT end 64430daf-7a7f-4d86-a819-ffba0dc23fb2 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 6e3d1bbb-13e9-4442-964d-844681a58ed3.
+info: EVENT area 6e3d1bbb-13e9-4442-964d-844681a58ed3 0.004926
+info: EVENT start 6e3d1bbb-13e9-4442-964d-844681a58ed3 0.300000 0.004926 2041-11-01T00:10:57
+info: Object 6e3d1bbb-13e9-4442-964d-844681a58ed3 demised.
+info: EVENT object 6e3d1bbb-13e9-4442-964d-844681a58ed3 demise
+info: Fragment 6e3d1bbb-13e9-4442-964d-844681a58ed3 reached end of life because uncritical.
+info: Object 6e3d1bbb-13e9-4442-964d-844681a58ed3 reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts10.6e3d1bbb-13e9-4442-964d-844681a58ed3_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts10.6e3d1bbb-13e9-4442-964d-844681a58ed3.gnu
+info: AeroThermalHistory Written: PySara.Thrsts10.6e3d1bbb-13e9-4442-964d-844681a58ed3_AeroThermalHistory.txt
+info: EVENT end 6e3d1bbb-13e9-4442-964d-844681a58ed3 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 154facb8-7f48-4d67-90e6-840ed3871701.
+info: EVENT area 154facb8-7f48-4d67-90e6-840ed3871701 0.004926
+info: EVENT start 154facb8-7f48-4d67-90e6-840ed3871701 0.300000 0.004926 2041-11-01T00:10:57
+info: Object 154facb8-7f48-4d67-90e6-840ed3871701 demised.
+info: EVENT object 154facb8-7f48-4d67-90e6-840ed3871701 demise
+info: Fragment 154facb8-7f48-4d67-90e6-840ed3871701 reached end of life because uncritical.
+info: Object 154facb8-7f48-4d67-90e6-840ed3871701 reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts11.154facb8-7f48-4d67-90e6-840ed3871701_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts11.154facb8-7f48-4d67-90e6-840ed3871701.gnu
+info: AeroThermalHistory Written: PySara.Thrsts11.154facb8-7f48-4d67-90e6-840ed3871701_AeroThermalHistory.txt
+info: EVENT end 154facb8-7f48-4d67-90e6-840ed3871701 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 4461046c-8760-4cb2-890e-6f23af75245d.
+info: EVENT area 4461046c-8760-4cb2-890e-6f23af75245d 0.004926
+info: EVENT start 4461046c-8760-4cb2-890e-6f23af75245d 0.300000 0.004926 2041-11-01T00:10:57
+info: Object 4461046c-8760-4cb2-890e-6f23af75245d demised.
+info: EVENT object 4461046c-8760-4cb2-890e-6f23af75245d demise
+info: Fragment 4461046c-8760-4cb2-890e-6f23af75245d reached end of life because uncritical.
+info: Object 4461046c-8760-4cb2-890e-6f23af75245d reached end of life.
+info: ObjectTrajectory Written: PySara.Thrsts12.4461046c-8760-4cb2-890e-6f23af75245d_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Thrsts12.4461046c-8760-4cb2-890e-6f23af75245d.gnu
+info: AeroThermalHistory Written: PySara.Thrsts12.4461046c-8760-4cb2-890e-6f23af75245d_AeroThermalHistory.txt
+info: EVENT end 4461046c-8760-4cb2-890e-6f23af75245d 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 59021d81-e300-48fb-805b-990b78d5406e.
+info: EVENT area 59021d81-e300-48fb-805b-990b78d5406e 0.128000
+info: EVENT start 59021d81-e300-48fb-805b-990b78d5406e 18.000000 0.128000 2041-11-01T00:10:57
+info: Object 59021d81-e300-48fb-805b-990b78d5406e reached end of life because of ballooning.
+info: EVENT object 59021d81-e300-48fb-805b-990b78d5406e balloon
+info: Object 59021d81-e300-48fb-805b-990b78d5406e reached end of life.
+info: ObjectTrajectory Written: PySara.PLE2.59021d81-e300-48fb-805b-990b78d5406e_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PLE2.59021d81-e300-48fb-805b-990b78d5406e.gnu
+info: AeroThermalHistory Written: PySara.PLE2.59021d81-e300-48fb-805b-990b78d5406e_AeroThermalHistory.txt
+info: EVENT end 59021d81-e300-48fb-805b-990b78d5406e 0.066069
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID fb72a6d7-379b-4d67-912e-df10bf793b11.
+info: EVENT area fb72a6d7-379b-4d67-912e-df10bf793b11 0.128000
+info: EVENT start fb72a6d7-379b-4d67-912e-df10bf793b11 15.500000 0.128000 2041-11-01T00:10:57
+info: Object fb72a6d7-379b-4d67-912e-df10bf793b11 reached end of life because of ballooning.
+info: EVENT object fb72a6d7-379b-4d67-912e-df10bf793b11 balloon
+info: Object fb72a6d7-379b-4d67-912e-df10bf793b11 reached end of life.
+info: ObjectTrajectory Written: PySara.PLE1.fb72a6d7-379b-4d67-912e-df10bf793b11_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PLE1.fb72a6d7-379b-4d67-912e-df10bf793b11.gnu
+info: AeroThermalHistory Written: PySara.PLE1.fb72a6d7-379b-4d67-912e-df10bf793b11_AeroThermalHistory.txt
+info: EVENT end fb72a6d7-379b-4d67-912e-df10bf793b11 0.032206
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 6eeaa09a-906e-4f96-a8c8-21bf581813b5.
+info: EVENT area 6eeaa09a-906e-4f96-a8c8-21bf581813b5 0.057550
+info: EVENT start 6eeaa09a-906e-4f96-a8c8-21bf581813b5 5.300000 0.057550 2041-11-01T00:10:57
+info: Object 6eeaa09a-906e-4f96-a8c8-21bf581813b5 demised.
+info: EVENT object 6eeaa09a-906e-4f96-a8c8-21bf581813b5 demise
+info: Fragment 6eeaa09a-906e-4f96-a8c8-21bf581813b5 reached end of life because uncritical.
+info: Object 6eeaa09a-906e-4f96-a8c8-21bf581813b5 reached end of life.
+info: ObjectTrajectory Written: PySara.PLE3.6eeaa09a-906e-4f96-a8c8-21bf581813b5_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PLE3.6eeaa09a-906e-4f96-a8c8-21bf581813b5.gnu
+info: AeroThermalHistory Written: PySara.PLE3.6eeaa09a-906e-4f96-a8c8-21bf581813b5_AeroThermalHistory.txt
+info: EVENT end 6eeaa09a-906e-4f96-a8c8-21bf581813b5 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID a01ccfa4-f683-4afb-ba27-6505203cee73.
+info: EVENT area a01ccfa4-f683-4afb-ba27-6505203cee73 0.440000
+info: EVENT start a01ccfa4-f683-4afb-ba27-6505203cee73 45.000000 0.440000 2041-11-01T00:10:57
+info: Fragment a01ccfa4-f683-4afb-ba27-6505203cee73 reached end of life because of ground impact.
+info: Object a01ccfa4-f683-4afb-ba27-6505203cee73 reached end of life.
+info: EVENT fragment a01ccfa4-f683-4afb-ba27-6505203cee73 impact
+info: ObjectTrajectory Written: PySara.PL3.a01ccfa4-f683-4afb-ba27-6505203cee73_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PL3.a01ccfa4-f683-4afb-ba27-6505203cee73.gnu
+info: AeroThermalHistory Written: PySara.PL3.a01ccfa4-f683-4afb-ba27-6505203cee73_AeroThermalHistory.txt
+info: EVENT end a01ccfa4-f683-4afb-ba27-6505203cee73 1.750427
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID c5961bc0-58db-4518-85cb-9d7fef46573c.
+info: EVENT area c5961bc0-58db-4518-85cb-9d7fef46573c 0.058080
+info: EVENT start c5961bc0-58db-4518-85cb-9d7fef46573c 6.283000 0.058080 2041-11-01T00:10:57
+info: Object c5961bc0-58db-4518-85cb-9d7fef46573c demised.
+info: EVENT object c5961bc0-58db-4518-85cb-9d7fef46573c demise
+info: Fragment c5961bc0-58db-4518-85cb-9d7fef46573c reached end of life because uncritical.
+info: Object c5961bc0-58db-4518-85cb-9d7fef46573c reached end of life.
+info: ObjectTrajectory Written: PySara.PL4a1.c5961bc0-58db-4518-85cb-9d7fef46573c_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PL4a1.c5961bc0-58db-4518-85cb-9d7fef46573c.gnu
+info: AeroThermalHistory Written: PySara.PL4a1.c5961bc0-58db-4518-85cb-9d7fef46573c_AeroThermalHistory.txt
+info: EVENT end c5961bc0-58db-4518-85cb-9d7fef46573c 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 472587ed-e637-49d6-9630-2ab84943f807.
+info: EVENT area 472587ed-e637-49d6-9630-2ab84943f807 0.058080
+info: EVENT start 472587ed-e637-49d6-9630-2ab84943f807 6.283000 0.058080 2041-11-01T00:10:57
+info: Object 472587ed-e637-49d6-9630-2ab84943f807 demised.
+info: EVENT object 472587ed-e637-49d6-9630-2ab84943f807 demise
+info: Fragment 472587ed-e637-49d6-9630-2ab84943f807 reached end of life because uncritical.
+info: Object 472587ed-e637-49d6-9630-2ab84943f807 reached end of life.
+info: ObjectTrajectory Written: PySara.PL4a2.472587ed-e637-49d6-9630-2ab84943f807_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PL4a2.472587ed-e637-49d6-9630-2ab84943f807.gnu
+info: AeroThermalHistory Written: PySara.PL4a2.472587ed-e637-49d6-9630-2ab84943f807_AeroThermalHistory.txt
+info: EVENT end 472587ed-e637-49d6-9630-2ab84943f807 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b.
+info: EVENT area d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b 0.058080
+info: EVENT start d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b 6.283000 0.058080 2041-11-01T00:10:57
+info: Object d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b demised.
+info: EVENT object d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b demise
+info: Fragment d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b reached end of life because uncritical.
+info: Object d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b reached end of life.
+info: ObjectTrajectory Written: PySara.PL4a3.d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PL4a3.d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b.gnu
+info: AeroThermalHistory Written: PySara.PL4a3.d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b_AeroThermalHistory.txt
+info: EVENT end d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID d7860001-2d1f-4f10-9b6b-132541453973.
+info: EVENT area d7860001-2d1f-4f10-9b6b-132541453973 0.058080
+info: EVENT start d7860001-2d1f-4f10-9b6b-132541453973 6.283000 0.058080 2041-11-01T00:10:57
+info: Object d7860001-2d1f-4f10-9b6b-132541453973 demised.
+info: EVENT object d7860001-2d1f-4f10-9b6b-132541453973 demise
+info: Fragment d7860001-2d1f-4f10-9b6b-132541453973 reached end of life because uncritical.
+info: Object d7860001-2d1f-4f10-9b6b-132541453973 reached end of life.
+info: ObjectTrajectory Written: PySara.PL4a4.d7860001-2d1f-4f10-9b6b-132541453973_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PL4a4.d7860001-2d1f-4f10-9b6b-132541453973.gnu
+info: AeroThermalHistory Written: PySara.PL4a4.d7860001-2d1f-4f10-9b6b-132541453973_AeroThermalHistory.txt
+info: EVENT end d7860001-2d1f-4f10-9b6b-132541453973 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID bee5e541-a026-4d56-9efc-2d0ff76a9365.
+info: EVENT area bee5e541-a026-4d56-9efc-2d0ff76a9365 0.026389
+info: EVENT start bee5e541-a026-4d56-9efc-2d0ff76a9365 1.900000 0.026389 2041-11-01T00:10:57
+info: Object bee5e541-a026-4d56-9efc-2d0ff76a9365 demised.
+info: EVENT object bee5e541-a026-4d56-9efc-2d0ff76a9365 demise
+info: Fragment bee5e541-a026-4d56-9efc-2d0ff76a9365 reached end of life because uncritical.
+info: Object bee5e541-a026-4d56-9efc-2d0ff76a9365 reached end of life.
+info: ObjectTrajectory Written: PySara.PL4b1.bee5e541-a026-4d56-9efc-2d0ff76a9365_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PL4b1.bee5e541-a026-4d56-9efc-2d0ff76a9365.gnu
+info: AeroThermalHistory Written: PySara.PL4b1.bee5e541-a026-4d56-9efc-2d0ff76a9365_AeroThermalHistory.txt
+info: EVENT end bee5e541-a026-4d56-9efc-2d0ff76a9365 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 63bdbfe0-5407-438d-b310-a798cd3ae679.
+info: EVENT area 63bdbfe0-5407-438d-b310-a798cd3ae679 0.026389
+info: EVENT start 63bdbfe0-5407-438d-b310-a798cd3ae679 1.900000 0.026389 2041-11-01T00:10:57
+info: Object 63bdbfe0-5407-438d-b310-a798cd3ae679 demised.
+info: EVENT object 63bdbfe0-5407-438d-b310-a798cd3ae679 demise
+info: Fragment 63bdbfe0-5407-438d-b310-a798cd3ae679 reached end of life because uncritical.
+info: Object 63bdbfe0-5407-438d-b310-a798cd3ae679 reached end of life.
+info: ObjectTrajectory Written: PySara.PL4b2.63bdbfe0-5407-438d-b310-a798cd3ae679_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PL4b2.63bdbfe0-5407-438d-b310-a798cd3ae679.gnu
+info: AeroThermalHistory Written: PySara.PL4b2.63bdbfe0-5407-438d-b310-a798cd3ae679_AeroThermalHistory.txt
+info: EVENT end 63bdbfe0-5407-438d-b310-a798cd3ae679 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID b78c86b8-baea-46f4-bff5-e29a3c50d235.
+info: EVENT area b78c86b8-baea-46f4-bff5-e29a3c50d235 0.026389
+info: EVENT start b78c86b8-baea-46f4-bff5-e29a3c50d235 1.900000 0.026389 2041-11-01T00:10:57
+info: Object b78c86b8-baea-46f4-bff5-e29a3c50d235 demised.
+info: EVENT object b78c86b8-baea-46f4-bff5-e29a3c50d235 demise
+info: Fragment b78c86b8-baea-46f4-bff5-e29a3c50d235 reached end of life because uncritical.
+info: Object b78c86b8-baea-46f4-bff5-e29a3c50d235 reached end of life.
+info: ObjectTrajectory Written: PySara.PL4b3.b78c86b8-baea-46f4-bff5-e29a3c50d235_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PL4b3.b78c86b8-baea-46f4-bff5-e29a3c50d235.gnu
+info: AeroThermalHistory Written: PySara.PL4b3.b78c86b8-baea-46f4-bff5-e29a3c50d235_AeroThermalHistory.txt
+info: EVENT end b78c86b8-baea-46f4-bff5-e29a3c50d235 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 6a53677c-cbe4-409e-a37a-d7b94566fcde.
+info: EVENT area 6a53677c-cbe4-409e-a37a-d7b94566fcde 0.026389
+info: EVENT start 6a53677c-cbe4-409e-a37a-d7b94566fcde 2.000000 0.026389 2041-11-01T00:10:57
+info: Object 6a53677c-cbe4-409e-a37a-d7b94566fcde demised.
+info: EVENT object 6a53677c-cbe4-409e-a37a-d7b94566fcde demise
+info: Fragment 6a53677c-cbe4-409e-a37a-d7b94566fcde reached end of life because uncritical.
+info: Object 6a53677c-cbe4-409e-a37a-d7b94566fcde reached end of life.
+info: ObjectTrajectory Written: PySara.PL4b4.6a53677c-cbe4-409e-a37a-d7b94566fcde_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PL4b4.6a53677c-cbe4-409e-a37a-d7b94566fcde.gnu
+info: AeroThermalHistory Written: PySara.PL4b4.6a53677c-cbe4-409e-a37a-d7b94566fcde_AeroThermalHistory.txt
+info: EVENT end 6a53677c-cbe4-409e-a37a-d7b94566fcde 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID f29cdd37-5183-4cf7-91b5-574dc6133dbb.
+info: EVENT area f29cdd37-5183-4cf7-91b5-574dc6133dbb 0.128000
+info: EVENT start f29cdd37-5183-4cf7-91b5-574dc6133dbb 18.000000 0.128000 2041-11-01T00:10:57
+info: Object f29cdd37-5183-4cf7-91b5-574dc6133dbb reached end of life because of ballooning.
+info: EVENT object f29cdd37-5183-4cf7-91b5-574dc6133dbb balloon
+info: Object f29cdd37-5183-4cf7-91b5-574dc6133dbb reached end of life.
+info: ObjectTrajectory Written: PySara.PLE3a.f29cdd37-5183-4cf7-91b5-574dc6133dbb_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PLE3a.f29cdd37-5183-4cf7-91b5-574dc6133dbb.gnu
+info: AeroThermalHistory Written: PySara.PLE3a.f29cdd37-5183-4cf7-91b5-574dc6133dbb_AeroThermalHistory.txt
+info: EVENT end f29cdd37-5183-4cf7-91b5-574dc6133dbb 0.066069
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID e97e0bad-27a1-41c8-9d5a-9b47ac34faa9.
+info: EVENT area e97e0bad-27a1-41c8-9d5a-9b47ac34faa9 0.059500
+info: EVENT start e97e0bad-27a1-41c8-9d5a-9b47ac34faa9 1.900000 0.059500 2041-11-01T00:10:57
+info: Object e97e0bad-27a1-41c8-9d5a-9b47ac34faa9 demised.
+info: EVENT object e97e0bad-27a1-41c8-9d5a-9b47ac34faa9 demise
+info: Fragment e97e0bad-27a1-41c8-9d5a-9b47ac34faa9 reached end of life because uncritical.
+info: Object e97e0bad-27a1-41c8-9d5a-9b47ac34faa9 reached end of life.
+info: ObjectTrajectory Written: PySara.PLE3c.e97e0bad-27a1-41c8-9d5a-9b47ac34faa9_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PLE3c.e97e0bad-27a1-41c8-9d5a-9b47ac34faa9.gnu
+info: AeroThermalHistory Written: PySara.PLE3c.e97e0bad-27a1-41c8-9d5a-9b47ac34faa9_AeroThermalHistory.txt
+info: EVENT end e97e0bad-27a1-41c8-9d5a-9b47ac34faa9 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 56f0d198-bc1f-47a6-b695-7e804d590123.
+info: EVENT area 56f0d198-bc1f-47a6-b695-7e804d590123 0.089950
+info: EVENT start 56f0d198-bc1f-47a6-b695-7e804d590123 8.000000 0.089950 2041-11-01T00:10:57
+info: Object 56f0d198-bc1f-47a6-b695-7e804d590123 demised.
+info: EVENT object 56f0d198-bc1f-47a6-b695-7e804d590123 demise
+info: Fragment 56f0d198-bc1f-47a6-b695-7e804d590123 reached end of life because uncritical.
+info: Object 56f0d198-bc1f-47a6-b695-7e804d590123 reached end of life.
+info: ObjectTrajectory Written: PySara.PLE3b.56f0d198-bc1f-47a6-b695-7e804d590123_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PLE3b.56f0d198-bc1f-47a6-b695-7e804d590123.gnu
+info: AeroThermalHistory Written: PySara.PLE3b.56f0d198-bc1f-47a6-b695-7e804d590123_AeroThermalHistory.txt
+info: EVENT end 56f0d198-bc1f-47a6-b695-7e804d590123 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 595b4488-85ee-41e1-a105-fc4bf1317551.
+info: EVENT area 595b4488-85ee-41e1-a105-fc4bf1317551 2.029000
+info: EVENT start 595b4488-85ee-41e1-a105-fc4bf1317551 49.388162 2.029000 2041-11-01T00:10:57
+info: Fragment 595b4488-85ee-41e1-a105-fc4bf1317551 reached end of life because of ground impact.
+info: Object 595b4488-85ee-41e1-a105-fc4bf1317551 reached end of life.
+info: EVENT fragment 595b4488-85ee-41e1-a105-fc4bf1317551 impact
+info: ObjectTrajectory Written: PySara.Antenna.595b4488-85ee-41e1-a105-fc4bf1317551_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Antenna.595b4488-85ee-41e1-a105-fc4bf1317551.gnu
+info: AeroThermalHistory Written: PySara.Antenna.595b4488-85ee-41e1-a105-fc4bf1317551_AeroThermalHistory.txt
+info: EVENT end 595b4488-85ee-41e1-a105-fc4bf1317551 48.909803
+info: Adding 0 new fragments to fragmentList.
+info: Writing 1810666323995381476 to XML
+info: Writing adae528d-13f8-4993-b263-1ae8ad1588ea to XML
+info: Writing 4ae24a21-dc87-4063-8453-d38910897acc to XML
+info: Writing 8892549400433805299 to XML
+info: Writing f96060ed-428d-4fb5-8368-873633a99715 to XML
+info: Writing c819661c-34ef-46e7-b1eb-890ade42e3af to XML
+info: Writing ae939109-80e7-4590-ada6-8ab74859c3a8 to XML
+info: Writing c0ddc3c0-47ce-435f-9deb-b33486eaf601 to XML
+info: Writing 1f19522d-2f3c-43e6-a00c-b01d1ab94228 to XML
+info: Writing af198f6d-3064-4af9-b015-299d247ceb1c to XML
+info: Writing d16b1e16-5604-4ba9-b689-56da46d221ab to XML
+info: Writing a68c82cf-50d9-4d72-b8e8-fb77b034ddcc to XML
+info: Writing 56f33935-71e7-4b62-bc25-5f086ef8f008 to XML
+info: Writing e603a0ac-b50a-49ba-94e7-c8487de979d7 to XML
+info: Writing 0e801314-4be9-4a8e-8863-be55cd8972a8 to XML
+info: Writing 9da080c0-a677-4e48-9413-7396776e2156 to XML
+info: Writing c287fba3-8bbe-4179-bca3-e0297868e371 to XML
+info: Writing 937ad039-148d-4738-aeef-7ba048002fe8 to XML
+info: Writing 197bea65-bd7c-4823-addb-ea50438d3765 to XML
+info: Writing b9715501-449b-451c-a5a4-f4d9347e2f59 to XML
+info: Writing 84879cea-7d5c-4089-841e-3521c24c746a to XML
+info: Writing e7d005bd-2d30-4a52-9e61-1e8b09175adb to XML
+info: Writing 0f2288de-76e2-422f-8b97-5b27ae9b0726 to XML
+info: Writing c190928b-6fde-4737-b38b-d6640dd3ce29 to XML
+info: Writing 5bc781a5-30a8-496a-8919-d3a3bbe9e65a to XML
+info: Writing 8dd6e192-40c1-4d95-82a7-e0edd97e769a to XML
+info: Writing bb912958-2642-4cbc-b737-06295400219b to XML
+info: Writing 318234c8-2183-4007-81bb-1283b9ac978d to XML
+info: Writing a40b1f77-c92a-4243-81e3-b466a50bfde1 to XML
+info: Writing 119d8c8d-71bc-47b0-a9bd-51a2b6addec4 to XML
+info: Writing 73aad817-0c8f-4729-8cfc-bdb457fa3af1 to XML
+info: Writing cbd88e14-9f02-4477-ba19-2ae766ccf9c2 to XML
+info: Writing f846371b-1403-415a-b518-e78f9a87d5e8 to XML
+info: Writing 019e359a-7b6d-4e88-ae45-6c0cb1b9f231 to XML
+info: Writing 1c53a534-00ac-486c-b9b2-0e0baa3dd619 to XML
+info: Writing cf475c8e-4dd9-43c4-93e1-443e41ca045a to XML
+info: Writing b96f24b8-3482-41b4-8ff7-10c9d0096fe0 to XML
+info: Writing d97c8a48-c211-4c49-8222-dd2e42cdea91 to XML
+info: Writing ee66698f-c75d-43c5-b156-2cd23c7f0b27 to XML
+info: Writing ffb7ad0c-de50-4506-9ac0-24e4e92d744a to XML
+info: Writing 8b61be35-13d4-42ca-8f77-1b6779254cf8 to XML
+info: Writing 389962c4-a9f5-4569-a92f-de23a2bb6b37 to XML
+info: Writing 59d481ee-9a4a-46ff-a838-aae6a28c6260 to XML
+info: Writing 620e19a4-466b-4bba-a398-8f525affac3d to XML
+info: Writing c416fe56-926f-46db-b927-4be42a4d9065 to XML
+info: Writing aeb11028-b76a-43cd-a9d4-ee683f1705fa to XML
+info: Writing 6667d821-b59b-4463-ac0a-bbbe54856cd6 to XML
+info: Writing abab9127-0b6e-4497-9b6b-b68ba946f31a to XML
+info: Writing 665b0c33-d97a-48c7-94c9-0244f53f9b66 to XML
+info: Writing 7ecbb7cf-716a-48b1-9a41-06240e41c6b3 to XML
+info: Writing 64430daf-7a7f-4d86-a819-ffba0dc23fb2 to XML
+info: Writing 6e3d1bbb-13e9-4442-964d-844681a58ed3 to XML
+info: Writing 154facb8-7f48-4d67-90e6-840ed3871701 to XML
+info: Writing 4461046c-8760-4cb2-890e-6f23af75245d to XML
+info: Writing 59021d81-e300-48fb-805b-990b78d5406e to XML
+info: Writing fb72a6d7-379b-4d67-912e-df10bf793b11 to XML
+info: Writing 6eeaa09a-906e-4f96-a8c8-21bf581813b5 to XML
+info: Writing a01ccfa4-f683-4afb-ba27-6505203cee73 to XML
+info: Writing c5961bc0-58db-4518-85cb-9d7fef46573c to XML
+info: Writing 472587ed-e637-49d6-9630-2ab84943f807 to XML
+info: Writing d0247ab6-f3f0-4a2e-88f3-b40a9f9c2f8b to XML
+info: Writing d7860001-2d1f-4f10-9b6b-132541453973 to XML
+info: Writing bee5e541-a026-4d56-9efc-2d0ff76a9365 to XML
+info: Writing 63bdbfe0-5407-438d-b310-a798cd3ae679 to XML
+info: Writing b78c86b8-baea-46f4-bff5-e29a3c50d235 to XML
+info: Writing 6a53677c-cbe4-409e-a37a-d7b94566fcde to XML
+info: Writing f29cdd37-5183-4cf7-91b5-574dc6133dbb to XML
+info: Writing e97e0bad-27a1-41c8-9d5a-9b47ac34faa9 to XML
+info: Writing 56f0d198-bc1f-47a6-b695-7e804d590123 to XML
+info: Writing 595b4488-85ee-41e1-a105-fc4bf1317551 to XML
+info: ImpactingFragmentXML::WriteXML Wrote PySara.ImpactingFragments.xml
+info: GnuPlotGeneration::GenerateAllObjectsScript Wrote PySara.gnu
+info: Preparing visibility maps...
+info: Propagation Successful

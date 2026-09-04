@@ -1,0 +1,48 @@
+paths:
+    json: last_sara.json
+    cache: SARA_cache
+    output: results
+     
+settings:
+    n_runs_min: 300
+    n_runs_max: 300
+    n_cpus: 12
+     
+state:
+    state_type: keplerian
+    elements:
+        - 6758.137    # a
+        - 0.04735     # e
+        - 98.2        # i
+        - 116         # RAAN
+        - 231         # omega
+        - 325.9       # M
+
+uncertainties:
+    # Recommended
+    # ========================================
+    glob_CT_heat_unc: 0.3
+    glob_TR_heat_unc: 0.5
+    glob_FM_heat_unc: 0.1
+    density_unc: 0.1
+    # Varies AoP if keplerian inputs
+    pos_unc: 3 # km
+    # ========================================
+    # 
+    # Optional
+    # Apply only if required
+    # ========================================
+    glob_drag_unc_sigma: 0.0
+    glob_heat_unc: 0.0 # global across all regimes
+    # Uncertainties applied to individual components
+    drag_unc: 0.0
+    heat_unc: 0.0
+    CT_heat_unc: 0.0
+    TR_heat_unc: 0.0
+    FM_heat_unc: 0.0
+    mass_unc_sigma: 0.0
+    # Uncertainties applied to connections/inclusions
+    height_unc_cn: 0
+    pres_unc_cn: 0
+    height_factor_inc: 0.0
+    # ========================================
