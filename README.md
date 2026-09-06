@@ -26,9 +26,9 @@ asks for it, which is step 3 below.
    `population_files` folder of the project. That file belongs to ESA and to the providers
    of the population data, so it is not redistributed here, but it comes with every
    installation.
-5. Run the simulation. The results are written to the `output` folder of the project, and
-   the figures quoted in the thesis are read from the `Risk_Analysis_Summary` HTML file in
-   `results`.
+5. Run the simulation. As soon as it finishes, the results can be checked and
+   downloaded from the **Outputs** tab of the interface. The ones obtained for this
+   thesis were saved in the `results` folder of each project.
 
 Two red *File not found* messages appear when the project is opened. They refer to
 `environment.csv` and `proof.mask`, which belong to the MIDAS and PROOF modules. This

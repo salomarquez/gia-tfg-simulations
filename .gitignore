@@ -1,5 +1,6 @@
-# --- DRAMA run artefacts, regenerated on every run ---
-output/
+# --- DRAMA run files ---
+output/*
+!output/.gitkeep
 logs/
 working_directories/
 SARA_cache/
