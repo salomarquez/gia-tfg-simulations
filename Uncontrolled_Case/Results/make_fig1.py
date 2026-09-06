@@ -18,11 +18,9 @@ plt.rcParams["mathtext.fontset"] = "stix"
 plt.rcParams["font.size"] = 12
 # --------------------------------------------------
 
-# ERROR FIX: Use of double backslashes \\ in the Windows path
-FOLDER = "C:\\Users\\salom\\OneDrive\\Documentos\\DRAMA\\MelpomeneSARAuncontrolled_Scenario1\\Results\\"
 F_IMPACT   = "2026-08-29_09_36_10_default_1D_Imp_probability.html"
 F_CASUALTY = "2026-08-29_09_36_15_default_1D_Casualty.html"
-OUTPUT     = FOLDER + "s1_latitude_distribution"
+OUTPUT     = "s1_latitude_distribution"
 
 BIN = 1        # width of the latitude intervals, in degrees
 I_MAX = 81.8   # maximum reachable latitude, = 180 - inclination
@@ -34,7 +32,7 @@ INK, MUTED, GRID = "#2b2b28", "#52514e", "#e7e6e0"
 
 def read_html(filename):
     """Extracts the x (latitude) and y vectors from the Plotly HTML."""
-    s = open(FOLDER + filename, encoding="utf-8", errors="replace").read()
+    s = open(filename, encoding="utf-8", errors="replace").read()
     i = s.find("plotly_data = ") + len("plotly_data = ")
     j = s.find("Plotly.react")
     d = json.loads(s[i:j].strip().rstrip(";").strip())["data"][0]
