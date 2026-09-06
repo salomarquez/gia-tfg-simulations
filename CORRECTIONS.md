@@ -1,7 +1,7 @@
 # Corrections applied to the SARA Monte Carlo post-processing script
 
 The Monte Carlo campaign of the controlled re-entry was run with the SARA Monte Carlo
-scripts published by the ESA Space Debris Office in the Space Debris User Portal forum:
+scripts published in the Space Debris User Portal forum:
 
 https://debris-forum.sdo.esoc.esa.int/t/updated-example-scripts-for-probabilistic-re-entry-analyses/1269
 
@@ -29,11 +29,7 @@ Read the singular tag nested inside the plural one.
 
 ## 2. Header totals
 
-The script takes the totals by slicing a fixed range of lines from the top of the file and
-unpacking four values. That matches an uncontrolled results file, because its totals block has
-four entries. A controlled results file has six, because it adds `totalCasualty2D` and
-`totalFatality2D`. Then, the unpacking is shifted by one position, and the fatality
-probability and the impact mass come back as zeros.
+The scripts reads the results by looking at a specific number of lines at the top of the document. This works perfectly for uncontrolled re-entry files, which return exactly four values. However, in the controlled re-entry simulations files have six values because two extra items (totalCasualty2D and totalFatality2D) are inserted in the middle. Since the script is not expecting these extra lines, all the information gets pushed out of place. It ends up looking in the wrong spot for the fatality probability and impact mass, and returns zeros.
 
 Read each total by its tag name instead of by its position in the file.
 
@@ -43,4 +39,4 @@ The script only reads the 1D casualty probability. For a controlled re-entry the
 projection is the one that corresponds to the scenario, since the footprint is a bounded
 area and not a latitude band.
 
-Parse `totalCasualty2D` as well and report it alongside the 1D value.
+Parse `totalCasualty2D` as well and report it next to the 1D value.
